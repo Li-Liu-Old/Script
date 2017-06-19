@@ -7,7 +7,7 @@ for i in range(1,100,30):
 for x in range(-100,-1,30):
 	print(x)
 	
-	
+
 #break
 for letter in 'root':
 	if letter == 't':
