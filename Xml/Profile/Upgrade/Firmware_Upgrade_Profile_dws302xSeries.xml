@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <agentNextActiveImage>image1</agentNextActiveImage>
+      <agentTransferDownloadMode>1</agentTransferDownloadMode>
+      <!--<agentTransferDownloadServerIP></agentTransferDownloadServerIP>
+      <agentTransferDownloadPath></agentTransferDownloadPath>-->
+      <agentTransferDownloadDataType>2</agentTransferDownloadDataType>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <agentTransferDownloadServerAddressType>1</agentTransferDownloadServerAddressType>      
+      <agentTransferDownloadImagename>2</agentTransferDownloadImagename>
+      <agentTransferDownloadStart>1</agentTransferDownloadStart>
+    </FirmwareProfile>
+  </Profile>
+</Device>
+<!--
+agentTransferDownloadImagename
+Value list:	2: image1(2) 
+ 	3: image2(3) 
+agentTransferDownloadDataType
+Value list:	1: code(2) 
+ 	2: config(3) 
+ 	3: sshkey-rsa1(4) 
+ 	4: sshkey-rsa2(5) 
+ 	5: sshkey-dsa(6) 
+ 	6: sslpem-root(7) 
+ 	7: sslpem-server(8) 
+ 	8: sslpem-dhweak(9) 
+ 	9: sslpem-dhstrong(10) 
+ 	10: clibanner(11) 
+-->

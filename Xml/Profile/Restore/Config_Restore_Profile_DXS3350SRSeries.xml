@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <agentBscSwFileLoadType>3</agentBscSwFileLoadType>
+      <!--<agentBscSwFileCtrlUnitID></agentBscSwFileCtrlUnitID>-->
+      <agentBscSwFileCtrl>3</agentBscSwFileCtrl>  
+    </RestoreProfile>
+  </Profile>
+</Device>

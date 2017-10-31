@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapManagerEntry>
+        <Item trapManagerIpAddress=""
+              trapManagerCommunity=""
+              trapManagerMsgVer="1"
+              trapManagerStatus="4"
+              />
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>

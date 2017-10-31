@@ -1,0 +1,57 @@
+﻿<div>
+    <div>
+    <input id="moduleName" type="hidden" value="WirelessMacAclSettings" />
+    <ul id="dataTable" class="noPartTitle" style="margin-top:20px;">
+        <li><span class="spanTilte">Access Control List</span>
+        <select id="WirelessMacAclSettings_dot11MacAccessControl_dot11MacAccessControlEntry_PageData"
+              name="WirelessMacAclSettings_dot11MacAccessControl_dot11MacAccessControlEntry_PageData"></select>
+         <img id="ImageTip" title="" src="../../Images/exclamation.png" style="margin-top: 2px; margin-left: 5px;">
+        </li>
+        <li><span class="spanTilte">Wireless Band</span>
+        <select id="WirelessMacAclSettings_radioIndex_dot11MacAccessControlEntry_PageData"
+              name="WirelessMacAclSettings_radioIndex_dot11MacAccessControlEntry_PageData"></select>
+        </li>
+		<li><span class="spanTilte">SSID Index</span>
+        <select id="WirelessMacAclSettings_dot11ssidIndex_dot11MacAccessControlEntry_PageData"
+              name="WirelessMacAclSettings_dot11ssidIndex_dot11MacAccessControlEntry_PageData">
+				
+			</select>
+        </li>        
+        <li><span class="spanTilte"  style="vertical-align: top;">Access Control MAC List</span>					
+			<div style="display: inline-block;"><textarea rows="8" cols="50" id="WirelessMacAclSettings_dot11MacAccessControlMacAddressAdd_dot11MacAccessControlEntry_PageData" 
+				name="WirelessMacAclSettings_dot11MacAccessControlMacAddressAdd_dot11MacAccessControlEntry_PageData""></textarea>
+			<span id="macAddrListMsg" style="display: none; color: Red">* Invalid MAC adrress.</span></div>                        
+        </li>
+    </ul>
+    <input type="button" value="Add" onclick="changeValidate(false);ClearTableValidate();if(Submit()){DUI.profile.common.actionMethod('addNew');}"
+                        class="bgBtnInput" id="addMACBtn" style="height: 26px;" />
+    <div class="clear" ></div>
+    </div>
+    <div style="overflow-x: auto;overflow-y: auto;height: 310px;"  class="tableData mt20">
+        <table id="StatusTable" width="100%" align="center" class="statusShowTable">
+            <thead>
+                <tr class="HeaderRow">
+                    <th>
+                        Wireless Band
+                    </th>
+                    <th>
+                        SSID
+                    </th>
+                    <th>
+                        MAC Address
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Row">
+                    <td colspan="4">
+                        <span class="dblock tc noDataSpan">No Data Found.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

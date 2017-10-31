@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device >
+  <Command>
+    <Sensor_SNMP>
+      <sysDescr Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.1.1.0" CommandType="String" />
+      <sysObjectID Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.1.2.0" CommandType="Oid"/>
+      <sysUpTime Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.1.3.0" CommandType="Time"/>
+      <sysContact Proto="SNMPv1" Options="RW" CommandText="1.3.6.1.2.1.1.4.0" CommandType="String"/>
+      <sysName Proto="SNMPv1" Options="RW" CommandText="1.3.6.1.2.1.1.5.0" CommandType="String"/>
+      <sysLocation Proto="SNMPv1" Options="RW" CommandText="1.3.6.1.2.1.1.6.0" CommandType="String"/>
+      <sysServices Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.1.7.0" CommandType="Integer"/>
+      <!--iftable-->
+      <IfTabMacAddress Proto="SNMPv1" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="X"  Options="N" CommandType="Integer"  CommandSuffix="0"/>
+        <ifPhysAddress CommandText="1.3.6.1.2.1.2.2.1.6"  Options="R" CommandType="MAC" />
+      </IfTabMacAddress>
+      <dot1dBaseBridgeAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+	  <lldpLocChassisIdSubtype Proto="SNMPv2" Options="R" CommandText="1.0.8802.1.1.2.1.3.1.0" CommandType="Integer" />
+      <lldpLocChassisId Proto="SNMPv2" Options="R" CommandText="1.0.8802.1.1.2.1.3.2.0" CommandType="String"/>
+    </Sensor_SNMP>
+  </Command>
+  <Method>
+    <Append_1 ParaCount="1"/>
+  </Method>
+</Device>

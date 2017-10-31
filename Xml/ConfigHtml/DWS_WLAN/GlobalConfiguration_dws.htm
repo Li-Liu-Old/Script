@@ -1,0 +1,28 @@
+﻿<div class="profileConfigDiv">
+    <input id="moduleName" type="hidden" value="GlobalConfiguration" />
+    <ul class="noTopCon noPartTitle">
+        <li><span class="spanTilte">Enable Captive Portal</span>
+            <select name="GlobalConfiguration_cpAdminMode_PageData">
+            </select>
+            <span id="GlobalConfiguration_cpAdminMode_Result_PageData" class="spanResult"></span>
+        </li>
+        <li><span class="spanTilte">Additional HTTP Port</span>
+            <input id="GlobalConfiguration_cpAdditionalHttpPort_PageData" name="GlobalConfiguration_cpAdditionalHttpPort_PageData"
+                type="text" maxlength="5" value="" class="validate[required,custom[validNumber],min[0],max[65535]]" /><span
+                    class="spanTip">(0 to 65535,0 - Disable)</span> </li>
+        <li style="margin-bottom:0px;"><span class="spanTilte">Authentication Timeout(secs)</span>
+            <input id="GlobalConfiguration_cpAuthTimeout_PageData" name="GlobalConfiguration_cpAuthTimeout_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[60],max[600]]" /><span
+                    class="spanTip">(60 to 600)</span> </li>
+        <li style="margin-bottom:0px;"><span class="spanTilte">Additional HTTP Secure Port</span>
+            <input id="GlobalConfiguration_cpAdditionalHttpSecurePort_PageData"
+                name="GlobalConfiguration_cpAdditionalHttpSecurePort_PageData"
+                type="text" maxlength="5" value="" class="validate[required,custom[validNumber],min[0],max[65535]]" /><span
+                    class="spanTip">(0 to 65535,0 - Disable)</span> </li>
+        <li style="margin-bottom:0px;"><span class="spanTilte">Peer Switch Statistics Reporting Interval(secs)</span>
+            <input id="GlobalConfiguration_cpPeerStatsReportingInterval_PageData"
+                name="GlobalConfiguration_cpPeerStatsReportingInterval_PageData"
+                type="text" maxlength="4" value="" class="validate[required,custom[validNumber],minZero[15],max[3600]]" /><span
+                    class="spanTip">(15 to 3600,0 - Disable)</span> </li>
+    </ul>
+</div>

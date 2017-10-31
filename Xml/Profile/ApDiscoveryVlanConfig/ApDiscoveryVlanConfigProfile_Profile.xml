@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <ApDiscoveryVlanConfigProfile>
+      <wsL2DiscoveryMode></wsL2DiscoveryMode>
+      <wsL2DiscoveryVlanListEntry >
+        <Item  wsL2DiscoveryVlanId=""  />
+      </wsL2DiscoveryVlanListEntry>
+    </ApDiscoveryVlanConfigProfile>
+  </Profile>
+</Device>
+<!--
+wsL2DiscoveryMode 1 Enable 2 Disable
+wsL2DiscoveryVlanRowStatus
+active(1) notInservice(2) notReady(3) createAndGo(4) createAndWait(5) destory(6) 
+-->

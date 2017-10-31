@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+     <uploadFilename>
+      </uploadFilename>
+      <uploadServerAddress>
+      </uploadServerAddress>
+      <agentBscSwFileLoadType>2</agentBscSwFileLoadType>
+      <agentBscSwFileCtrl>3</agentBscSwFileCtrl>
+    </BackupProfile>
+  </Profile>
+</Device>
+<!--  
+agentBscSwFileDscr 取默认值
+ 1: boot file
+ 2: log file
+ 3: config file
+agentBscSwFileLoadType 取默认值 .1 .2 .3后缀
+Value list:	1: download(1) 
+ 	2: upload(2) 
+ 	3: progressing(3) 
+agentBscSwFileDscr
+agentBscSwFileCtrl
+Value list:	1: none(0) 
+ 	2: success(1) 
+ 	3: fail(2) 
+ 	4: progressing(3) 
+-->

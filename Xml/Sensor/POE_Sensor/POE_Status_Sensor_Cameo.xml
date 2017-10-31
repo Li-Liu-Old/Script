@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <Sensor_PortPOEStatus>
+      <PortCtrlEntry PortGroupIndex="" PortIndex="" AdminMode="" Priority="" PowerLimit="" UserDefined="" TimeRange="" Class="" Power="" Voltage="" Current="" Status="" />
+    </Sensor_PortPOEStatus>
+  </Profile>
+  <ExecTime />
+</Device>
+<!--
+adminMode 1: enabled(1)  	2: disabled(2)
+ Priority    1: low(1)  	2: normal(2)  	3: high(3)
+ PowerLimit 1: auto(1)  	2: class1(2)  	3: class2(3)  	4: class3(4)  	5: class4(5)
+ UserDefined 1: enabled(1)  	2: disabled(2)
+-->

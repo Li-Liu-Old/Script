@@ -1,0 +1,36 @@
+﻿<div>
+    <input type="hidden" value="GlobalSettings" id="CurrentModuleName" name="CurrentModuleName" />
+    <ul>
+        <li name="disableControl"><span class="spanTilte">Enable Change</span>
+            <select id="" name="isEnableChange">
+                <option value="Enable">Enable</option>
+                <option value="Disable" selected="selected">Disable</option>
+            </select></li>
+    </ul>
+    <ul id="DataForm" style="margin-top: 0px;">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileEntry_PageData" />
+        <input type="hidden" value="1" id="APProfile_wsAPProfileRowStatus_wsAPProfileEntry_PageData"
+            name="APProfile_wsAPProfileRowStatus_wsAPProfileEntry_PageData" />
+        <li><span class="spanTilte">Profile Name</span>
+            <input type="text" id="APProfile_wsAPProfileName_wsAPProfileEntry_PageData" name="APProfile_wsAPProfileName_wsAPProfileEntry_PageData"
+                class="validate[required,custom[LetterNumberSign],maxSize[32]]" maxlength="32" /><span class="spanTip">(between 1 and 32 characters)</span>
+        </li>
+        <li><span class="spanTilte">Hardware Type ID</span>
+            <select id="APProfile_wsAPHardwareTypeID_wsAPProfileEntry_PageData" name="APProfile_wsAPHardwareTypeID_wsAPProfileEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Disconnected AP Data Forwarding Mode</span>
+            <select name="APProfile_wsAPProfileDisconnAPFwdingMode_wsAPProfileEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Disconnected AP Management Mode</span>
+            <select name="APProfile_wsAPProfileDisconnAPMgmtMode_wsAPProfileEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">AeroScourTM Engine Support</span>
+            <select name="APProfile_wsAPProfileAeroScoutSupportMode_wsAPProfileEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Wired Network Discovery VLAN ID</span>
+            <input type="text" id="APProfile_wsAPWiredDetectionVlanId_wsAPProfileEntry_PageData"
+                name="APProfile_wsAPWiredDetectionVlanId_wsAPProfileEntry_PageData" class="validate[required,custom[validNumber],min[0],max[4094]]"
+                maxlength="4" /><span class="spanTip">(0 to 4094)</span> </li>
+    </ul>
+</div>

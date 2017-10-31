@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile type="Custom">
+      <configEntry>
+        <Item ifIndex="0"
+              downloadServerAddress=""
+              downloadFilename=""  
+              configMgmtProtocol="1" 
+              configMgmtAction="2"/>
+      </configEntry>
+    </RestoreProfile>
+  </Profile>
+</Device>

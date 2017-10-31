@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="DWS-4026">
+  <Profile>
+    <Sensor_CPULoadPercent>
+      <CPULoadPercent expression="(?&lt;=\().[^\(\)]*(?=\))" expressionType="Match" matchIndex="1"/>      
+    </Sensor_CPULoadPercent>
+  </Profile>
+  <ExecTime/>
+</Device>

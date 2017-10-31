@@ -1,0 +1,226 @@
+﻿<div id="NetWorksDataTable" class="profileConfigTable">
+    <div id="InputTable">
+        <input id="moduleName" type="hidden" value="Networks" />
+        <ul id="dataTable" class="noTopCon noPartTitle">
+            <li><span class="spanTilte">ID</span>
+                <select name="Networks_wsNetworkId_wsNetworkEntry,wsNetworkClientQosEntry_PageData"
+                    style="width: 50px">
+                </select>
+            </li>
+            <li><span class="spanTilte">SSID Name</span>
+                <input id="Networks_wsNetworkSSID_wsNetworkEntry_PageData" name="Networks_wsNetworkSSID_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[LetterNumberSign],maxSize[32]]" maxlength="32" /><span
+                        class="spanTip">(between 1 and 32 characters)</span> </li>
+            <li><span class="spanTilte">Hide SSID</span>
+                <select name="Networks_wsNetworkHideSSIDMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">Ignore Broadcast</span>
+                <select name="Networks_wsNetworkDenyBcastMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">VLAN</span>
+                <input id="Networks_wsNetworkDefaultVLANId_wsNetworkEntry_PageData" name="Networks_wsNetworkDefaultVLANId_wsNetworkEntry_PageData"
+                    type="text" value="" class="validate[required,custom[validNumber],min[1],max[4094]]"
+                    maxlength="4" /><span class="spanTip">(1 to 4094)</span> </li>
+            <li><span class="spanTilte">L2 Distributed Tunneling Mode</span>
+                <select id="Networks_wsNetworkDistTunnelMode_wsNetworkEntry_PageData" name="Networks_wsNetworkDistTunnelMode_wsNetworkEntry_PageData">
+                </select><span class="spanTip" style="display: none">(Deprecated state)</span>
+            </li>
+            <li><span class="spanTilte">L3 Tunnel</span>
+                <select id="Networks_wsNetworkL3TunnelMode_wsNetworkEntry_PageData" name="Networks_wsNetworkL3TunnelMode_wsNetworkEntry_PageData">
+                </select><span class="spanTip" style="display: none">(Deprecated state)</span>
+            </li>
+            <li><span class="spanTilte">L3 Tunnel Subnet</span>
+                <input id="Networks_wsNetworkL3TunnelSubnetIP_wsNetworkEntry_PageData" name="Networks_wsNetworkL3TunnelSubnetIP_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[ipv4]]" /><span class="spanTip"
+                        style="display: none">(Deprecated state)</span> </li>
+            <li><span class="spanTilte">L3 Tunnel Mask</span>
+                <input id="Networks_wsNetworkL3TunnelSubnetMask_wsNetworkEntry_PageData" name="Networks_wsNetworkL3TunnelSubnetMask_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[ipv4]]" /><span
+                        class="spanTip" style="display: none">(Deprecated state)</span> </li>
+            <li><span class="spanTilte">MAC Authentication</span>
+                <select name="Networks_wsNetworkMACAuthenticationMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">Redirect</span>
+                <select name="Networks_wsNetworkRedirectMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">Redirect URL</span>
+                <input id="Networks_wsNetworkRedirectURL_wsNetworkEntry_PageData" name="Networks_wsNetworkRedirectURL_wsNetworkEntry_PageData"
+                    type="text" value="" class="validate[optional,custom[url]]" />
+            </li>
+            <li><span class="spanTilte">Wireless ARP Suppression Mode</span>
+                <select name="Networks_wsNetworkARPSuppressionMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">RADIUS Authentication Server Name</span>
+                <input id="Networks_wsNetworkAuthRadiusServerName_wsNetworkEntry_PageData" name="Networks_wsNetworkAuthRadiusServerName_wsNetworkEntry_PageData"
+                    type="text" value="Default-RADIUS-Server" class="validate[required]" />
+            </li>
+            <li><span class="spanTilte">RADIUS Accounting Server Name</span>
+                <input id="Networks_wsNetworkAcctRadiusServerName_wsNetworkEntry_PageData" name="Networks_wsNetworkAcctRadiusServerName_wsNetworkEntry_PageData"
+                    type="text" value="Default-RADIUS-Server" class="validate[required]" />
+            </li>
+            <li><span class="spanTilte">RADIUS Use Network Configuration</span>
+                <select name="Networks_wsUseNetworkRadiusConfig_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">RADIUS Accounting</span>
+                <select name="Networks_wsNetworkRadiusAccountingMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <!-- ////////////////////////////////////////////////////////  -->
+            <li><span class="spanTilte">Security</span>
+                <select name="Networks_wsNetworkSecurityMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <!-- Static WEP -->
+            <li mp="StaticWEP"><span class="spanTilte">Authentication</span>
+                <select name="Networks_wsNetworkStaticWEPAuthenticationMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEP Key Type</span>
+                <select name="Networks_wsNetworkWEPKeyType_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEP Key Length (bits)</span>
+                <select name="Networks_wsNetworkWEPKeyLength_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEP Key Index</span>
+                <select id="Networks_wsNetworkUseWEPTransferKeyIndex_wsNetworkEntry_PageData" name="Networks_wsNetworkUseWEPTransferKeyIndex_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte profilePartTitle">WEP Keys</span> <span>Tx
+                (Characters required:</span> <span id="wepkeytxt">5</span>) </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 1</span>
+                <input id="Networks_wsNetworkWEPKey1_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey1_wsNetworkEntry_PageData"
+                    type="password" value="" class=""/><input id="text2" name="controlSpan1" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text2','Networks_wsNetworkWEPKey1_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 2</span>
+                <input id="Networks_wsNetworkWEPKey2_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey2_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text1" name="controlSpan2" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; cursor: pointer; margin-left: 10px" onclick="showPwd(this,'text1','Networks_wsNetworkWEPKey2_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 3</span>
+                <input id="Networks_wsNetworkWEPKey3_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey3_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text3" name="controlSpan3" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left:10px; cursor: pointer;" onclick="showPwd(this,'text3','Networks_wsNetworkWEPKey3_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 4</span>
+                <input id="Networks_wsNetworkWEPKey4_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey4_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text4" name="controlSpan4" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text4','Networks_wsNetworkWEPKey4_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <!-- Static WEP -->
+            <!-- Begin WPA  Personal & Enterprise-->
+            <li mp="WPAVersions"><span class="spanTilte">WPA Versions</span>
+                <select name="Networks_wsNetworkWPAVersionsSupported_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="WPACipher"><span class="spanTilte">WPA Ciphers</span>
+                <select name="Networks_wsNetworkWPACipherSuites_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <!-- End WPA  Personal & Enterprise-->
+            <!-- Begin WPA Personal -->
+            <li mp="WPAKey"><span class="spanTilte">WPA Key Type</span><span class="spanTip">ASCII</span></li>
+            <li mp="WPAKey"><span class="spanTilte">WPA Key</span>
+                <input id="Networks_wsNetworkWPAKey_wsNetworkEntry_PageData" name="Networks_wsNetworkWPAKey_wsNetworkEntry_PageData"
+                    type="password" class="validate[required,custom[onlyLetterNumber],minSize[8],maxSize[63]]" maxlength="63" /><input
+                        id="text5" name="controlSpan2" type="text" style="display: none" /><img src="../../Images/textEyeIcon.png"
+                            title="Show Text" class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle;
+                            margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text5','Networks_wsNetworkWPAKey_wsNetworkEntry_PageData')"
+                            name="isResultDisplayControl" /><span class="spanTip">(between 8 and 63 characters)</span></li>
+            <!-- End WPA Personal -->
+            <!-- Begin WPA Enterprise -->
+            <li mp="WPAEnterprise"><span class="spanTilte">Pre-Authentication</span>
+                <select id="Networks_wsNetworkWPA2PreAuthenticationMode_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkWPA2PreAuthenticationMode_wsNetworkEntry_PageData">
+                    <option value="1">Enable</option>
+                    <option value="2">Disable</option>
+                </select></li>
+            <li mp="WPAEnterprise"><span class="spanTilte">Pre-Authenticaion Limit</span>
+                <input id="Networks_wsNetworkWPA2PreAuthenticationLimit_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkWPA2PreAuthenticationLimit_wsNetworkEntry_PageData" type="text"
+                    class="validate[required,custom[validNumber],min[0],max[192]]" maxlength="3" /><span
+                        class="spanTip">(0 to 192)</span></li>
+            <li mp="WPAEnterprise"><span class="spanTilte">Key Caching Hold Time</span>
+                <input id="Networks_wsNetworkWPA2RoambackKeyCacheHoldtime_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkWPA2RoambackKeyCacheHoldtime_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[validNumber],min[1],max[1440]]" maxlength="4" /><span
+                        class="spanTip">(1 to 1440)</span></li>
+            <li mp="BcastKeyRefreshRate"><span class="spanTilte">Bcast Key Refresh Rate</span>
+                <input id="Networks_wsNetworkBcastKeyRefreshRate_wsNetworkEntry_PageData" name="Networks_wsNetworkBcastKeyRefreshRate_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[validNumber],min[0],max[86400]]"
+                    maxlength="5" /><span class="spanTip">(0 to 86400)</span></li>
+            <li mp="SessionKeyRefreshRate"><span class="spanTilte">Session Key Refresh Rate</span>
+                <input id="Networks_wsNetworkSessionKeyRefreshRate_wsNetworkEntry_PageData" name="Networks_wsNetworkSessionKeyRefreshRate_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[validNumber],minZero[30],max[86400]]"
+                    maxlength="5" /><span class="spanTip">(30 to 86400, 0 - Disable)</span>
+            </li>
+            <!-- End WPA Enterprise -->
+            <!-- /////////////////////////////////////////////// -->
+            <li><span class="spanTilte">Client QoS</span>
+                <select name="Networks_wsNetworkClientQosMode_wsNetworkClientQosEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">Client QoS Bandwidth Limit Down</span>
+                <input id="Networks_wsNetworkClientQosBandwidthLimitDown_wsNetworkClientQosEntry_PageData"
+                    name="Networks_wsNetworkClientQosBandwidthLimitDown_wsNetworkClientQosEntry_PageData"
+                    type="text" value="" class="validate[required,custom[validNumber],min[0],max[4294967295]]"
+                    maxlength="10" /><span class="spanTip">(0 to 4294967295, 0 - Disable) </span>
+            </li>
+            <li><span class="spanTilte">Client QoS Bandwidth Limit Up</span>
+                <input id="Networks_wsNetworkClientQosBandwidthLimitUp_wsNetworkClientQosEntry_PageData"
+                    name="Networks_wsNetworkClientQosBandwidthLimitUp_wsNetworkClientQosEntry_PageData"
+                    type="text" value="" class="validate[required,custom[validNumber],min[0],max[4294967295]]"
+                    maxlength="10" /><span class="spanTip">(0 to 4294967295, 0 - Disable) </span>
+            </li>
+        </ul>
+        <input type="button" value="Add" onclick="changeValidate(false);ClearTableValidate();if(Submit()){DUI.profile.common.actionMethod('addNew');}"
+            class="bgBtnInput" style="height: 26px; margin-top:20px;" />
+        <div class="clear">
+        </div>
+    </div>
+    <div class="tableData mt20">
+        <table id="StatusTable" width="100%" align="center" class="statusShowTable">
+            <thead>
+                <tr class="HeaderRow">
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        SSID
+                    </th>
+                    <th>
+                        VLAN
+                    </th>
+                    <th>
+                        Hide SSID
+                    </th>
+                    <th>
+                        Security
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Row">
+                    <td colspan="6">
+                        <span class="dblock tc noDataSpan">No Data Found.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

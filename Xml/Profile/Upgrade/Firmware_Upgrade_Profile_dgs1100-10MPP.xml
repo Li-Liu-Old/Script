@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device>
+  <Profile>
+    <FirmwareProfile>
+      <CopyType>2</CopyType>
+      <downloadFilename></downloadFilename>
+      <CopyDstUrl>auto_image</CopyDstUrl>
+      <downloadServerAddress></downloadServerAddress>
+      <CopyRowStatus>4</CopyRowStatus>
+    </FirmwareProfile>
+  </Profile>
+</Device>

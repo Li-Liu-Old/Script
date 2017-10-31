@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Device Name="DWM-312" HWVersion="A1" DefaultFramework="" SOID="1.3.6.1.4.1.171.70.3.2.0.1">
+  <Command>
+    <RebootProfile>
+      <reboot Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.5.3.4.3.0" CommandType="Integer" />
+    </RebootProfile>
+    <Sensor_CPULoadPercent>
+      <CPULoadPercent Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.3.9.0" CommandType="String" />
+    </Sensor_CPULoadPercent>
+    <Sensor_MemoryFreeReal>
+      <MemoryFreeReal Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.3.10.0" CommandType="String" />
+    </Sensor_MemoryFreeReal>
+    <FirmwareProfile>
+      <FwUpgradeApply Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.5.3.4.7.0" CommandType="Integer" />
+    </FirmwareProfile>
+	<Sensor_StatSIMModuleTemperature>
+      <StatSIMModuleTemperature Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.14.0" CommandType="Integer" />
+    </Sensor_StatSIMModuleTemperature>
+    <CellularInformation>
+	  <StatSIMUseStatus Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.1.0" CommandType="Integer" />
+      <SimReStatSIMNetProStatus Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.2.0" CommandType="String" />
+	  <SimRegisterStatus Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.9.0" CommandType="Integer" />
+	  <StatGPSPositioninfo Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.3.1.0" CommandType="String" />
+	  <StatSystemInfoTimeZone Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.7.2.0" CommandType="String" />
+      <ModemEntry Proto="SNMPv1" Type="EditTable" Desc="" Method="Append_1">
+	    <modemIdIndex Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.1" CommandType="Integer"  CommandSuffix="0" />
+        <ModemCardInfo Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.2" CommandType="String" />
+        <ModemSignalStrength Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.4" CommandType="Integer" />
+        <ModemServiceType Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.6" CommandType="Integer" />
+        <ModemMCC Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.9" CommandType="String" />
+        <ModemMNC Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.10" CommandType="String" />
+        <ModemLAC Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.11" CommandType="Integer" />
+        <ModemCellID Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.13" CommandType="Integer" />
+        <ModemRSSI Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.14" CommandType="Integer" />
+        <ModemIMSI Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.19" CommandType="String" />
+        <ModemSMSC Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.20" CommandType="String" />
+        <ModemSIMStatus Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.22" CommandType="Integer" />
+        <ModemFWVersion Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.25" CommandType="String" />
+        <ModemIMEI Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.26" CommandType="String" />
+        <ModemRSRP Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.27" CommandType="Integer" />
+        <ModemRSRQ Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.5.1.1.28" CommandType="Integer" />
+		</ModemEntry>
+      </CellularInformation>
+	<Sensor_SIMTraffic>
+	   <StatSIMUseStatus Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.1.0" CommandType="Integer" />
+	   <StatSIMTotalDL Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.7.0" CommandType="Counter32" />
+       <StatSIMTotalUL Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.6.8.0" CommandType="Counter32" />
+	</Sensor_SIMTraffic>
+  </Command>
+  <Method>
+    <Append_1 ParaCount="1" />
+    <Append_2 ParaCount="2" />
+    <Append_3 ParaCount="3" />
+  </Method>
+</Device>

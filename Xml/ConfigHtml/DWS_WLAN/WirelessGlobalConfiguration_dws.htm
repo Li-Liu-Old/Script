@@ -1,0 +1,49 @@
+﻿<div class="profileConfigDiv">
+    <input id="moduleName" type="hidden" value="WirelessGlobalConfiguration" />
+    <ul class="noTopCon noPartTitle">
+        <li><span class="spanTilte">Peer Group ID</span>
+            <input id="WirelessGlobalConfiguration_wsPeerGroupId_PageData" name="WirelessGlobalConfiguration_wsPeerGroupId_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[1],max[255]]" /><span
+                    class="spanTip">(1 to 255)</span> </li>
+        <li><span class="spanTilte">Client Roam Timeout(secs)</span>
+            <input id="WirelessGlobalConfiguration_wsClientRoamAgeTime_PageData" name="WirelessGlobalConfiguration_wsClientRoamAgeTime_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[1],max[120]]" /><span
+                    class="spanTip">(1 to 120)</span> </li>
+        <li><span class="spanTilte">Ad Hoc Client Status Timeout(hours)</span>
+            <input id="WirelessGlobalConfiguration_wsAdHocClientAgeTime_PageData" name="WirelessGlobalConfiguration_wsAdHocClientAgeTime_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[0],max[168]]" /><span
+                    class="spanTip">(0 to 168)</span> </li>
+        <li><span class="spanTilte">AP Failure Status Timeout(hours)</span>
+            <input id="WirelessGlobalConfiguration_wsAPFailureAgeTime_PageData" name="WirelessGlobalConfiguration_wsAPFailureAgeTime_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[0],max[168]]" /><span
+                    class="spanTip">(1 to 168)</span> </li>
+        <li><span class="spanTilte">Client Failure Status(hours)</span>
+            <input id="WirelessGlobalConfiguration_wsClientFailureAgeTime_PageData" name="WirelessGlobalConfiguration_wsClientFailureAgeTime_PageData"
+                type="text" maxlength="3" value="" class="validate[custom[validNumber],min[0],max[168]]" /><span
+                    class="spanTip">(1 to 168)</span> </li><!--(DWS3026)-->
+        <li><span class="spanTilte">MAC Authentication Mode</span>
+            <select id="WirelessGlobalConfiguration_wsMACAuthenticationMode_PageData" name="WirelessGlobalConfiguration_wsMACAuthenticationMode_PageData"
+                size="1">
+            </select><span class="spanTip"></span> </li>
+        <li><span class="spanTilte">RF Scan Status Timeout(hours)</span>
+            <input id="WirelessGlobalConfiguration_wsRFScanAgeTime_PageData" name="WirelessGlobalConfiguration_wsRFScanAgeTime_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[0],max[168]]" /><span
+                    class="spanTip">(0 to 168)</span> </li>
+        <li><span class="spanTilte">Detected Clients Status Timeout(hours)</span>
+            <input id="WirelessGlobalConfiguration_wsDetectedClientAgeTime_PageData" name="WirelessGlobalConfiguration_wsDetectedClientAgeTime_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[0],max[168]]" />(0
+            to 168)<span class="spanTip"></span> </li>
+        <li><span class="spanTilte">Tunnel IP MTU Size</span>
+            <select id="WirelessGlobalConfiguration_wsTunnelMtu_PageData" name="WirelessGlobalConfiguration_wsTunnelMtu_PageData"
+                size="1">
+            </select><span class="spanTip"></span> </li>
+        <li><span class="spanTilte">Cluster Priority</span>
+            <input id="WirelessGlobalConfiguration_wsClusterPriority_PageData" name="WirelessGlobalConfiguration_wsClusterPriority_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[0],max[255]]" />(0
+            to 255,0 - Disable)<span class="spanTip"></span> </li>
+        <li><span class="spanTilte">AP Client QoS</span>
+            <select id="WirelessGlobalConfiguration_wsAPClientQosMode_PageData" name="WirelessGlobalConfiguration_wsAPClientQosMode_PageData"
+                size="1">
+            </select><span class="spanTip"></span> </li>
+    </ul>
+</div>

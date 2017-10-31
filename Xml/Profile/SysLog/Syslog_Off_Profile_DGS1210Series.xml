@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <sysLogServerAddress>0.0.0.0</sysLogServerAddress>
+      <!--<syslogUDPPort>514</syslogUDPPort>
+      <syslogTimeStamp>1</syslogTimeStamp>
+      <syslogSeverity>4</syslogSeverity>
+      <syslogFacility>128</syslogFacility>-->
+      <sysLogServerState>2</sysLogServerState>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+sysLogServerState Enable(1) Disable(2)
+-->

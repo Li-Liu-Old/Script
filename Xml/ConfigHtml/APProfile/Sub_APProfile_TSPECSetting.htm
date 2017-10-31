@@ -1,0 +1,54 @@
+﻿<div>
+    <input type="hidden" value="" id="CurrentModuleName" name="CurrentModuleName" />
+    <ul>
+        <li name="disableControl"><span class="spanTilte">Enable Change</span>
+            <select id="Select4" name="isEnableChange">
+                <option value="Enable">Enable</option>
+                <option value="Disable" selected="selected">Disable</option>
+            </select></li>
+    </ul>
+    <ul id="DataForm" style="margin-top: 0px;">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioTspecEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileRadioTspecEntry_PageData" />
+        <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioTspecEntry_PageData"
+            name="APProfile_wsAPRadioInterface_wsAPProfileRadioTspecEntry_PageData" />
+        <li><span class="spanTilte">TSPEC Mode</span>
+            <select id="" name="APProfile_wsAPRadioTspecMode_wsAPProfileRadioTspecEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Voice ACM Mode</span>
+            <select name="APProfile_wsAPRadioTspecVoiceAcmMode_wsAPProfileRadioTspecEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Video ACM Mode</span>
+            <select id="Select1" name="APProfile_wsAPRadioTspecVideoAcmMode_wsAPProfileRadioTspecEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Voice ACM Limit(%)</span>
+            <input type="text" id="APProfile_wsAPRadioTspecVoiceAcmLimit_wsAPProfileRadioTspecEntry_PageData"
+                name="APProfile_wsAPRadioTspecVoiceAcmLimit_wsAPProfileRadioTspecEntry_PageData"
+                maxlength="2" class="validate[required,custom[validNumber],min[0],max[70]]" /><span
+                    class="spanTip">(0 to 70)</span></li>
+        <li><span class="spanTilte">Video ACM Limit(%)</span>
+            <input type="text" id="APProfile_wsAPRadioTspecVideoAcmLimit_wsAPProfileRadioTspecEntry_PageData"
+                name="APProfile_wsAPRadioTspecVideoAcmLimit_wsAPProfileRadioTspecEntry_PageData"
+                maxlength="2" class="validate[required,custom[validNumber],min[0],max[70]]" /><span
+                    class="spanTip">(0 to 70)</span></li>
+        <li><span class="spanTilte">Roam Reserve Limit(%)</span>
+            <input type="text" id="APProfile_wsAPRadioTspecRoamReserveLimit_wsAPProfileRadioTspecEntry_PageData"
+                name="APProfile_wsAPRadioTspecRoamReserveLimit_wsAPProfileRadioTspecEntry_PageData"
+                maxlength="2" class="validate[required,custom[validNumber],min[0],max[70]]" /><span
+                    class="spanTip">(0 to 70)</span></li>
+        <li><span class="spanTilte">AP Inactivity Timeout(secs)</span>
+            <input type="text" id="APProfile_wsAPRadioTspecApInactivityTimeout_wsAPProfileRadioTspecEntry_PageData"
+                name="APProfile_wsAPRadioTspecApInactivityTimeout_wsAPProfileRadioTspecEntry_PageData"
+                maxlength="3" class="validate[required,custom[validNumber],min[0],max[120]]" /><span
+                    class="spanTip">(0 to 120,0 - Disable)</span></li>
+        <li><span class="spanTilte">STA Inactivity Timeout(secs)</span>
+            <input type="text" id="APProfile_wsAPRadioTspecStaInactivityTimeout_wsAPProfileRadioTspecEntry_PageData"
+                name="APProfile_wsAPRadioTspecStaInactivityTimeout_wsAPProfileRadioTspecEntry_PageData"
+                maxlength="3" class="validate[required,custom[validNumber],min[0],max[120]]" /><span
+                    class="spanTip">(0 to 120,0 - Disable)</span></li>
+        <li><span class="spanTilte">Legacy WMM Queue Map Mode</span>
+            <select id="Select2" name="APProfile_wsAPRadioTspecLegacyWmmQueueMapMode_wsAPProfileRadioTspecEntry_PageData">
+            </select>
+        </li>
+    </ul>
+</div>

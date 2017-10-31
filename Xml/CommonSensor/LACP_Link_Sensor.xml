@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_LACP>
+      <dot3adAggPortEntry dot3adAggPortIndex="" dot3adAggPortActorOperState=""/>
+      <dot1dStpPortEntry dot1dStpPort="" dot1dStpPortState=""/>
+      <swMSTPMstPortEntry swMSTPMstPort="" swMSTPMstPortStatus=""/>
+    </Sensor_LACP>
+  </Profile>
+</Device>

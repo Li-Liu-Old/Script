@@ -1,0 +1,35 @@
+﻿<div class="profileConfigDiv">
+    <input id="moduleName" type="hidden" value="ManagedAccessPoint" />
+    <ul class="noTopCon noPartTitle">
+        <li><span class="spanTilte">Manages AP Administrative Mode</span>
+            <select id="ManagedAccessPoint_apMode_PageData" name="ManagedAccessPoint_apMode_PageData">
+                <option value="1">Enable</option>
+                <option value="2">Disable</option>
+            </select>
+        </li>
+        <li><span class="spanTilte">Switch IP Address 1</span>
+            <input id="ManagedAccessPoint_apSwitchAddress1_PageData" name="ManagedAccessPoint_apSwitchAddress1_PageData"
+                type="text" size="25" maxlength="" value="" class="validate[optional,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">Switch IP Address 2</span>
+            <input id="ManagedAccessPoint_apSwitchAddress2_PageData" name="ManagedAccessPoint_apSwitchAddress2_PageData"
+                type="text" size="25" maxlength="" value="" class="validate[optional,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">Switch IP Address 3</span>
+            <input id="ManagedAccessPoint_apSwitchAddress3_PageData" name="ManagedAccessPoint_apSwitchAddress3_PageData"
+                type="text" size="25" maxlength="" value="" class="validate[optional,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">Switch IP Address 4</span>
+            <input id="ManagedAccessPoint_apSwitchAddress4_PageData" name="ManagedAccessPoint_apSwitchAddress4_PageData"
+                type="text" size="25" maxlength="" value="" class="validate[optional,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">Pass Phrase</span>
+            <input id="ManagedAccessPoint_apSwitchPassPhrase_PageData" name="ManagedAccessPoint_apSwitchPassPhrase_PageData"
+                type="password" size="25" maxlength="63" value="" class="validate[optional,custom[onlyLetterNumber],minSize[8],maxSize[63]]" /><input
+                    id="text1" name="controlSpan" type="text" style="display: none" /><img src="../../Images/textEyeIcon.png"
+                        title="Show Text" class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle;
+                        margin-left: 10px;cursor:pointer;" onclick="showPwd(this,'text1','ManagedAccessPoint_apSwitchPassPhrase_PageData')"
+                        name="isResultDisplayControl" /><span class="spanTip">(between 8 and 63 characters or
+                            Zero length)</span> </li>
+    </ul>
+</div>

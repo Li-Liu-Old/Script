@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Path>
+  <!-- DWLSeries -->
+  <Module name="Sensor_WirelessInfo" oids="'1.3.6.1.4.1.171.10.37.29.1','1.3.6.1.4.1.171.10.128.1.1','1.3.6.1.4.1.171.10.129.1.1',
+          '1.3.6.1.4.1.171.10.37.28.1','1.3.6.1.4.1.171.10.37.27.1','1.3.6.1.4.1.171.10.136.1.1'">
+    <Table path="./Profile/Sensor_WirelessInfo/apIfConfigEntry">
+      <Item name="ssidIndex" mibName="apIfConfigIndex"/>
+      <Item name="interfaceName" mibName="apIfConfigName"/><!-- Interface wlan0vap1 -->
+      <Item name="ssidMac" mibName="apIfConfigMacAddress"/><!-- ssid Mac -->
+      <Item name="ssidName" mibName="apIfConfigSsid"/><!-- SsidName -->
+      <Item name="ssidAuthenticationMode" mibName="apIfConfigSecurity"/><!-- wpaPersonal(3) -->
+      <!--<Item name="apMode" mibName="apIfConfigType"/>-->
+    </Table>
+    <Table path="./Profile/Sensor_WirelessInfo/apRadioEntry">
+      <Item name="radioId" mibName="apRadioId"/> <!-- wlan0 -->
+      <Item name="radioState" mibName="apRadioStatus"/><!-- RadioState -->
+      <Item name="radioName" mibName="apRadioName"/><!-- wlan0 -->
+      <Item name="radioMac" mibName="apRadioMac"/> <!-- Radio Mac -->
+      <Item name="wifiMode" mibName="apRadioMode"/><!-- 802.11a -->
+      <Item name="radioChannel" mibName="apRadioChannel"/>
+      <Item name="radioChannelBandwidth" mibName="apRadioChannelBandwidth"/><!-- 1: twentyMHz(1)2: fortyMHz(2)  -->
+    </Table>
+    <Table path="./Profile/Sensor_WirelessInfo/apVapEntry">
+      <Item name="vapId" mibName="apVapId"/>
+      <Item name="radioId" mibName="apVapRadio"/>
+      <Item name="vapState" mibName="apVapStatus"/> <!-- ssid状态 -->
+    </Table>    
+  </Module>
+  <Module name="Sensor_AuthenticatedClientsInfo" oids="'1.3.6.1.4.1.171.10.37.29.1','1.3.6.1.4.1.171.10.128.1.1','1.3.6.1.4.1.171.10.129.1.1','1.3.6.1.4.1.171.10.136.1.1'">
+    <Table path="./Profile/Sensor_AuthenticatedClientsInfo/apAssociationEntry">
+      <Item name="clientMac" mibName="apAssocStationMac"/>      <!-- client Mac -->
+      <Item name="currentIfName" mibName="apAssocInterface"/>      <!-- Interface wlan0vap1 -->
+      <Item name="clientState" mibName="apAssocAssociated"/>      <!--  state -->
+    </Table>
+  </Module>
+  <!-- DAPSeries -->
+  <Module name="Sensor_WirelessInfo" oids="'1.3.6.1.4.1.171.10.37.36','1.3.6.1.4.1.171.10.37.42','1.3.6.1.4.1.171.10.37.40',
+          '1.3.6.1.4.1.171.10.37.39','1.3.6.1.4.1.171.10.37.41','1.3.6.1.4.1.171.10.37.35','1.3.6.1.4.1.171.10.37.45'
+          ,'1.3.6.1.4.1.171.10.37.43','1.3.6.1.4.1.171.10.37.49','1.3.6.1.4.1.171.10.37.50','1.3.6.1.4.1.171.10.37.48'
+          ,'1.3.6.1.4.1.171.10.37.47','1.3.6.1.4.1.171.10.37.52'">    
+     <Table path="./Profile/Sensor_WirelessInfo/interfaceInformationEntry">
+        <Item name="ifIndex" mibName="ifIndex"/>
+        <Item name="primarySsidMac" mibName="ifMacAddress" />
+        <Item name="radioMac" mibName="ifMacAddress"/><!-- Radio Mac -->
+        <Item name="ssidMacAddressStart" mibName="ssidMacAddressStart" />
+        <Item name="ssidMacAddressEnd" mibName="ssidMacAddressEnd" />
+     </Table>
+    <Table path="./Profile/Sensor_WirelessInfo/dot11MssidEntry">
+      <Item name="ifIndex" mibName="ifIndex"/>
+      <Item name="ssidIndex" mibName="dot11MssidIndex"/> 
+      <Item name="ssidState" mibName="dot11MssIndividualState"/> <!-- Enable/Disable -->
+      <Item name="ssidName" mibName="dot11MssidSsid"/><!-- ssidName -->
+      <Item name="ssidAuthenticationMode" mibName="dot11MssidAuthentication"/><!-- wpa2-auto-psk(8)-->
+      <Item name="ssidPassPhrase" mibName="dot11MssidPassPhrase"/><!-- 密码 -->
+    </Table>
+    <Table path="./Profile/Sensor_WirelessInfo/dot11ParametersEntry">
+      <Item name="ifIndex" mibName="ifIndex"/>
+      <Item name="primarySsid" mibName="dot11Ssid"/><!-- primarySsidName -->
+      <Item name="wifiMode" mibName="dot11WifiMode"/><!-- 802.11a -->
+      <Item name="radioBand" mibName="dot11Band"/><!-- 2.4GHz / 5.0GHz-->
+      <Item name="radioChannel" mibName="dot11Channel"/>
+      <Item name="radioChannelBandwidth" mibName="dot11ChannelWidth"/><!-- 1: cwm20MHz(1)2: cwmAuto(2)-->
+      <Item name="apMode" mibName="dot11ApMode"/>
+      <Item name="radioState" mibName="dot11RadioWave"/>
+    </Table>   
+  </Module>
+  <Module name="Sensor_AuthenticatedClientsInfo" oids="'1.3.6.1.4.1.171.10.37.36','1.3.6.1.4.1.171.10.37.42','1.3.6.1.4.1.171.10.37.40',
+          '1.3.6.1.4.1.171.10.37.39','1.3.6.1.4.1.171.10.37.37','1.3.6.1.4.1.171.10.37.41','1.3.6.1.4.1.171.10.37.35','1.3.6.1.4.1.171.10.37.45'
+          ,'1.3.6.1.4.1.171.10.37.43','1.3.6.1.4.1.171.10.37.49','1.3.6.1.4.1.171.10.37.50','1.3.6.1.4.1.171.10.37.48'
+          ,'1.3.6.1.4.1.171.10.37.47','1.3.6.1.4.1.171.10.37.52'">
+    <Table path="./Profile/Sensor_AuthenticatedClientsInfo/clientInformationEntry">
+      <Item name="ifIndex" mibName="ifIndex"/>
+      <Item name="dot11ClientIndex" mibName="dot11ClientIndex"/>
+      <!-- client Mac -->
+      <Item name="clientMac" mibName="dot11ClientMacAddress"/>
+      <!-- WPA2-->
+      <!--<Item name="clientState" mibName="dot11ClientPsm"/>-->
+      <!-- client State -->
+      <Item name="currentIfName" mibName="dot11SSIDIndex"/>
+      <!-- PrimarySSID  dap2590_2 -->
+    </Table>
+  </Module>
+  <!-- DAP3520 -->
+  <Module name="Sensor_WirelessInfo" oids="'1.3.6.1.4.1.171.10.37.37'">
+    <Single>
+      <Item name="primarySsidMac" mibName="ifMacAddress" path="./Profile/Sensor_WirelessInfo/ifMacAddress"/>
+      <Item name="radioMac" mibName="ifMacAddress" path="./Profile/Sensor_WirelessInfo/ifMacAddress"/>
+      <Item name="mssid1MacAddress" mibName="mssid1MacAddress" path="./Profile/Sensor_WirelessInfo/mssid1MacAddress"/>
+      <Item name="mssid2MacAddress" mibName="mssid2MacAddress" path="./Profile/Sensor_WirelessInfo/mssid2MacAddress"/>
+      <Item name="mssid3MacAddress" mibName="mssid3MacAddress" path="./Profile/Sensor_WirelessInfo/mssid3MacAddress"/>
+    </Single>
+    <Table path="./Profile/Sensor_WirelessInfo/dot11MssidEntry">
+      <Item name="ifIndex" mibName="ifIndex"/>
+      <Item name="ssidIndex" mibName="dot11MssidIndex"/>
+      <Item name="ssidState" mibName="dot11MssIndividualState"/>
+      <Item name="ssidName" mibName="dot11MssidSsid"/>
+      <Item name="ssidAuthenticationMode" mibName="dot11MssidAuthentication"/>
+      <Item name="ssidPassPhrase" mibName="dot11MssidPassPhrase"/>
+    </Table>
+    <Table path="./Profile/Sensor_WirelessInfo/dot11ParametersEntry">
+      <Item name="ifIndex" mibName="ifIndex"/>
+      <Item name="primarySsid" mibName="dot11Ssid"/>
+      <Item name="wifiMode" mibName="dot11WifiMode"/>
+      <Item name="radioBand" mibName="dot11Band"/>
+      <Item name="radioChannel" mibName="dot11Channel"/>
+      <Item name="radioChannelBandwidth" mibName="dot11ChannelWidth"/>
+      <Item name="apMode" mibName="dot11ApMode"/>
+      <Item name="radioState" mibName="dot11RadioWave"/>
+    </Table>
+  </Module>
+</Path>
+<!-- 
+ 注意点：
+     1.一个Module中，各个表的主键外键name要相同
+     2.Table的摆放顺序，主表要放在第一位，子表放在主表的后面
+-->

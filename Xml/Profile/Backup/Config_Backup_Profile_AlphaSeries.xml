@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <uploadServerAddress></uploadServerAddress>
+      <uploadFilename></uploadFilename>
+      <agentBscFileSystemLoadType>2</agentBscFileSystemLoadType>
+      <agentBscFileSystemCtrl>3</agentBscFileSystemCtrl>
+    </BackupProfile>
+  </Profile>
+</Device>
+<!--
+agentBscFileSystemLoadType
+Value list:	1: other(1) 
+ 	2: upload(2) 
+ 	3: download(3) 
+agentBscFileSystemCtrl
+Value list:	1: other(1) 
+ 	2: inactive(2) 
+ 	3: start(3) 
+-->

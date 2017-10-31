@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapCtrlState>2</trapCtrlState>
+      <trapManagerEntry>
+
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>

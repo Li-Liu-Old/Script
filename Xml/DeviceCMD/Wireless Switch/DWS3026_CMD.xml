@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Device Name="DWS-3026" DefaultFramework="3.0.0.14" SOID="1.3.6.1.4.1.171.10.73.3">
+  <Command>
+    <Sensor_Port>
+      <ifTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifDescr CommandText="1.3.6.1.2.1.2.2.1.2" Options="R" CommandType="String" />
+        <ifType CommandText="1.3.6.1.2.1.2.2.1.3" Options="R" CommandType="Integer" />
+        <ifSpeed CommandText="1.3.6.1.2.1.2.2.1.5" Options="R" CommandType="Gauge" />
+        <ifPhysAddress CommandText="1.3.6.1.2.1.2.2.1.6" Options="R" CommandType="MAC" />
+        <ifAdminStatus CommandText="1.3.6.1.2.1.2.2.1.7" Options="R" CommandType="Integer" />
+        <ifOperStatus CommandText="1.3.6.1.2.1.2.2.1.8" Options="R" CommandType="Integer" />
+        <ifLastChange CommandText="1.3.6.1.2.1.2.2.1.9" Options="R" CommandType="Time" />
+      </ifTable>
+      <ifXTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifName CommandText="1.3.6.1.2.1.31.1.1.1.1" Options="R" CommandType="String" />
+        <ifHighSpeed CommandText="1.3.6.1.2.1.31.1.1.1.15" Options="R" CommandType="Gauge" />
+        <ifConnectorPresent CommandText="1.3.6.1.2.1.31.1.1.1.17" Options="R" CommandType="Integer" />
+      </ifXTable>
+    </Sensor_Port>
+    <Sensor_PortTraffic>
+      <ifTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifInOctets CommandText="1.3.6.1.2.1.2.2.1.10" Options="R" CommandType="Counter32" />
+        <ifInUcastPkts CommandText="1.3.6.1.2.1.2.2.1.11" Options="R" CommandType="Counter32" />
+        <ifInDiscards CommandText="1.3.6.1.2.1.2.2.1.13" Options="R" CommandType="Counter32" />
+        <ifOutOctets CommandText="1.3.6.1.2.1.2.2.1.16" Options="R" CommandType="Counter32" />
+        <ifOutUcastPkts CommandText="1.3.6.1.2.1.2.2.1.17" Options="R" CommandType="Counter32" />
+        <ifOutDiscards CommandText="1.3.6.1.2.1.2.2.1.19" Options="R" CommandType="Counter32" />
+      </ifTable>
+      <ifXTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifHCInOctets CommandText="1.3.6.1.2.1.31.1.1.1.6" Options="R" CommandType="Counter64" />
+        <ifHCOutOctets CommandText="1.3.6.1.2.1.31.1.1.1.10" Options="R" CommandType="Counter64" />
+        <ifHCInUcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.7" Options="R" CommandType="Counter64" />
+        <ifHCInMulticastPkts CommandText="1.3.6.1.2.1.31.1.1.1.8" Options="R" CommandType="Counter64" />
+        <ifHCInBroadcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.9" Options="R" CommandType="Counter64" />
+        <ifHCOutUcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.11" Options="R" CommandType="Counter64" />
+        <ifHCOutMulticastPkts CommandText="1.3.6.1.2.1.31.1.1.1.12" Options="R" CommandType="Counter64" />
+        <ifHCOutBroadcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.13" Options="R" CommandType="Counter64" />
+      </ifXTable>
+    </Sensor_PortTraffic>
+    <Sensor_ErrorPackets>
+      <totalErrorPacketsEntry Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <RxErrors CommandText="1.3.6.1.2.1.2.2.1.14" Options="R" CommandType="Counter32" />
+        <TxErrors CommandText="1.3.6.1.2.1.2.2.1.20" Options="R" CommandType="Counter32" />
+      </totalErrorPacketsEntry>
+    </Sensor_ErrorPackets>
+    <Sensor_WirelessAccessPointsInfo>
+      <TotalAPs Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.12.5.0" CommandType="Gauge" />
+      <TotalManagedAPs Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.12.6.0" CommandType="Integer" />
+      <TotalStandaloneAPs Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.12.7.0" CommandType="Gauge" />
+      <TotalRogueAPs Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.12.10.0" CommandType="Gauge" />
+    </Sensor_WirelessAccessPointsInfo>
+    <Sensor_WirelessClientsInfo>
+      <TotalClients Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.12.11.0" CommandType="Gauge" />
+      <TotalAuthenticatedClients Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.12.12.0" CommandType="Gauge" />
+    </Sensor_WirelessClientsInfo>
+    <Sensor_WLANUtilizationBytes>
+      <Transmitted Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.13.1.0" CommandType="Counter64" />
+      <Received Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.13.2.0" CommandType="Counter64" />
+    </Sensor_WLANUtilizationBytes>
+    <Sensor_WLANUtilizationPackets>
+      <Transmitted Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.13.3.0" CommandType="Counter64" />
+      <Received Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.1.13.4.0" CommandType="Counter64" />
+    </Sensor_WLANUtilizationPackets>
+    <LLDPProfile>
+      <lldpPortConfigEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <lldpPortConfigPortNum CommandText="1.0.8802.1.1.2.1.1.6.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <lldpPortConfigAdminStatus CommandText="1.0.8802.1.1.2.1.1.6.1.2" Options="RW" CommandType="Integer" />
+        <lldpPortConfigNotificationEnable CommandText="1.0.8802.1.1.2.1.1.6.1.3" Options="RW" CommandType="Integer" />
+        <lldpPortConfigTLVsTxEnable CommandText="1.0.8802.1.1.2.1.1.6.1.4" Options="RW" CommandType="BITS" />
+      </lldpPortConfigEntry>
+    </LLDPProfile>
+    <FirmwareProfile>
+      <agentNextActiveImage Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.3.4.0" CommandType="String" />
+      <agentTransferDownloadMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.1.0" CommandType="Integer" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.4.0" CommandType="String" />
+      <agentTransferDownloadDataType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.5.0" CommandType="Integer" />
+      <agentTransferDownloadServerAddressType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.8.0" CommandType="Integer" />
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.9.0" CommandType="String" />
+      <agentTransferDownloadImagename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.10.0" CommandType="Integer" />
+      <agentTransferDownloadStart Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.6.0" CommandType="Integer" />
+    </FirmwareProfile>
+    <BackupProfile>
+      <agentTransferUploadMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.1.1.0" CommandType="Integer" />
+      <uploadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.1.4.0" CommandType="String" />
+      <agentTransferUploadDataType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.1.5.0" CommandType="Integer" />
+      <agentTransferUploadServerAddressType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.1.8.0" CommandType="Integer" />
+      <uploadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.1.9.0" CommandType="String" />
+      <agentTransferUploadStart Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.1.6.0" CommandType="Integer" />
+    </BackupProfile>
+    <RestoreProfile>
+      <agentTransferDownloadMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.1.0" CommandType="Integer" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.4.0" CommandType="String" />
+      <agentTransferDownloadDataType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.5.0" CommandType="Integer" />
+      <agentTransferDownloadServerAddressType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.8.0" CommandType="Integer" />
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.9.0" CommandType="String" />
+      <agentTransferDownloadStart Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.9.2.6.0" CommandType="Integer" />
+    </RestoreProfile>
+    <TrapProfile>
+      <trapManagerEntry Proto="SNMP" Type="CreateTable3" Desc="" Method="Append_1">
+        <trapManagerIndex Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.2.6.4.1.1" CommandType="Integer" CommandSuffix="0" />
+        <trapManagerCommunity Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.6.4.1.2" CommandType="String" CommandStatus="relate" />
+        <trapManagerIpAddress Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.6.4.1.3" CommandType="IPAddress" />
+        <trapManagerStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.6.4.1.4" CommandType="Integer" CommandStatus="RowStatus" />
+        <trapManagerMsgVer Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.6.4.1.5" CommandType="Integer" />
+        <agentSnmpTrapReceiverCreate Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.6.3.0" CommandType="String" CommandStatus="Create" />
+      </trapManagerEntry>
+    </TrapProfile>
+    <SyslogProfile>
+      <sysLogCtrlState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.20.1.4.1.0" CommandType="Integer" />
+      <sysLogServerEntry Proto="SNMP" Type="CreateTable" Desc="Network" Method="Append_1">
+        <sysLogServerIndex Options="N" CommandText="1.3.6.1.4.1.171.10.73.20.1.4.5.1.1" CommandType="Gauge" CommandSuffix="0" />
+        <sysLogServerAddress Options="RW" CommandText="1.3.6.1.4.1.171.10.73.20.1.4.5.1.3" CommandType="String" />
+        <sysLogServerUDPPort Options="RW" CommandText="1.3.6.1.4.1.171.10.73.20.1.4.5.1.4" CommandType="Gauge" />
+        <sysLogServerSeverity Options="RW" CommandText="1.3.6.1.4.1.171.10.73.20.1.4.5.1.5" CommandType="Integer" />
+        <agentLogHostTableRowStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.73.20.1.4.5.1.7" CommandType="Integer" CommandStatus="RowStatus" />
+      </sysLogServerEntry>
+    </SyslogProfile>
+    <DHCPProfile>
+      <dhcpStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.18.1.1.0" CommandType="Integer" />
+    </DHCPProfile>
+    <TelnetProfile>
+      <telnetStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.1.2.3.0" CommandType="Integer" />
+    </TelnetProfile>
+    <WebProfile>
+      <webStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.3.8.0" CommandType="Integer" />
+    </WebProfile>
+    <Sensor_PortPOEStatus>
+      <PortCtrlEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_2">
+        <PortGroupIndex Options="N" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.1" CommandType="Integer" CommandSuffix="0" />
+        <PortIndex Options="N" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.2" CommandType="Integer" CommandSuffix="1" />
+        <AdminMode Options="RW" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.3" CommandType="Integer" />
+        <Priority Options="RW" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.7" CommandType="Integer" />
+        <Status Options="RW" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.6" CommandType="Integer" />
+        <Class Options="RW" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.10" CommandType="Integer" />
+      </PortCtrlEntry>
+      <PortInfoEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_2">
+        <PortGroupIndex Options="N" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.1" CommandType="Integer" CommandSuffix="0" />
+        <PortIndex Options="N" CommandText="1.3.6.1.4.1.171.10.73.22.1.1.1.2" CommandType="Integer" CommandSuffix="1" />
+        <PowerLimit Options="RW" CommandText="1.3.6.1.4.1.171.10.73.21.1.1.1.1" CommandType="Integer" />
+        <Power Options="R" CommandText="1.3.6.1.4.1.171.10.73.21.1.1.1.2" CommandType="Integer" />
+        <Voltage Options="R" CommandText="1.3.6.1.4.1.171.10.73.21.1.1.1.4" CommandType="Integer" />
+        <Current Options="R" CommandText="1.3.6.1.4.1.171.10.73.21.1.1.1.3" CommandType="Integer" />
+      </PortInfoEntry>
+    </Sensor_PortPOEStatus>
+    <GlobalConfiguration>
+      <cpAdminMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.1.1.1.0" Options="RW" CommandType="Integer" />
+      <cpAdditionalHttpPort Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.1.1.2.0" Options="RW" CommandType="Integer" />
+      <cpAuthTimeout Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.1.1.3.0" Options="RW" CommandType="Integer" />
+    </GlobalConfiguration>
+    <SNMPTrapConfiguration>
+      <cpTrapMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.3.1.0" Options="RW" CommandType="Integer" />
+      <cpClientAuthenticationFailureTrapMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.3.2.0" Options="RW" CommandType="Integer" />
+      <cpClientConnectTrapMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.3.3.0" Options="RW" CommandType="Integer" />
+      <cpClientDatabaseFullTrapMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.3.4.0" Options="RW" CommandType="Integer" />
+      <cpClientDisconnectTrapMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.38.3.5.0" Options="RW" CommandType="Integer" />
+    </SNMPTrapConfiguration>
+    <RFManagement>
+      <wsPowerAdjustmentMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.5.4.0" CommandType="Integer" />
+      <wsPowerAdjustmentInterval Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.5.5.0" CommandType="Integer" />
+      <wsChannelPlanEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsChannelPlan Proto="SNMP" Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.5.1.1.1" CommandType="Integer" CommandSuffix="0" />
+        <wsChannelPlanMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.5.1.1.2" CommandType="Integer" />
+        <wsChannelPlanInterval Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.5.1.1.3" CommandType="Integer" />
+        <wsChannelPlanTime Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.5.1.1.4" CommandType="Integer" />
+        <wsChannelPlanHistoryDepth Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.5.1.1.5" CommandType="Integer" />
+      </wsChannelPlanEntry>
+    </RFManagement>
+    <WirelessGlobalConfiguration>
+      <wsPeerGroupId Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.3.0" CommandType="Integer" />
+      <wsClientRoamAgeTime Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.6.0" CommandType="Gauge" />
+      <wsAdHocClientAgeTime Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.10.0" CommandType="Gauge" />
+      <wsAPFailureAgeTime Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.8.0" CommandType="Gauge" />
+      <wsClientFailureAgeTime Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.9.0" CommandType="Gauge" />
+      <wsRFScanAgeTime Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.7.0" CommandType="Gauge" />
+      <wsTunnelMtu Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.19.0" CommandType="Integer" />
+      <wsAPClientQosMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.20.0" CommandType="Integer" />
+    </WirelessGlobalConfiguration>
+    <WirelessSNMPTrapConfiguration>
+      <wsStatusTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.1.0" CommandType="Integer" />
+      <wsPeerWSTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.2.0" CommandType="Integer" />
+      <wsAPStateTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.3.0" CommandType="Integer" />
+      <wsAPFailureTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.4.0" CommandType="Integer" />
+      <wsRogueAPTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.5.0" CommandType="Integer" />
+      <wsRFScanTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.6.0" CommandType="Integer" />
+      <wsClientStateTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.7.0" CommandType="Integer" />
+      <wsClientFailureTrapMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.12.8.0" CommandType="Integer" />
+    </WirelessSNMPTrapConfiguration>
+    <Networks>
+      <wsNetworkEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsNetworkId CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsNetworkSSID CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.3" Options="RW" CommandType="String" />
+        <wsNetworkDefaultVLANId CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.4" Options="RW" CommandType="Integer" />
+        <wsNetworkHideSSIDMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.5" Options="RW" CommandType="Integer" />
+        <wsNetworkDenyBcastMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.6" Options="RW" CommandType="Integer" />
+        <wsNetworkL3TunnelMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.7" Options="RW" CommandType="Integer" />
+        <wsNetworkL3TunnelSubnetIP CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.8" Options="RW" CommandType="IPAddress" />
+        <wsNetworkL3TunnelSubnetMask CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.9" Options="RW" CommandType="IPAddress" />
+        <wsNetworkMACAuthenticationMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.10" Options="RW" CommandType="Integer" />
+        <wsNetworkUseProfileRadiusConfig CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.11" Options="RW" CommandType="Integer" />
+        <wsNetworkRadiusServerIP CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.12" Options="RW" CommandType="IPAddress" />
+        <wsNetworkRadiusServerSecret CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.13" Options="RW" CommandType="String" />
+        <wsNetworkRadiusAccountingMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.14" Options="RW" CommandType="Integer" />
+        <wsNetworkSecurityMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.15" Options="RW" CommandType="Integer" />
+        <wsNetworkWPAVersionsSupported CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.16" Options="RW" CommandType="Integer" />
+        <wsNetworkWPACipherSuites CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.17" Options="RW" CommandType="Integer" />
+        <wsNetworkWPAKeyType CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.18" Options="RW" CommandType="Integer" />
+        <wsNetworkWPAKey CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.19" Options="RW" CommandType="String" />
+        <wsNetworkWPA2PreAuthenticationMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.20" Options="RW" CommandType="Integer" />
+        <wsNetworkWPA2PreAuthenticationLimit CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.21" Options="RW" CommandType="Integer" />
+        <wsNetworkWPA2DynamicKeyForwardingMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.22" Options="RW" CommandType="Integer" />
+        <wsNetworkWPA2RoambackKeyCacheHoldtime CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.23" Options="RW" CommandType="Integer" />
+        <wsNetworkStaticWEPAuthenticationMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.24" Options="RW" CommandType="Integer" />
+        <wsNetworkUseWEPTransferKeyIndex CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.25" Options="RW" CommandType="Integer" />
+        <wsNetworkWEPKeyType CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.26" Options="RW" CommandType="Integer" />
+        <wsNetworkWEPKeyLength CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.27" Options="RW" CommandType="Integer" />
+        <wsNetworkWEPKey1 CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.28" Options="RW" CommandType="String" />
+        <wsNetworkWEPKey2 CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.29" Options="RW" CommandType="String" />
+        <wsNetworkWEPKey3 CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.30" Options="RW" CommandType="String" />
+        <wsNetworkWEPKey4 CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.31" Options="RW" CommandType="String" />
+        <wsNetworkTunnelStatus CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.32" Options="R" CommandType="Integer" />
+        <wsNetworkRadiusFailthroughMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.36" Options="RW" CommandType="Integer" />
+        <wsNetworkRadiusBackuponeServerIP CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.37" Options="RW" CommandType="IPAddress" />
+        <wsNetworkRadiusBackuponeServerSecret CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.38" Options="RW" CommandType="String" />
+      </wsNetworkEntry>
+      <wsNetworkClientQosEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsNetworkId CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsNetworkClientQosMode CommandText="1.3.6.1.4.1.171.10.73.30.3.9.1.3" Options="RW" CommandType="Integer" />
+        <wsNetworkClientQosBandwidthLimitDown CommandText="1.3.6.1.4.1.171.10.73.30.3.9.1.1" Options="RW" CommandType="Gauge" />
+        <wsNetworkClientQosBandwidthLimitUp CommandText="1.3.6.1.4.1.171.10.73.30.3.9.1.2" Options="RW" CommandType="Gauge" />
+      </wsNetworkClientQosEntry>
+    </Networks>
+    <Sensor_Cluster>
+      <wsPeerGroupId Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.3.0" CommandType="Integer" />
+      <wsPeerStatusEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsPeerIpAddress Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.10.1.1.1" CommandType="IPAddress" CommandSuffix="0" />
+        <wsPeerVendorId Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.10.1.1.2" CommandType="Integer" />
+        <wsPeerProtocolVersion Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.10.1.1.3" CommandType="Integer" />
+        <wsPeerSoftwareVersion Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.10.1.1.4" CommandType="String" />
+        <wsPeerDiscoveryReason Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.10.1.1.5" CommandType="Integer" />
+        <wsPeerAge Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.10.1.1.6" CommandType="Time" />
+      </wsPeerStatusEntry>
+    </Sensor_Cluster>
+    <Sensor_RogueAPInfo>
+      <wsRFScanAPStatusEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsRFScanAPMacAddress Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.11.1.1.1" CommandType="MAC" CommandSuffix="0" />
+        <wsRFScanAPSSID Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.1.1.4" CommandType="String" />
+        <wsRFScanAPPhysicalMode Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.1.1.5" CommandType="Integer" />
+        <wsRFScanAPChannel Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.1.1.6" CommandType="Integer" />
+        <wsRFScanAPStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.1.1.9" CommandType="Integer" />
+        <wsRFScanAPAge Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.1.1.11" CommandType="Time" />
+      </wsRFScanAPStatusEntry>
+    </Sensor_RogueAPInfo>
+    <Sensor_CanManagedAPInfo>
+      <wsFailureAPStatusEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsFailedAPMacAddress Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.1" CommandType="MAC" CommandSuffix="0" />
+        <wsFailedAPIpAddress Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.2" CommandType="IPAddress" />
+        <wsFailedAPVendorId Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.3" CommandType="Integer" />
+        <wsFailedAPSoftwareVersion Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.4" CommandType="String" />
+        <wsFailedAPHWType Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.5" CommandType="Integer" />
+        <wsFailedAPFailureType Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.6" CommandType="Integer" />
+        <wsFailedAPProtocolVersion Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.9" CommandType="Integer" />
+        <wsFailedAPReportingSwitch Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.11" CommandType="Integer" />
+        <wsFailedAPSwitchMacAddress Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.12" CommandType="MAC" />
+        <wsFailedAPSwitchIpAddress Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.11.3.1.13" CommandType="IPAddress" />
+      </wsFailureAPStatusEntry>
+    </Sensor_CanManagedAPInfo>
+    <Sensor_AuthenticatedClientsInfo>
+      <clientInformationEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <clientMacAddress Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.9.1.1.1" CommandType="MAC" CommandSuffix="0" />
+        <clientSSIDName Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.1.1.4" CommandType="String" />
+        <clientAuthenticated Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.1.1.6" CommandType="Integer" />
+        <wsAuthenticatedClientAge Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.1.1.10" CommandType="Time" />
+      </clientInformationEntry>
+      <wsAuthenticatedClientStatisticsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsAuthenticatedClientMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsAuthenticatedClientPktsRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.2.1.1" CommandType="Counter64" />
+        <wsAuthenticatedClientBytesRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.2.1.2" CommandType="Counter64" />
+        <wsAuthenticatedClientPktsTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.2.1.3" CommandType="Counter64" />
+        <wsAuthenticatedClientBytesTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.9.2.1.4" CommandType="Counter64" />
+      </wsAuthenticatedClientStatisticsEntry>
+    </Sensor_AuthenticatedClientsInfo>
+    <Sensor_ManagedApStatus>
+      <wsManagedAPStatusEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsManagedAPMacAddress Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.1" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPIpAddress Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.2" CommandType="IPAddress" />
+        <wsManagedAPSoftwareVersion Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.4" CommandType="String" />
+        <wsManagedAPDiscoveryReason Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.8" CommandType="Integer" />
+        <wsManagedAPStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.9" CommandType="Integer" />
+        <wsManagedAPAuthenticatedClients Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.10" CommandType="Integer" />
+        <wsManagedAPSysUpTime Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.11" CommandType="Time" />
+        <wsManagedAPProfileId Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.12" CommandType="Integer" />
+        <wsManagedAPProfileName Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.13" CommandType="String" />
+        <wsManagedAPProtocolVersion Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.14" CommandType="Integer" />
+        <wsManagedAPCodeDownloadStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.15" CommandType="Integer" />
+        <wsManagedAPLocation Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.16" CommandType="String" />
+        <wsManagedAPLastFailingConfigElement Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.17" CommandType="Integer" />
+        <wsManagedAPConfigFailureErrMsg Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.18" CommandType="String" />
+        <wsManagedAPReset Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.19" CommandType="Integer" />
+        <wsManagedAPResetStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.20" CommandType="Integer" />
+        <wsManagedAPDebugStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.24" CommandType="Integer" />
+        <wsManagedAPAge Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.25" CommandType="Time" />
+        <wsManagedAPHWType Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.1.1.26" CommandType="String" />
+      </wsManagedAPStatusEntry>
+      <wsManagedAPRadioStatusEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_2">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPRadioInterface Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.1" CommandType="Integer" CommandSuffix="1 " />
+        <wsManagedAPRadioMacAddress Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.2" CommandType="MAC" />
+        <wsManagedAPRadioChannel Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.3" CommandType="Integer" />
+        <wsManagedAPRadioTxPower Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.4" CommandType="Integer" />
+        <wsManagedAPRadioAuthenticatedClients Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.5" CommandType="Integer" />
+        <wsManagedAPRadioWLANUtilization Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.6" CommandType="Integer" />
+        <wsManagedAPRadioFixedChannelIndicator Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.7" CommandType="Integer" />
+        <wsManagedAPRadioMCAStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.8" CommandType="Integer" />
+        <wsManagedAPRadioFixedPowerIndicator Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.9" CommandType="Integer" />
+        <wsManagedAPRadioMPAStatus Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.10" CommandType="Integer" />
+        <wsManagedAPRadioNeighborCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.11" CommandType="Integer" />
+        <wsManagedAPRadioFixedChannelAction Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.12" CommandType="Integer" />
+        <wsManagedAPRadioFixedChannel Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.13" CommandType="Integer" />
+        <wsManagedAPRadioFixedPowerAction Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.14" CommandType="Integer" />
+        <wsManagedAPRadioFixedPower Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.8.4.1.15" CommandType="Integer" />
+      </wsManagedAPRadioStatusEntry>
+      <wsManagedAPRadioEligibleChannelListEntry Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_2">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPRadioInterface Options="N" CommandText="X" CommandType="Integer" CommandSuffix="1" />
+        <wsManagedAPRadioEligibleChannel Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.6.1.1" CommandType="Integer" />
+      </wsManagedAPRadioEligibleChannelListEntry>
+      <wsManagedAPVAPStatusEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_3">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPRadioInterface Options="N" CommandText="X" CommandType="Integer" CommandSuffix="1" />
+        <wsManagedVAPId Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.8.10.1.1" CommandType="Integer" CommandSuffix="2" />
+        <wsManagedVAPMacAddress Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.10.1.2" CommandType="MAC" />
+        <wsManagedVAPSSID Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.10.1.3" CommandType="String" />
+        <wsManagedVAPAssociatedClients Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.10.1.4" CommandType="Gauge" />
+      </wsManagedAPVAPStatusEntry>
+      <wsAPProfileVAPEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_3">
+        <wsAPProfileId Options="N" CommandText="X" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface Options="N" CommandText="X" CommandType="Integer" CommandSuffix="1" />
+        <wsVAPId Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.3.6.1.1" CommandType="Integer" CommandSuffix="2" />
+        <wsVAPMode Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.6.1.2" CommandType="Integer" />
+        <wsVAPNetworkId Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.6.1.3" CommandType="Integer" />
+      </wsAPProfileVAPEntry>
+      <wsAPProfileEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsAPProfileId Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.1" CommandType="Integer" CommandSuffix="0" />
+        <wsAPProfileName Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.2" CommandType="Integer" />
+      </wsAPProfileEntry>
+      <wsAPProfileRadioEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_2">
+        <wsAPProfileId Options="N" CommandText="X" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.1" CommandType="Integer" CommandSuffix="1" />
+        <wsAPRadioAdminMode Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.2" CommandType="Integer" />
+        <wsAPRadioFrequency Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.3" CommandType="Integer" />
+        <wsAPRadioSentryScanChannel Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.7" CommandType="Integer" />
+      </wsAPProfileRadioEntry>
+      <wsNetworkEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsNetworkId CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsNetworkSSID CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.3" Options="RW" CommandType="String" />
+        <wsNetworkSecurityMode CommandText="1.3.6.1.4.1.171.10.73.30.3.8.1.15" Options="RW" CommandType="Integer" />
+      </wsNetworkEntry>
+    </Sensor_ManagedApStatus>
+    <Sensor_ManagedApStatistics>
+      <wsManagedAPStatisticsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPEthernetPktsRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.5" CommandType="Counter64" />
+        <wsManagedAPEthernetBytesRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.6" CommandType="Counter64" />
+        <wsManagedAPEthernetMcastPktsRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.7" CommandType="Counter64" />
+        <wsManagedAPEthernetPktsTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.8" CommandType="Counter64" />
+        <wsManagedAPEthernetBytesTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.9" CommandType="Counter64" />
+      </wsManagedAPStatisticsEntry>
+      <wsManagedAPRadioStatisticsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_2">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPRadioInterface Options="N" CommandText="X" CommandType="Integer" CommandSuffix="1 " />
+        <wsManagedAPRadioWLANPktsRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.1" CommandType="Counter64" />
+        <wsManagedAPRadioWLANBytesRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.2" CommandType="Counter64" />
+        <wsManagedAPRadioWLANPktsTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.3" CommandType="Counter64" />
+        <wsManagedAPRadioWLANBytesTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.4" CommandType="Counter64" />
+        <wsManagedAPRadioTxFragmentCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.5" CommandType="Counter32" />
+        <wsManagedAPRadioMcastTxFrameCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.6" CommandType="Counter32" />
+        <wsManagedAPRadioFailedCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.7" CommandType="Counter32" />
+        <wsManagedAPRadioRetryCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.8" CommandType="Counter32" />
+        <wsManagedAPRadioMultipleRetryCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.9" CommandType="Counter32" />
+        <wsManagedAPRadioFrameDuplicateCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.10" CommandType="Counter32" />
+        <wsManagedAPRadioRTSSuccessCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.11" CommandType="Counter32" />
+        <wsManagedAPRadioRTSFailureCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.12" CommandType="Counter32" />
+        <wsManagedAPRadioACKFailureCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.13" CommandType="Counter32" />
+        <wsManagedAPRadioRecvdFragmentCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.14" CommandType="Counter32" />
+        <wsManagedAPRadioMcastRecvdFrameCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.15" CommandType="Counter32" />
+        <wsManagedAPRadioFCSErrorCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.16" CommandType="Counter32" />
+        <wsManagedAPRadioTxFrameCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.17" CommandType="Counter32" />
+        <wsManagedAPRadioWEPUndecryptableCount Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.5.1.18" CommandType="Counter32" />
+      </wsManagedAPRadioStatisticsEntry>
+      <wsManagedAPVAPStatisticsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_3">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <wsManagedAPRadioInterface Options="N" CommandText="X" CommandType="Integer" CommandSuffix="1" />
+        <wsManagedVAPId Options="N" CommandText="X" CommandType="Integer" CommandSuffix="2" />
+        <wsManagedVAPAssociationFailures Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.11.1.1" CommandType="Counter32" />
+        <wsManagedVAPAuthenticationFailures Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.11.1.2" CommandType="Counter32" />
+        <wsManagedVAPWLANPktsRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.11.1.3" CommandType="Counter64" />
+        <wsManagedVAPWLANBytesRecvd Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.11.1.4" CommandType="Counter64" />
+        <wsManagedVAPWLANPktsTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.11.1.5" CommandType="Counter64" />
+        <wsManagedVAPWLANBytesTransmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.11.1.6" CommandType="Counter64" />
+      </wsManagedAPVAPStatisticsEntry>
+    </Sensor_ManagedApStatistics>
+    <Sensor_ManagedAPWLANUtilizationBytes>
+      <rxtxStatisticsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <Transmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.4" CommandType="Counter64" />
+        <Received Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.2" CommandType="Counter64" />
+      </rxtxStatisticsEntry>
+    </Sensor_ManagedAPWLANUtilizationBytes>
+    <Sensor_ManagedAPWLANUtilizationPackets>
+      <rxtxStatisticsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <Transmitted Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.3" CommandType="Counter64" />
+      </rxtxStatisticsEntry>
+    </Sensor_ManagedAPWLANUtilizationPackets>
+    <Sensor_WirelessErrorPackets>
+      <totalErrorPacketsEntry Proto="SNMPv2" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsManagedAPMacAddress Options="N" CommandText="X" CommandType="MAC" CommandSuffix="0" />
+        <TxErrors Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.10" CommandType="Counter64" />
+        <RxErrors Options="R" CommandText="1.3.6.1.4.1.171.10.73.30.8.3.1.11" CommandType="Counter64" />
+      </totalErrorPacketsEntry>
+    </Sensor_WirelessErrorPackets>
+    <SpanningProfile>
+      <spanning Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.2.7.1.0" CommandType="Integer" />
+    </SpanningProfile>
+    <SaveProfile>
+      <save Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.3.1.0" CommandType="Integer" />
+    </SaveProfile>
+    <RebootProfile>
+      <reboot Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.11.3.10.0" CommandType="Integer" />
+    </RebootProfile>
+    <APProfile>
+      <wsAPProfileEntry Proto="SNMP" Type="CreateTable" Desc="non" Method="Append_1">
+        <wsAPProfileId CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPProfileName CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.2" Options="RW" CommandType="String" />
+        <wsAPProfileState CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.3" Options="R" CommandType="Integer" />
+        <wsMacAuthenticationDefaultAction CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.4" Options="RW" CommandType="Integer" />
+        <wsAPRadiusServerIP CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.5" Options="RW" CommandType="IPAddress" />
+        <wsAPRadiusServerSecret CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.6" Options="RW" CommandType="String" />
+        <wsAPRadiusAcountingMode CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.7" Options="RW" CommandType="Integer" />
+        <wsCopyAPProfileToProfileId CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.9" Options="RW" CommandType="Integer" />
+        <wsAPProfileApply CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.10" Options="RW" CommandType="Integer" />
+        <wsAPRadiusFailthroughMode CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.11" Options="RW" CommandType="Integer" />
+        <wsAPRadiusBackuponeServerIP CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.12" Options="RW" CommandType="IPAddress" />
+        <wsAPRadiusBackuponeServerSecret CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.13" Options="RW" CommandType="String" />
+        <wsAPProfileRowStatus CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.8" Options="RW" CommandType="Integer" CommandStatus="RowStatus" />
+      </wsAPProfileEntry>
+      <wsAPProfileMACAuthenticationListEntry Proto="SNMP" Type="CreateTable" Desc="all" Method="Append_2">
+        <wsAPProfileId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsClientMACAddress CommandText="XXX" Options="N" CommandType="MAC" CommandSuffix="1" />
+        <wsClientNickName Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.2.1.2" CommandType="String" />
+        <wsAPProfileMACAuthenticationRowStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.3.2.1.3" CommandType="Integer" CommandStatus="RowStatus" />
+      </wsAPProfileMACAuthenticationListEntry>
+      <wsAPProfileVAPEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_3">
+        <wsAPProfileId CommandText="XX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface CommandText="XX" Options="N" CommandType="Integer" CommandSuffix="1" />
+        <wsVAPId CommandText="1.3.6.1.4.1.171.10.73.30.3.6.1.1" Options="N" CommandType="Integer" CommandSuffix="2" />
+        <wsVAPMode CommandText="1.3.6.1.4.1.171.10.73.30.3.6.1.2" Options="RW" CommandType="Integer" />
+        <wsVAPNetworkId CommandText="1.3.6.1.4.1.171.10.73.30.3.6.1.3" Options="RW" CommandType="Integer" />
+      </wsAPProfileVAPEntry>
+      <wsAPProfileQOSEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_3">
+        <wsAPProfileId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="1" />
+        <wsQOSQueueId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="2" />
+        <wsAPEDCAAIFS CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.2" Options="RW" CommandType="Integer" />
+        <wsAPEDCAMinContentionWindow CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.3" Options="RW" CommandType="Integer" />
+        <wsAPEDCAMaxContentionWindow CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.4" Options="RW" CommandType="Integer" />
+        <wsAPEDCAMaxBurst CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.5" Options="RW" CommandType="Integer" />
+        <wsStationEDCAAIFS CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.6" Options="RW" CommandType="Integer" />
+        <wsStationEDCAMinContentionWindow CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.7" Options="RW" CommandType="Integer" />
+        <wsStationEDCAMaxContentionWindow CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.8" Options="RW" CommandType="Integer" />
+        <wsStationEDCATXOPLimit CommandText="1.3.6.1.4.1.171.10.73.30.3.7.1.9" Options="RW" CommandType="Integer" />
+      </wsAPProfileQOSEntry>
+      <wsAPProfileRadioEntry1 Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_2">
+        <wsAPProfileId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.1" Options="N" CommandType="Integer" CommandSuffix="1" />
+        <wsAPRadioWMMMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.23" Options="RW" CommandType="Integer" />
+      </wsAPProfileRadioEntry1>
+      <wsAPProfileRadioEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_2">
+        <wsAPProfileId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.1" Options="N" CommandType="Integer" CommandSuffix="1" />
+        <wsAPRadioAdminMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.2" Options="RW" CommandType="Integer" />
+        <wsAPRadioFrequency CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.3" Options="RW" CommandType="Integer" />
+        <wsAPRadioOtherChannelsScanMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.4" Options="RW" CommandType="Integer" />
+        <wsAPRadioOtherChannelsScanInterval CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.5" Options="RW" CommandType="Integer" />
+        <wsAPRadioSentryScanMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.6" Options="RW" CommandType="Integer" />
+        <wsAPRadioSentryScanChannel CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.7" Options="RW" CommandType="Integer" />
+        <wsAPRadioScanDuration CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.8" Options="RW" CommandType="Integer" />
+        <wsAPRadioRateLimitMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.9" Options="RW" CommandType="Integer" />
+        <wsAPRadioRateLimit CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.10" Options="RW" CommandType="Integer" />
+        <wsAPRadioRateLimitBurst CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.11" Options="RW" CommandType="Integer" />
+        <wsAPRadioBeaconInterval CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.12" Options="RW" CommandType="Integer" />
+        <wsAPRadioDTIMPeriod CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.13" Options="RW" CommandType="Integer" />
+        <wsAPRadioFragmentationThreshold CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.14" Options="RW" CommandType="Integer" />
+        <wsAPRadioRTSThreshold CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.15" Options="RW" CommandType="Integer" />
+        <wsAPRadioShortRetryLimit CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.16" Options="R" CommandType="Integer" />
+        <wsAPRadioLongRetryLimit CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.17" Options="R" CommandType="Integer" />
+        <wsAPRadioMaxTransmitLifetime CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.18" Options="R" CommandType="Gauge" />
+        <wsAPRadioMaxReceiveLifetime CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.19" Options="R" CommandType="Gauge" />
+        <wsAPRadioMaxClients CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.20" Options="RW" CommandType="Integer" />
+        <wsAPRadioAutoPowerMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.21" Options="RW" CommandType="Integer" />
+        <wsAPRadioTxPower CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.22" Options="RW" CommandType="Integer" />
+        <wsAPRadioWMMMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.23" Options="RW" CommandType="Integer" />
+        <wsAPRadioLoadBalancingMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.24" Options="RW" CommandType="Integer" />
+        <wsAPRadioUtilization CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.25" Options="RW" CommandType="Integer" />
+        <wsAPRadioSuperAGMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.26" Options="RW" CommandType="Integer" />
+        <wsAPRadioExtendedRange CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.27" Options="RW" CommandType="Integer" />
+        <wsAPRadioAutoChannelMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.28" Options="RW" CommandType="Integer" />
+        <wsAPRadio802dot11aLimitChannelSelection CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.29" Options="RW" CommandType="Integer" />
+        <wsAPRadioStationIsolationMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.30" Options="RW" CommandType="Integer" />
+        <wsAPRadioAntennaDiversityMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.31" Options="RW" CommandType="Integer" />
+        <wsAPRadioChannelBandwidth CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.32" Options="RW" CommandType="Integer" />
+        <wsAPRadioPrimaryChannel CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.33" Options="RW" CommandType="Integer" />
+        <wsAPRadioDot11nProtectionMode CommandText="1.3.6.1.4.1.171.10.73.30.3.3.1.34" Options="RW" CommandType="Integer" />
+      </wsAPProfileRadioEntry>
+      <wsAPProfileRadioSupportedRatesEntry Proto="SNMP" Type="EditTable" Desc="" Method="Append_3">
+        <wsAPProfileId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="1" />
+        <wsSupportedDataRate CommandText="1.3.6.1.4.1.171.10.73.30.3.4.1.1" Options="N" CommandType="Integer" CommandSuffix="2" />
+        <wsAPProfileRadioSupportedDataMode CommandText="1.3.6.1.4.1.171.10.73.30.3.4.1.2" Options="RW" CommandType="Integer" />
+      </wsAPProfileRadioSupportedRatesEntry>
+      <wsAPProfileRadioAdvertisedRatesEntry Proto="SNMP" Type="EditTable" Desc="" Method="Append_3">
+        <wsAPProfileId CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPRadioInterface CommandText="XXX" Options="N" CommandType="Integer" CommandSuffix="1" />
+        <wsAdvertisedDataRate CommandText="1.3.6.1.4.1.171.10.73.30.3.5.1.1" Options="N" CommandType="Integer" CommandSuffix="2" />
+        <wsAPProfileRadioAdvertisedDataMode CommandText="1.3.6.1.4.1.171.10.73.30.3.5.1.2" Options="RW" CommandType="Integer" />
+      </wsAPProfileRadioAdvertisedRatesEntry>
+    </APProfile>
+    <VaildAPConfigProfile>
+      <wsValidAPConfigEntry Proto="SNMP" Type="CreateTable" Desc="non" Method="Append_1">
+        <wsAPMacAddress Options="N" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.1" CommandType="MAC" CommandSuffix="0" />
+        <wsAPLocation Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.2" CommandType="String" />
+        <wsAPMode Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.3" CommandType="Integer" />
+        <wsAPAuthenticationPasswd Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.4" CommandType="String" />
+        <wsUseAPProfileId Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.5" CommandType="Integer" />
+        <wsAPRadio1Channel Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.6" CommandType="Integer" />
+        <wsAPRadio2Channel Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.7" CommandType="Integer" />
+        <wsAPRadio1TxPower Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.8" CommandType="Integer" />
+        <wsAPRadio2TxPower Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.9" CommandType="Integer" />
+        <wsAPConfigRowStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.11.1.10" CommandType="Integer" CommandStatus="RowStatus" />
+      </wsValidAPConfigEntry>
+    </VaildAPConfigProfile>
+    <ApProfileApplyProfile>
+      <wsAPProfileEntry Proto="SNMP" Type="EditTable" Desc="Network" Method="Append_1">
+        <wsAPProfileId CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsAPProfileName CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.2" Options="RW" CommandType="String" />
+        <wsAPProfileApply CommandText="1.3.6.1.4.1.171.10.73.30.3.1.1.10" Options="RW" CommandType="Integer" />
+      </wsAPProfileEntry>
+    </ApProfileApplyProfile>
+    <ApDiscoverIPConfigProfile>
+      <wsIPPollMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.30.2.1.0" Options="RW" CommandType="Integer" />
+      <wsIPPollListEntry Proto="SNMP" Type="CreateTable" Desc="Network" Method="Append_1">
+        <wsPollIpAddress CommandText="1.3.6.1.4.1.171.10.73.30.2.3.1.1" Options="N" CommandType="IPAddress" CommandSuffix="0" />
+        <wsPollIPStatus CommandText="1.3.6.1.4.1.171.10.73.30.2.3.1.2" Options="R" CommandType="Integer" />
+        <wsIPPollRowStatus CommandText="1.3.6.1.4.1.171.10.73.30.2.3.1.3" Options="RW" CommandType="Integer" CommandStatus="RowStatus" />
+      </wsIPPollListEntry>
+    </ApDiscoverIPConfigProfile>
+    <ApDiscoveryVlanConfigProfile>
+      <wsL2DiscoveryMode Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.73.30.2.2.0" Options="RW" CommandType="Integer" />
+      <wsL2DiscoveryVlanListEntry Proto="SNMP" Type="CreateTable" Desc="Network" Method="Append_1">
+        <wsL2DiscoveryVlanId CommandText="1.3.6.1.4.1.171.10.73.30.2.4.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <wsL2DiscoveryVlanRowStatus CommandText="1.3.6.1.4.1.171.10.73.30.2.4.1.2" Options="RW" CommandType="Integer" CommandStatus="RowStatus" />
+      </wsL2DiscoveryVlanListEntry>
+    </ApDiscoveryVlanConfigProfile>
+    <WLanSwitchStatusProfile>
+      <wsMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.30.1.1.0" CommandType="Integer" />
+    </WLanSwitchStatusProfile>
+    <SNTPSettingProfile>
+      <sntpState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.1.3.0" CommandType="Integer" />
+      <agentSntpClientPort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.1.4.0" CommandType="Gauge" />
+      <agentSntpClientBroadcastInterval Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.3.2.0" CommandType="Integer" />
+      <agentSntpClientUnicastPollInterval Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.1.0" CommandType="Integer" />
+      <agentSntpClientUnicastPollTimeout Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.2.0" CommandType="Integer" />
+      <agentSntpClientUnicastPollRetry Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.3.0" CommandType="Integer" />
+      <agentSntpClientUcastServerEntry Proto="SNMP" Type="CreateTable" Desc="" Method="Append_1">
+        <agentSntpClientUcastServerIndex Options="N" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.1" CommandType="Integer" CommandSuffix="0" />
+        <agentSntpClientUcastServerAddressType Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.2" CommandType="Integer" />
+        <agentSntpClientUcastServerAddress Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.3" CommandType="Integer" />
+        <agentSntpClientUcastServerPort Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.4" CommandType="Integer" />
+        <agentSntpClientUcastServerVersion Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.5" CommandType="Integer" />
+        <agentSntpClientUcastServerPrecedence Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.6" CommandType="Integer" />
+        <agentSntpClientUcastServerRowStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.73.23.1.2.6.1.12" CommandType="Integer" CommandStatus="RowStatus" />
+      </agentSntpClientUcastServerEntry>
+    </SNTPSettingProfile>
+    <SSHSettingProfile>
+      <sshAdminState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.17.2.1.0" CommandType="Integer" />
+      <agentSSHProtocolLevel Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.17.2.2.0" CommandType="Integer" />
+      <agentSSHSessionsCount Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.17.2.3.0" CommandType="Integer" />
+      <agentSSHMaxSessionsCount Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.17.2.4.0" CommandType="Integer" />
+      <agentSSHSessionTimeout Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.73.17.2.5.0" CommandType="Integer" />
+    </SSHSettingProfile>
+  </Command>
+  <Method>
+    <Append_1 ParaCount="1" />
+    <Append_2 ParaCount="2" />
+    <Append_3 ParaCount="3" />
+  </Method>
+</Device>

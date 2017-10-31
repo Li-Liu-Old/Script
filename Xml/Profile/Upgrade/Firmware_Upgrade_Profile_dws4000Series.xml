@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <agentNextActiveImage>image1</agentNextActiveImage>
+      <agentTransferDownloadMode>1</agentTransferDownloadMode>
+      <agentTransferDownloadDataType>2</agentTransferDownloadDataType>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <agentTransferDownloadImagename>2</agentTransferDownloadImagename>
+      <agentTransferDownloadStart>1</agentTransferDownloadStart>
+    </FirmwareProfile>
+  </Profile>
+</Device>
+<!--
+Value list:	1: unknown(1) 
+ 	2: image1(2) 
+ 	3: image2(3) 
+-->

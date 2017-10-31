@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <sysLogServerAddress>0.0.0.0</sysLogServerAddress> 
+      <!--<sysLogUDPPort>514</sysLogUDPPort>
+      <sysLogSeverity>7</sysLogSeverity>	  
+      <syslogFacility>128</syslogFacility>-->
+      <sysLogCtrlState>2</sysLogCtrlState>
+    </SyslogProfile>
+  </Profile>
+</Device>

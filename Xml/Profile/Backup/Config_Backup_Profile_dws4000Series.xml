@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <agentTransferUploadMode>1</agentTransferUploadMode>
+      <uploadFilename></uploadFilename>
+      <agentTransferUploadDataType>8</agentTransferUploadDataType>
+      <agentTransferUploadServerAddressType>1</agentTransferUploadServerAddressType>
+      <uploadServerAddress></uploadServerAddress>
+      <agentTransferUploadStart>1</agentTransferUploadStart>
+    </BackupProfile>
+  </Profile>
+</Device>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_Cluster type="Custom">
+      <wsPeerGroupId />
+      <wsPeerStatusEntry wsPeerIpAddress=""
+                         wsPeerVendorId=""
+                         wsPeerProtocolVersion=""
+                         wsPeerSoftwareVersion=""
+                         wsPeerDiscoveryReason=""
+                         wsPeerAge=""/>       
+    </Sensor_Cluster>
+  </Profile>
+</Device>
+<!--
+wsPeerDiscoveryReason Value list:	1: ip-poll(1)，2: l2-poll(2) 
+-->

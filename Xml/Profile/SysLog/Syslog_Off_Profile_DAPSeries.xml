@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <sysLogServerAddress>0.0.0.0</sysLogServerAddress>
+      <systemLogSystemLevel>0</systemLogSystemLevel>
+      <systemLogWirelessLevel>0</systemLogWirelessLevel>
+      <systemLogNoticeLevel>0</systemLogNoticeLevel>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+Value list:	0: disabled(0) 1: enabled(1) 
+-->

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <uploadServerAddress></uploadServerAddress>
+      <uploadFilename></uploadFilename>
+      <agentBscSwFileLoadType>2</agentBscSwFileLoadType>
+      <agentBscSwFileCtrl>3</agentBscSwFileCtrl>
+    </BackupProfile>
+  </Profile>
+</Device>

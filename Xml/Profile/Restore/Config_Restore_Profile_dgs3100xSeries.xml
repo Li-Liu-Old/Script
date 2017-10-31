@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile type="Custom">
+      <configEntry >
+        <Item rlCopyIndex="1"
+              rlCopyRowStatus="4"
+              rlCopySourceLocation="3"
+              rlCopySourceFileType="6"
+              downloadFilename=""
+              downloadServerAddress=""
+              rlCopyDestinationLocation="1"
+              rlCopyDestinationFileType="3"
+              />
+      </configEntry>
+    </RestoreProfile>
+  </Profile>
+</Device>
+<!--
+rlCopyRowStatus
+ Value List:
+ 1:Active 2:notInService 3:notReady 4:createAndGo 5:createAndWait 6:Destory
+rlCopySourceLocation
+ Value List: 
+ 1:Local 2:anthorUnit 3:tftp 4: xmodem 5:scp 6 :serial
+rlCopySourceFileType 
+ Value List: 1:other 2:runningConfig 3 StartipConfig
+ 4 backupConfig 5 runningMibConfig 6 StartMibConfig
+ 7 backupMibConfig 8 image 9 boot 10 null 11 logging
+-->

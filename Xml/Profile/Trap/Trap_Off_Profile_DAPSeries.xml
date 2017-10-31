@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapManagerStatus>0</trapManagerStatus>
+      <trapManagerEntry>
+        
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>
+<!--
+trapManagerStatus Value list:	0: disabled(0) 1: enabled(1) 
+
+-->

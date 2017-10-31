@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapManagerEntry >
+        <Item trapManagerIndex="0"
+					trapManagerCommunity=""
+					trapManagerIpAddress=""
+                    trapManagerStatus="1"
+					trapManagerMsgVer="2" />
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>
+<!--
+trapManagerRowStatus(trapManagerStatus) Value list:	1: active(1) 2: notInService(2) 3: config(3) 4: destroy(4) (创建默认3，开启1，关闭2，删除4)
+trapManagerMsgVer Value list:	1: snmpv1(1) 2: snmpv2c(2) Default values:1: snmpv2c (name)
+trapManagerIpAddress : IPAddress
+-->

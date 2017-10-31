@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <downloadFilename>
+      </downloadFilename>
+      <tftpCommand>2</tftpCommand>
+      <tftpUpgradeSettingCommand>3</tftpUpgradeSettingCommand>
+      <tftpUpgradeSettingCommand>4</tftpUpgradeSettingCommand>
+    </RestoreProfile>
+  </Profile>
+</Device>
+<!--
+tftpCommand
+Value list:	1: connect(1) 
+ 	2: get(2) 
+ 	3: put(3) 
+ 	4: nothing(4) 
+ 	5: putacl(5)
+tftpUpgradeSettingCommand 
+Value list:	1: firmwareUpdate(1) 
+ 	2: configSetting(2) 
+ 	3: configSave(3) 
+ 	4: reboot(4) 
+ 	5: factoryReset(5) 
+ 	6: nothing(6) 
+ 	7: certificateFileUpdate(7) 
+ 	8: keyFileUpdate(8) 
+ 	9: getacl(9) 
+-->

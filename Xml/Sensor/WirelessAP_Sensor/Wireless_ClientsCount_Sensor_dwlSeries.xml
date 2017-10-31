@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_AuthenticatedClientsInfo  type="Custom">
+      <clientInformationEntry clientMacAddress=""
+                              radioInterface=""
+                              clientAuthenticated=""
+                              apAssocRxPackets=""
+                              apAssocTxPackets=""
+                              apAssocRxBytes=""
+                              apAssocTxBytes=""/>     
+    </Sensor_AuthenticatedClientsInfo>
+  </Profile>
+  <ExecTime/>
+</Device>
+<!--
+clientAuthenticated Value list:	1: yes(1),2: no(2)
+读取认证接入的Client数，以Client的MAC为index，认证通过为yes，Inrerface为SSID接口
+-->

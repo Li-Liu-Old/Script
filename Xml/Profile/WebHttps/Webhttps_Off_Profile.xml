@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <WebHttpsProfile>
+      <webHttpsStatus>2</webHttpsStatus>
+    </WebHttpsProfile>
+  </Profile>
+</Device>
+<!--
+1:enable,2:disable
+-->

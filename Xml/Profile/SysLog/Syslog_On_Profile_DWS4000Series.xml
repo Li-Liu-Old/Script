@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogCtrlState>1</sysLogCtrlState>
+      <sysLogServerEntry>
+        <Item agentLogHostTableIndex="1"
+              agentLogHostTableIpAddressType="1"
+              sysLogServerAddress=""
+              agentLogHostTablePort="514"
+              agentLogHostTableSeverityFilter="7"
+              />      
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+sysLogCtrlState  Value list:	1: enable(1) 2: disable(2) 
+agentLogHostTableIpAddressType Value List : unknow(0) ipv4(1) ipv6(2) ipv4z(3) ipv6z(4) dns(16)
+sysLogServerAddress : IPAddressHex
+agentLogHostTableSeverityFilter Value list:0: emergency(0)1: alert(1)2: critical(2)3: error(3)4: warning(4)5: notice(5)6: informational(6)7: debug(7)
+agentLogHostTableRowStatus(sysLogServerState) Value List:1:active(1) 2:notInService(2) 3:notReady(3) 4:createAndGo(4)5:createAndWait(5)6:destory(6)
+-->

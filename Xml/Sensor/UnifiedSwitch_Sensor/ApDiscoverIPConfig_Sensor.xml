@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <ApDiscoverIPConfigProfile>
+      <wsIPPollMode></wsIPPollMode>
+      <wsIPPollListEntry wsPollIpAddress="" wsPollIPStatus="" wsIPPollRowStatus="" />
+    </ApDiscoverIPConfigProfile>
+  </Profile>
+</Device>

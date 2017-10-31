@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <TrapProfile>
+     <trapCtrlState>1</trapCtrlState>
+     <trapManagerIpAddress></trapManagerIpAddress>
+	 <dpSnmpHostSecurity>1</dpSnmpHostSecurity>
+	 <trapManagerCommunity></trapManagerCommunity>
+    </TrapProfile>
+  </Profile>
+</Device>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_PortPOEStatus>
+      <PortCtrlEntry PortGroupIndex="" PortIndex="" AdminMode="" Priority="" PowerLimit="" UserDefined="" TimeRange="" />
+      <PortInfoEntry PortGroupIndex="" PortIndex="" Class="" Power="" Voltage="" Current="" Status="" />
+    </Sensor_PortPOEStatus>
+  </Profile>
+  <ExecTime/>
+</Device>

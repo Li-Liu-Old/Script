@@ -1,0 +1,3886 @@
+<Profiles>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="ModifyRadioSettings" ProfileNameText="修改无线电配置" Description="无线电设置控制在无线接入点和其直接与物理介质相互作用的无线电设备的行为; 即，在无线接入点如何发射和发射什么类型的电磁波。">
+    <DeviceTypes>
+      <DeviceType type="DWL-3500AP" oid="1.3.6.1.4.1.171.10.37.27.1" />
+      <DeviceType type="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" />
+    </DeviceTypes>
+    <apRadioName>
+      <option text="5.0GHz">
+        <Device value="wlan0" deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" />
+      </option>
+      <option text="2.4GHz">
+        <Device value="wlan1" deviceType="" oid="" />
+      </option>
+    </apRadioName>
+    <apRadioMode>
+      <option text="IEEE 802.11g">
+        <Device deviceType="" value="3" />
+        <apRadioName text="2.4GHz" />
+      </option>
+      <option text="Dynamic Turbo 2.4GHz">
+        <Device deviceType="" value="7" />
+        <apRadioName text="2.4GHz" />
+      </option>
+      <option text="IEEE 802.11a">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="1" />
+        <apRadioName text="5.0GHz" />
+      </option>
+      <option text="Dynamic Turbo 5.0GHz">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="5" />
+        <apRadioName text="5.0GHz" />
+      </option>
+    </apRadioMode>
+    <apRadioStaticChannel>
+      <option text="Auto">
+        <Device deviceType="" value="" />
+      </option>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="36">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="36" />
+      </option>
+      <option text="40">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="40" />
+      </option>
+      <option text="44">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="44" />
+      </option>
+      <option text="48">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="48" />
+      </option>
+      <option text="149">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="149" />
+      </option>
+      <option text="153">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="153" />
+      </option>
+      <option text="157">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="157" />
+      </option>
+      <option text="161">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="161" />
+      </option>
+      <option text="165">
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="165" />
+      </option>
+    </apRadioStaticChannel>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="ModifyRadioSettings" ProfileNameText="Modifying Radio Configuration" Description="Radio settings control the behavior of the radio devices in the AP and its interaction with the physical medium directly; that is, how and what type of electromagnetic waves the AP emits.">
+    <DeviceTypes>
+      <DeviceType type="DWL-3600AP" oid="1.3.6.1.4.1.171.10.129.1.1" />
+      <DeviceType type="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" />
+      <DeviceType type="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" />
+    </DeviceTypes>
+    <apRadioName>
+      <option text="5.0GHz">
+        <Device value="wlan0" deviceType="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" />
+        <Device value="wlan0" deviceType="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" />
+      </option>
+      <option text="2.4GHz">
+        <Device value="wlan1" deviceType="" oid="" />
+      </option>
+    </apRadioName>
+    <apRadioMode>
+      <option text="IEEE 802.11a">
+        <Device deviceType="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" value="1" />
+        <Device deviceType="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" value="1" />
+        <apRadioName text="5.0GHz" />
+      </option>
+      <option text="IEEE 802.11a/n">
+        <Device deviceType="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" value="3" />
+        <Device deviceType="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" value="3" />
+        <apRadioName text="5.0GHz" />
+      </option>
+      <option text="5.0GHz IEEE 802.11n">
+        <Device deviceType="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" value="5" />
+        <Device deviceType="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" value="5" />
+        <apRadioName text="5.0GHz" />
+      </option>
+      <option text="IEEE 802.11b/g">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="IEEE 802.11b/g/n">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="2.4GHz IEEE 802.11n">
+        <Device deviceType="" value="6" />
+      </option>
+    </apRadioMode>
+    <apRadioStaticChannel>
+      <option text="Auto">
+        <Device deviceType="" value="" />
+      </option>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="40">
+        <Device deviceType="" value="40" />
+      </option>
+      <option text="44">
+        <Device deviceType="" value="44" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="149">
+        <Device deviceType="" value="149" />
+      </option>
+      <option text="153">
+        <Device deviceType="" value="153" />
+      </option>
+      <option text="157">
+        <Device deviceType="" value="157" />
+      </option>
+      <option text="161">
+        <Device deviceType="" value="161" />
+      </option>
+      <option text="165">
+        <Device deviceType="" value="165" />
+      </option>
+    </apRadioStaticChannel>
+    <apRadioChannelBandwidth>
+      <option text="20">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="40">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioChannelBandwidth>
+    <apRadioPrimaryChannel>
+      <option text="Lower">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Upper">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioPrimaryChannel>
+    <apRadioShortGuardIntervalSupported>
+      <option text="No">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Yes">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioShortGuardIntervalSupported>
+    <apRadioProtection>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="OFF">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioProtection>
+    <apRadioFixedMulticastRate>
+      <option text="Auto">
+        <Device deviceType="" value="auto" />
+      </option>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="5.5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="18" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="24" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="54" />
+      </option>
+    </apRadioFixedMulticastRate>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="ManagedAccessPoint" ProfileNameText="被管理的无线接入点配置" Description="在UAP ，您可以配置多达四个可以管理它的D-Link的一体化交换机的IP地址。为了管理AP ，交换机和AP必须发现对方。">
+    <DeviceTypes>
+      <DeviceType type="DWL-8610AP" oid="1.3.6.1.4.1.171.10.136.1.1" />
+    </DeviceTypes>
+    <apRadioName>
+      <option text="5.0GHz">
+        <Device value="wlan1" />
+      </option>
+      <option text="2.4GHz">
+        <Device value="wlan0" />
+      </option>
+    </apRadioName>
+    <apRadioMode>
+      <option text="IEEE 802.11a">
+        <Device value="1" />
+        <apRadioName text="5.0GHz" />
+      </option>
+      <option text="IEEE 802.11a/n">
+        <Device value="3" />
+        <apRadioName text="5.0GHz" />
+      </option>
+      <option text="IEEE 802.11a/n/ac">
+        <Device value="7" />
+      </option>
+      <option text="IEEE 802.11n/ac">
+        <Device value="8" />
+      </option>
+      <option text="IEEE 802.11b/g">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="IEEE 802.11b/g/n">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="2.4GHz IEEE 802.11n">
+        <Device deviceType="" value="6" />
+      </option>
+    </apRadioMode>
+    <apRadioStaticChannel>
+      <option text="Auto">
+        <Device deviceType="" value="" />
+      </option>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="40">
+        <Device deviceType="" value="40" />
+      </option>
+      <option text="44">
+        <Device deviceType="" value="44" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="149">
+        <Device deviceType="" value="149" />
+      </option>
+      <option text="153">
+        <Device deviceType="" value="153" />
+      </option>
+      <option text="157">
+        <Device deviceType="" value="157" />
+      </option>
+      <option text="161">
+        <Device deviceType="" value="161" />
+      </option>
+      <option text="165">
+        <Device deviceType="" value="165" />
+      </option>
+    </apRadioStaticChannel>
+    <apRadioChannelBandwidth>
+      <option text="20">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="40">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="80">
+        <Device deviceType="" value="3" />
+      </option>
+    </apRadioChannelBandwidth>
+    <apRadioPrimaryChannel>
+      <option text="Lower">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Upper">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioPrimaryChannel>
+    <apRadioShortGuardIntervalSupported>
+      <option text="No">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Yes">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioShortGuardIntervalSupported>
+    <apRadioProtection>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="OFF">
+        <Device deviceType="" value="2" />
+      </option>
+    </apRadioProtection>
+    <apRadioFixedMulticastRate>
+      <option text="Auto">
+        <Device deviceType="" value="auto" />
+      </option>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="5.5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="18" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="24" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="54" />
+      </option>
+    </apRadioFixedMulticastRate>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="ManagedAccessPoint" ProfileNameText="Managed Access Point Configuration" Description="On the UAP, you can configure the IP addresses of up to four D-Link Wireless Switches that can manage it. In order to manage the AP, the switch and AP must discover each other. ">
+    <DeviceTypes>
+      <DeviceType type="DWL-3500AP" oid="1.3.6.1.4.1.171.10.37.27.1" />
+      <DeviceType type="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" />
+      <DeviceType type="DWL-3600AP" oid="1.3.6.1.4.1.171.10.129.1.1" />
+      <DeviceType type="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" />
+      <DeviceType type="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" />
+      <DeviceType type="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" />
+    </DeviceTypes>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="SSH" ProfileNameText="SSH配置" Description="安全Shell （ SSH）是一个提供从远程主机访问D -Link的UAP命令行的程序 ， SSH是比远程登录更安全的远程访问。从SSH页面中，您可以启用或禁用SSH访问系统。">
+    <DeviceTypes>
+      <DeviceType type="DWL-3600AP" oid="1.3.6.1.4.1.171.10.129.1.1" />
+      <DeviceType type="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" />
+      <DeviceType type="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" />
+      <DeviceType type="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" />
+    </DeviceTypes>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="RFManagement" ProfileNameText="无线电频率管理配置" Description="无线电频率（RF）广播信道定义了无线电频谱的无线接入点上的无线电设备使用用于发射和接收部分。无线接入点可用信道的范围是由此接入点的IEEE 802.11的模式（也被称为频带）来确定的。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <DeviceType type="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <DeviceType type="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+      <DeviceType type="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType type="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </DeviceTypes>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessGlobalConfiguration" ProfileNameText="无线全局配置" Description="通用全局配置">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <DeviceType type="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <DeviceType type="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+      <DeviceType type="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType type="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </DeviceTypes>
+    <wsMACAuthenticationMode>
+      <option text="White-List">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="1" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="1" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="1" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="1" />
+      </option>
+      <option text="Black-List">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="2" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="2" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="2" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="2" />
+      </option>
+    </wsMACAuthenticationMode>
+    <wsTunnelMtu>
+      <option text="1500">
+        <Device deviceType="" value="1500" />
+      </option>
+      <option text="1520">
+        <Device deviceType="" value="1520" />
+      </option>
+    </wsTunnelMtu>
+    <wsAPClientQosMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPClientQosMode>
+    <wsClientFailureAgeTime>
+      <Device deviceType="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <Device deviceType="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <Device deviceType="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+    </wsClientFailureAgeTime>
+    <wsClusterPriority>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+      <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+    </wsClusterPriority>
+    <wsDetectedClientAgeTime>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+      <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+    </wsDetectedClientAgeTime>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessSNMPTrapConfiguration" ProfileNameText="无线SNMP Trap配置" Description="如果您使用SNMP来管理统一交换机，您可以在交换机上配置SNMP代理发送Trap到SNMP管理器这个页面上。当无线接入点被交换机管理，这个交换机将通过从无线接入点的更新来学习，并为他们发送Trap。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <DeviceType type="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <DeviceType type="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+      <DeviceType type="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType type="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </DeviceTypes>
+    <wsStatusTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsStatusTrapMode>
+    <wsPeerWSTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsPeerWSTrapMode>
+    <wsAPStateTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPStateTrapMode>
+    <wsAPFailureTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPFailureTrapMode>
+    <wsRogueAPTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsRogueAPTrapMode>
+    <wsRFScanTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsRFScanTrapMode>
+    <wsClientStateTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsClientStateTrapMode>
+    <wsWidsStatusMode>
+      <option text="Enable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="1" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="1" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="1" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="2" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="2" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="2" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="2" />
+      </option>
+    </wsWidsStatusMode>
+    <wsClientFailureTrapMode>
+      <option text="Enable">
+        <Device deviceType="" oid="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" oid="" value="2" />
+      </option>
+    </wsClientFailureTrapMode>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="DistributedTunnelingConfiguration" ProfileNameText="分布式通道配置" Description="分布式通道模式，也被称为AP- AP通道模式，用于支持无线客户端不转发任何数据业务到无线交换机的L3漫游。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+      <DeviceType type="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType type="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </DeviceTypes>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="GlobalConfiguration" ProfileNameText="网络门户全局配置" Description="从CP全局配置页面，您可以控制CP功能的管理状态以及配置影响交换机上配置的所有的强制网络门户的全局设置。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <DeviceType type="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <DeviceType type="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+    </DeviceTypes>
+    <cpAdminMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </cpAdminMode>
+    <cpAdditionalHttpSecurePort>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+    </cpAdditionalHttpSecurePort>
+    <cpPeerStatsReportingInterval>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+    </cpPeerStatsReportingInterval>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="SNMPTrapConfiguration" ProfileNameText="SNMP Trap配置" Description="从SNMP Trap配置页面中，您可以配置是否SNMP Trap是从CP发送与否，并指定产生Trap事件的CP活动。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <DeviceType type="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <DeviceType type="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+    </DeviceTypes>
+    <cpTrapMode>
+      <option text="Enable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+        <Device deviceType="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" value="1" />
+        <Device deviceType="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" value="1" />
+        <Device deviceType="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+        <Device deviceType="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" value="2" />
+        <Device deviceType="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" value="2" />
+        <Device deviceType="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" value="2" />
+      </option>
+    </cpTrapMode>
+    <cpClientAuthenticationFailureTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </cpClientAuthenticationFailureTrapMode>
+    <cpClientConnectTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </cpClientConnectTrapMode>
+    <cpClientDatabaseFullTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </cpClientDatabaseFullTrapMode>
+    <cpClientDisconnectTrapMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </cpClientDisconnectTrapMode>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="Networks" ProfileNameText="无线网络配置" Description="在无线网络列表显示所有交换机上配置的无线网络。前16个网络是默认创建的。您可以修改默认的网络，但不能删除它们。多个网络可以有相同的SSID。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+      <DeviceType type="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType type="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </DeviceTypes>
+    <wsNetworkAuthRadiusServerName>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </wsNetworkAuthRadiusServerName>
+    <wsNetworkAcctRadiusServerName>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </wsNetworkAcctRadiusServerName>
+    <wsNetworkId>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="13">
+        <Device deviceType="" value="13" />
+      </option>
+      <option text="14">
+        <Device deviceType="" value="14" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="16">
+        <Device deviceType="" value="16" />
+      </option>
+    </wsNetworkId>
+    <wsNetworkHideSSIDMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkHideSSIDMode>
+    <wsNetworkDenyBcastMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkDenyBcastMode>
+    <wsNetworkL3TunnelMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkL3TunnelMode>
+    <wsNetworkMACAuthenticationMode>
+      <option text="Local">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Radius">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkMACAuthenticationMode>
+    <wsNetworkRadiusAccountingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkRadiusAccountingMode>
+    <wsNetworkSecurityMode>
+      <option text="None">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Static WEP">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="WEP IEEE802.1x">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="WPA Personal">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="WPA Enterprise">
+        <Device deviceType="" value="5" />
+      </option>
+    </wsNetworkSecurityMode>
+    <wsNetworkWPAVersionsSupported>
+      <option text="WPA">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="WPA2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Auto">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkWPAVersionsSupported>
+    <wsNetworkWPACipherSuites>
+      <option text="TKIP">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="CCMP(AES)">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Auto">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkWPACipherSuites>
+    <wsNetworkWPA2PreAuthenticationMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkWPA2PreAuthenticationMode>
+    <wsNetworkStaticWEPAuthenticationMode>
+      <option text="Open System">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Shared Key">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Auto">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkStaticWEPAuthenticationMode>
+    <wsNetworkWEPKeyType>
+      <option text="ASCII">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="HEX">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkWEPKeyType>
+    <wsNetworkWEPKeyLength>
+      <option text="64">
+        <Device deviceType="" value="64" />
+      </option>
+      <option text="128">
+        <Device deviceType="" value="128" />
+      </option>
+    </wsNetworkWEPKeyLength>
+    <wsNetworkRedirectMode>
+      <option text="None">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="HTTP">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkRedirectMode>
+    <wsUseNetworkRadiusConfig>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsUseNetworkRadiusConfig>
+    <wsNetworkDistTunnelMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkDistTunnelMode>
+    <wsNetworkARPSuppressionMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkARPSuppressionMode>
+    <wsNetworkClientQosMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkClientQosMode>
+    <wsNetworkUseWEPTransferKeyIndex>
+      <option text="WEPKey 1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="WEPKey 2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="WEPKey 3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="WEPKey 4">
+        <Device deviceType="" value="4" />
+      </option>
+    </wsNetworkUseWEPTransferKeyIndex>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="Networks" ProfileNameText="Wireless Network Configuration" Description="The wireless network list shows all the wireless networks configured on the switch. The first 16 networks are created by default. You can modify the default networks, but you cannot delete them. Multiple networks can have the same SSID.">
+    <DeviceTypes>
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+      <DeviceType type="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" />
+      <DeviceType type="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" />
+    </DeviceTypes>
+    <wsNetworkId>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="13">
+        <Device deviceType="" value="13" />
+      </option>
+      <option text="14">
+        <Device deviceType="" value="14" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="16">
+        <Device deviceType="" value="16" />
+      </option>
+    </wsNetworkId>
+    <wsNetworkHideSSIDMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkHideSSIDMode>
+    <wsNetworkDenyBcastMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkDenyBcastMode>
+    <wsNetworkL3TunnelMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkL3TunnelMode>
+    <wsNetworkMACAuthenticationMode>
+      <option text="Local">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Radius">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkMACAuthenticationMode>
+    <wsNetworkUseProfileRadiusConfig>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkUseProfileRadiusConfig>
+    <wsNetworkRadiusAccountingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkRadiusAccountingMode>
+    <wsNetworkRadiusFailthroughMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkRadiusFailthroughMode>
+    <wsNetworkSecurityMode>
+      <option text="None">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Static WEP">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="WEP IEEE802.1x">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="WPA Personal">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="WPA Enterprise">
+        <Device deviceType="" value="5" />
+      </option>
+    </wsNetworkSecurityMode>
+    <wsNetworkWPAVersionsSupported>
+      <option text="WPA">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="WPA2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Auto">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkWPAVersionsSupported>
+    <wsNetworkWPACipherSuites>
+      <option text="TKIP">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="CCMP(AES)">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Auto">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkWPACipherSuites>
+    <wsNetworkWPA2PreAuthenticationMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkWPA2PreAuthenticationMode>
+    <wsNetworkWPA2DynamicKeyForwardingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkWPA2DynamicKeyForwardingMode>
+    <wsNetworkStaticWEPAuthenticationMode>
+      <option text="Open System">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Shared Key">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Auto">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsNetworkStaticWEPAuthenticationMode>
+    <wsNetworkWEPKeyType>
+      <option text="ASCII">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="HEX">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkWEPKeyType>
+    <wsNetworkWEPKeyLength>
+      <option text="64">
+        <Device deviceType="" value="64" />
+      </option>
+      <option text="128">
+        <Device deviceType="" value="128" />
+      </option>
+      <option text="152">
+        <Device deviceType="" value="152" />
+      </option>
+    </wsNetworkWEPKeyLength>
+    <wsNetworkClientQosMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsNetworkClientQosMode>
+    <wsNetworkUseWEPTransferKeyIndex>
+      <option text="WEPKey 1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="WEPKey 2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="WEPKey 3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="WEPKey 4">
+        <Device deviceType="" value="4" />
+      </option>
+    </wsNetworkUseWEPTransferKeyIndex>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="DhcpDynamicPoolConfiguration" ProfileNameText="DHCP地址池配置" Description="DHCP地址池定义了可以在网络中被分配到设备的IP地址范围。动态池允许无线电台接收一个可用的IP并通过租用时间控制。如果需要的话，或在网络中需要的情况下，该设备能够充当DHCP服务器。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <dhcpServerDynamicControl>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dhcpServerDynamicControl>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="SystemConfiguration" ProfileNameText="系统配置" Description="系统配置提供了一些通用的配置，其中包括网络设置，帐户设置和Telnet的设置和SSH。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <lanIfGetIpAddressFrom>
+      <option text="Static">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Dynamic">
+        <Device deviceType="" value="2" />
+      </option>
+    </lanIfGetIpAddressFrom>
+    <timeout>
+      <option text="Never">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="1Min">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3Mins">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="5Mins">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="10Mins">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="15Mins">
+        <Device deviceType="" value="5" />
+      </option>
+    </timeout>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessConfiguration" ProfileNameText="无线配置" Description="从无线配置页面中，您可以为每个设备设置不同的无线频段的主SSID。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+    </DeviceTypes>
+    <dot11Band>
+      <option text="2.4GHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="5.0GHz">
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="1" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="1" />
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="1" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="2" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="2" />
+      </option>
+    </dot11Band>
+    <dot11AutoChannelScan>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11AutoChannelScan>
+    <dot11Channel>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="13">
+        <Device deviceType="" value="13" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="40">
+        <Device deviceType="" value="40" />
+      </option>
+      <option text="44">
+        <Device deviceType="" value="44" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="52">
+        <Device deviceType="" value="52" />
+      </option>
+      <option text="56">
+        <Device deviceType="" value="56" />
+      </option>
+      <option text="60">
+        <Device deviceType="" value="60" />
+      </option>
+      <option text="64">
+        <Device deviceType="" value="64" />
+      </option>
+      <option text="149">
+        <Device deviceType="" value="149" />
+      </option>
+      <option text="153">
+        <Device deviceType="" value="153" />
+      </option>
+      <option text="157">
+        <Device deviceType="" value="157" />
+      </option>
+      <option text="161">
+        <Device deviceType="" value="161" />
+      </option>
+      <option text="165">
+        <Device deviceType="" value="165" />
+      </option>
+    </dot11Channel>
+    <dot11RadioWave>
+      <option text="On">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11RadioWave>
+    <dot11ChannelWidth>
+      <option text="20MHz">
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="1" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="1" />
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="1" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="1" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="1" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="1" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="1" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="1" />
+      </option>
+      <option text="Auto 20/40MHz">
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="2" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="2" />
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="2" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="2" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="2" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="2" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="2" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="2" />
+      </option>
+    </dot11ChannelWidth>
+    <dot11DataRate>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="5.5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="18" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="24" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="54" />
+      </option>
+    </dot11DataRate>
+    <dot11SsidBroadcast>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11SsidBroadcast>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessConfiguration" ProfileNameText="无线配置" Description="从无线配置页面中，您可以为每个设备设置不同的无线频段的主SSID。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <dot11Band>
+      <option text="2.4GHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="5.0GHz">
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="2" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="2" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="2" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="2" />
+      </option>
+    </dot11Band>
+    <dot11AutoChannelScan>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11AutoChannelScan>
+    <dot11Channel>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="13">
+        <Device deviceType="" value="13" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="40">
+        <Device deviceType="" value="40" />
+      </option>
+      <option text="44">
+        <Device deviceType="" value="44" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="52">
+        <Device deviceType="" value="52" />
+      </option>
+      <option text="56">
+        <Device deviceType="" value="56" />
+      </option>
+      <option text="60">
+        <Device deviceType="" value="60" />
+      </option>
+      <option text="64">
+        <Device deviceType="" value="64" />
+      </option>
+      <option text="149">
+        <Device deviceType="" value="149" />
+      </option>
+      <option text="153">
+        <Device deviceType="" value="153" />
+      </option>
+      <option text="157">
+        <Device deviceType="" value="157" />
+      </option>
+      <option text="161">
+        <Device deviceType="" value="161" />
+      </option>
+      <option text="165">
+        <Device deviceType="" value="165" />
+      </option>
+    </dot11Channel>
+    <dot11RadioWave>
+      <option text="On">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11RadioWave>
+    <dot11ChannelWidth>
+      <option text="20MHz">
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="1" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="1" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="0" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="0" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="1" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="1" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="1" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="1" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="1" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+      </option>
+      <option text="Auto 20/40MHz">
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="2" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="2" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="1" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="1" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="2" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="2" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="2" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="2" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="2" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="2" />
+      </option>
+      <option text="Auto 20/40/80MHz">
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="2" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="2" />
+        <dot11Band text="5.0GHz" />
+      </option>
+    </dot11ChannelWidth>
+    <dot11DataRate>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="5.5" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="18" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="24" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="48" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="54" />
+      </option>
+    </dot11DataRate>
+    <dot11SsidBroadcast>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11SsidBroadcast>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="SecurityConfiguration" ProfileNameText="安全配置" Description="从安全配置页面中，您可以为每个设备设置不同的无线频段的认证模式。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <radioIndex>
+      <option text="2.4GHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="5.0GHz">
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="2" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="2" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="2" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="2" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="2" />
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="2" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="2" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="2" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="2" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="2" />
+      </option>
+    </radioIndex>
+    <dot11WepKeyEntryMethod>
+      <option text="ASCII">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="HEX">
+        <Device deviceType="" value="2" />
+      </option>
+    </dot11WepKeyEntryMethod>
+    <dot11wepKeyIndex>
+      <option text="First">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Second">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Third">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="Fourth">
+        <Device deviceType="" value="4" />
+      </option>
+    </dot11wepKeyIndex>
+    <dot11KeyIndex>
+      <option text="First">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Second">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Third">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="Fourth">
+        <Device deviceType="" value="4" />
+      </option>
+    </dot11KeyIndex>
+    <dot11CipherType>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="AES">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="TKIP">
+        <Device deviceType="" value="3" />
+      </option>
+    </dot11CipherType>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="MultiSSIDConfiguration" ProfileNameText="多SSID配置" Description="该设备最多支持四个多个服务集标识符。您可以设置主SSID 。 SSID的出厂缺省设置为dlink 。该SSID可以很容易地改变来连接到现有的无线网络或建立一个新的无线网络。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <dot11MssidState>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </dot11MssidState>
+    <radioIndex>
+      <option text="2.4GHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="5.0GHz">
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="1" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="2" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="2" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="2" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="1" />
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="1" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="2" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="2" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="2" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="2" />
+      </option>
+    </radioIndex>
+    <dot11MssidIndex>
+      <option text="SSID1">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="SSID2">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="SSID3">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="SSID4">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="5" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="5" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="5" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="5" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="5" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="5" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="5" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="5" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="5" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="5" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="5" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="5" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="5" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="5" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="5" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="5" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="5" />
+      </option>
+      <option text="SSID5">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="6" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="6" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="6" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="6" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="6" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="6" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="6" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="6" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="6" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="6" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="6" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="6" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="6" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="6" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="6" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="6" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="6" />
+      </option>
+      <option text="SSID6">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="7" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="7" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="7" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="7" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="7" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="7" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="7" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="7" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="7" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="7" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="7" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="7" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="7" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="7" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="7" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="7" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="7" />
+      </option>
+      <option text="SSID7">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="8" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="8" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="8" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="8" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="8" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="8" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="8" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="8" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="8" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="8" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="8" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="8" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="8" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="8" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="8" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="8" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="8" />
+      </option>
+    </dot11MssidIndex>
+    <dot11MssidSuppress>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11MssidSuppress>
+    <dot11MssidWmm>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11MssidWmm>
+    <dot11MssidKeyType>
+      <option text="ASCII">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="HEX">
+        <Device deviceType="" value="2" />
+      </option>
+    </dot11MssidKeyType>
+    <dot11MssidWepKeyIndex>
+      <option text="First">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Second">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Third">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="Fourth">
+        <Device deviceType="" value="4" />
+      </option>
+    </dot11MssidWepKeyIndex>
+    <dot11MssidCipherType>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="AES">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="TKIP">
+        <Device deviceType="" value="3" />
+      </option>
+    </dot11MssidCipherType>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessScheduleSettings" ProfileNameText="无线调度配置" Description="无线计划设置窗口用于添加和修改设备上的调度规则。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <dot11ScheduleAllDaySelect>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+    </dot11ScheduleAllDaySelect>
+    <dot11ScheduleStatus>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </dot11ScheduleStatus>
+    <dot11ScheduleSSIDIndex>
+      <option text="Primary SSID 2.4G">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="SSID 1 2.4G">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="SSID 2 2.4G">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="SSID 3 2.4G">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="SSID 4 2.4G">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="4" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="4" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="4" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="4" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="4" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="4" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="4" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="4" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="4" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="4" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="4" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="4" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="4" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="4" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="4" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="4" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="4" />
+      </option>
+      <option text="SSID 5 2.4G">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="5" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="5" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="5" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="5" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="5" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="5" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="5" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="5" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="5" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="5" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="5" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="5" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="5" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="5" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="5" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="5" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="5" />
+      </option>
+      <option text="SSID 6 2.4G">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="6" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="6" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="6" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="6" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="6" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="6" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="6" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="6" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="6" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="6" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="6" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="6" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="6" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="6" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="6" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="6" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="6" />
+      </option>
+      <option text="SSID 7 2.4G">
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="7" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="7" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="7" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="7" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="7" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="7" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="7" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="7" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="7" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="7" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="7" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="7" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="7" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="7" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="7" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="7" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="7" />
+      </option>
+      <option text="Primary SSID 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="8" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="8" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="8" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="8" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="8" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="8" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="0" />
+      </option>
+      <option text="SSID 1 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="9" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="9" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="9" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="9" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="9" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="9" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+      </option>
+      <option text="SSID 2 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="10" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="10" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="10" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="10" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="10" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="10" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="2" />
+      </option>
+      <option text="SSID 3 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="11" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="11" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="11" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="11" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="11" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="11" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="3" />
+      </option>
+      <option text="SSID 4 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="12" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="12" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="12" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="12" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="12" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="12" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="4" />
+      </option>
+      <option text="SSID 5 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="13" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="13" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="13" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="13" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="13" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="13" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="5" />
+      </option>
+      <option text="SSID 6 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="14" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="14" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="14" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="14" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="14" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="14" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="6" />
+      </option>
+      <option text="SSID 7 5G">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="15" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="15" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="15" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="15" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="15" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="15" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="7" />
+      </option>
+    </dot11ScheduleSSIDIndex>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessMacAclSettings" ProfileNameText="无线MAC访问控制配置" Description="您可以为不同的无线频段添加一些无线设备的MAC地址，来配置设备的访问控制。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" />
+      <DeviceType type="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" />
+      <DeviceType type="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" />
+      <DeviceType type="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" />
+      <DeviceType type="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" />
+      <DeviceType type="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" />
+      <DeviceType type="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" />
+    </DeviceTypes>
+    <radioIndex>
+      <option text="2.4GHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="5.0GHz">
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="2" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="2" />
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="1" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="1" />
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="1" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="2" />
+      </option>
+    </radioIndex>
+    <dot11MacAccessControl>
+      <option text="Accept">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Reject">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="3" />
+      </option>
+    </dot11MacAccessControl>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessMacAclSettings" ProfileNameText="无线MAC访问控制配置" Description="您可以为不同的无线频段添加一些无线设备的MAC地址，来配置设备的访问控制。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" />
+      <DeviceType type="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" />
+      <DeviceType type="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" />
+      <DeviceType type="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" />
+      <DeviceType type="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" />
+    </DeviceTypes>
+    <radioIndex>
+      <option text="2.4GHz">
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="1" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="1" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="1" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="1" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+      </option>
+      <option text="5.0GHz">
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="2" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="2" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="2" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="2" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+      </option>
+    </radioIndex>
+    <dot11MacAccessControl>
+      <option text="Accept">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Reject">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="3" />
+      </option>
+    </dot11MacAccessControl>
+    <dot11ssidIndex>
+      <option text="Primary SSID">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="SSID1">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="SSID2">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="SSID3">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="SSID4">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="SSID5">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="SSID6">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="SSID7">
+        <Device deviceType="" value="8" />
+      </option>
+    </dot11ssidIndex>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="WirelessMacAclSettings" ProfileNameText="无线MAC访问控制配置" Description="您可以为不同的无线频段添加一些无线设备的MAC地址，来配置设备的访问控制。">
+    <DeviceTypes>
+      <DeviceType type="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" />
+      <DeviceType type="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" />
+      <DeviceType type="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" />
+      <DeviceType type="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" />
+      <DeviceType type="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" />
+      <DeviceType type="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" />
+    </DeviceTypes>
+    <dot11MacAccessControl>
+      <option text="Accept">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Reject">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="3" />
+      </option>
+    </dot11MacAccessControl>
+    <dot11ssidIndex>
+      <option text="Primary SSID">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="SSID1">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="SSID2">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="SSID3">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="SSID4">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="SSID5">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="SSID6">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="SSID7">
+        <Device deviceType="" value="8" />
+      </option>
+    </dot11ssidIndex>
+  </Profile>
+  <Profile IsDifferent="true" ProfileType="MultipleDeviceType" ProfileNameValue="APProfile" ProfileNameText="无线接入点配置文件设置" Description="您可以在统一交换机上创建多个无线接入点配置文件到无线接入点上。对于每个无线接入点配置文件，您可以配置以下功能：配置文件设置（姓名，硬件类型的ID ，有线网络发现的VLAN ID ） ，无线设置， SSID设置， QoS配置。">
+    <DeviceTypes>
+      <DeviceType type="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <DeviceType type="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" />
+      <DeviceType type="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" />
+      <DeviceType type="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <DeviceType type="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+    </DeviceTypes>
+    <!--<SubProfile ProfileNameValue="APProfileGlobal">-->
+    <wsAPHardwareTypeID>
+      <option text="Any">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="hw_dwl8600" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="8" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="8" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="hw_dwl8600" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="hw_dwl8600" />
+      </option>
+      <option text="DWL-8600AP Dual Radio a/b/g/n">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="hw_dwl8600" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="9" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="9" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="hw_dwl8600" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="hw_dwl8600" />
+      </option>
+      <option text="DWL-6600AP Dual Radio a/b/g/n">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="hw_dwl6600" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="11" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="11" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="hw_dwl6600" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="hw_dwl6600" />
+      </option>
+      <option text="DWL-3600AP Single Radio b/g/n">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="hw_dwl3600" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="10" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="10" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="hw_dwl3600" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="hw_dwl3600" />
+      </option>
+      <option text="DWL-2600AP Single Radio b/g/n">
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="hw_dwl2600" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="hw_dwl2600" />
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="hw_dwl2600" />
+      </option>
+    </wsAPHardwareTypeID>
+    <wsAPProfileDisconnAPFwdingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPProfileDisconnAPFwdingMode>
+    <wsAPProfileDisconnAPMgmtMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPProfileDisconnAPMgmtMode>
+    <wsAPProfileAeroScoutSupportMode>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" />
+      <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" />
+      <option text="Enable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="1" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+        <Device deviceType="DWC-1000" oid="1.3.6.1.4.1.171.10.121.1" value="2" />
+        <Device deviceType="DWC-2000" oid="1.3.6.1.4.1.171.10.121.2" value="2" />
+      </option>
+    </wsAPProfileAeroScoutSupportMode>
+    <!--</SubProfile>-->
+    <!-- <SubProfile ProfileNameValue="APProfileRadio">-->
+    <apRadioName>
+      <option text="1-802.11a/n">
+        <Device value="1-802.11a/n" deviceType="" oid="" />
+      </option>
+      <option text="2-802.11b/g/n">
+        <Device value="2-802.11b/g/n" deviceType="" oid="" />
+      </option>
+    </apRadioName>
+    <wsAPRadioAdminMode>
+      <option text="On">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAdminMode>
+    <wsAPRadioLoadBalancingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioLoadBalancingMode>
+    <wsAPRadioOtherChannelsScanMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioOtherChannelsScanMode>
+    <wsAPRadioSentryScanMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioSentryScanMode>
+    <wsAPRadioSentryScanChannel>
+      <option text="802.11a/n">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="802.11b/g/n">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="802.11a/b/g/n">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsAPRadioSentryScanChannel>
+    <wsAPRadioRateLimitMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioRateLimitMode>
+    <wsAPRadioChannelBandwidth>
+      <option text="20MHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="40MHz">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioChannelBandwidth>
+    <wsAPRadioProtectionMode>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioProtectionMode>
+    <wsAPRadioSTBCMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </wsAPRadioSTBCMode>
+    <wsAPRadioNoAckMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioNoAckMode>
+    <wsAPRadioFrequency>
+      <option text="IEEE 802.11a">
+        <Device deviceType="" value="1" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="IEEE 802.11b/g">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="IEEE 802.11a/n">
+        <Device deviceType="" value="3" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="IEEE 802.11b/g/n">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.0GHz IEEE 802.11n">
+        <Device deviceType="" value="5" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="2.4GHz IEEE 802.11n">
+        <Device deviceType="" value="6" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsAPRadioFrequency>
+    <wsAPRadioAutoChannelMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAutoChannelMode>
+    <wsAPRadioAutoPowerMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAutoPowerMode>
+    <wsAPRadioUAPSDMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioUAPSDMode>
+    <wsAPRadioStationIsolationMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioStationIsolationMode>
+    <wsAPRadioPrimaryChannel>
+      <option text="Upper">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Lower">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioPrimaryChannel>
+    <wsAPRadioShortGuardInterval>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioShortGuardInterval>
+    <wsAPRadioResourceMeasEnabled>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <option text="Enable">
+        <Device deviceType="" oid="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" oid="" value="2" />
+      </option>
+    </wsAPRadioResourceMeasEnabled>
+    <wsAPRadioMulticastTxRate>
+      <option text="Auto">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+        <Device deviceType="" value="0" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="1">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="11" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="12" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="18" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="22" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="24" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="36" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="48" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="72" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="72" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="108" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsAPRadioMulticastTxRate>
+    <wsEligibleChannel>
+      <option text="1">
+        <Device deviceType="" value="1" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="4">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5">
+        <Device deviceType="" value="5" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="6" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="8">
+        <Device deviceType="" value="8" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="9" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="10">
+        <Device deviceType="" value="10" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="11" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="36" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="44">
+        <Device deviceType="" value="44" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="149">
+        <Device deviceType="" value="149" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="157">
+        <Device deviceType="" value="157" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+    </wsEligibleChannel>
+    <wsAPRadioMCSIndexAvailable>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+    </wsAPRadioMCSIndexAvailable>
+    <wsSupportedDataRate>
+      <option text="1">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="11" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="12" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="18" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="22" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="24" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="36" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="48" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="72" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="96" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="108" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsSupportedDataRate>
+    <wsAPProfileRadioSupportedDataMode>
+      <option text="Enable">
+        <Device value="1" deviceType="" oid="" />
+      </option>
+      <option text="Disable">
+        <Device value="2" deviceType="" oid="" />
+      </option>
+    </wsAPProfileRadioSupportedDataMode>
+    <wsBasicDataRate>
+      <option text="1">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="11" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="12" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="18" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="22" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="24" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="36" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="48" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="72" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="96" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="108" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsBasicDataRate>
+    <wsAPProfileRadioBasicDataMode>
+      <option text="Enable">
+        <Device value="1" deviceType="" oid="" />
+      </option>
+      <option text="Disable">
+        <Device value="2" deviceType="" oid="" />
+      </option>
+    </wsAPProfileRadioBasicDataMode>
+    <!--<SubProfile ProfileNameValue="APProfileTSPEC">-->
+    <wsAPRadioTspecMode>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioTspecMode>
+    <wsAPRadioTspecVoiceAcmMode>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <option text="Enable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+      </option>
+    </wsAPRadioTspecVoiceAcmMode>
+    <wsAPRadioTspecVideoAcmMode>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <option text="Enable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+      </option>
+    </wsAPRadioTspecVideoAcmMode>
+    <wsAPRadioTspecLegacyWmmQueueMapMode>
+      <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" />
+      <option text="Enable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="2" />
+      </option>
+    </wsAPRadioTspecLegacyWmmQueueMapMode>
+    <!--<SubProfile ProfileNameValue="APProfileQoS">-->
+    <wsAPRadioQOSEDCATemplate>
+      <option text="Custom">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="Factory Default">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Voice">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioQOSEDCATemplate>
+    <wsAPEDCAMinContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsAPEDCAMinContentionWindow>
+    <wsAPRadioWMMMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioWMMMode>
+    <wsAPEDCAMaxContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsAPEDCAMaxContentionWindow>
+    <wsStationEDCAMinContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsStationEDCAMinContentionWindow>
+    <wsStationEDCAMaxContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsStationEDCAMaxContentionWindow>
+    <!--<SubProfile ProfileNameValue="APProfileSSID">-->
+    <wsVAPMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsVAPMode>
+    <wsVAPId>
+      <option text="SSID2">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="SSID3">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="SSID4">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="SSID5">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="SSID6">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="SSID7">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="SSID8">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="SSID9">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="SSID10">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="SSID11">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="SSID12">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="SSID13">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="SSID14">
+        <Device deviceType="" value="13" />
+      </option>
+      <option text="SSID15">
+        <Device deviceType="" value="14" />
+      </option>
+      <option text="SSID16">
+        <Device deviceType="" value="15" />
+      </option>
+    </wsVAPId>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="APProfile" ProfileNameText="AP Profiles Configuration" Description="You can create multiple AP profiles on the wireless switch to customize APs. For each AP profile, you can configure the following features: Profile settings (Name, Hardware Type ID, Wired Network Discovery VLAN ID), Radio settings, SSID settings, QoS configuration.">
+    <DeviceTypes>
+      <DeviceType type="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" />
+    </DeviceTypes>
+    <!--<SubProfile ProfileNameValue="APProfileGlobal">-->
+    <wsAPProfileRadioAdvertisedDataMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPProfileRadioAdvertisedDataMode>
+    <wsAPProfileRadioSupportedDataMode>
+      <option text="Enable">
+        <Device value="1" deviceType="" />
+      </option>
+      <option text="Disable">
+        <Device value="2" deviceType="" />
+      </option>
+    </wsAPProfileRadioSupportedDataMode>
+    <wsMacAuthenticationDefaultAction>
+      <option text="Allow">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Deny">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsMacAuthenticationDefaultAction>
+    <wsAPRadiusAcountingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadiusAcountingMode>
+    <wsAPRadiusFailthroughMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadiusFailthroughMode>
+    <!--<SubProfile ProfileNameValue="APProfileRadio">-->
+    <apRadioName>
+      <option text="1-802.11a/n">
+        <Device value="1-802.11a/n" deviceType="" oid="" />
+      </option>
+      <option text="2-802.11b/g/n">
+        <Device value="2-802.11b/g/n" deviceType="" oid="" />
+      </option>
+    </apRadioName>
+    <wsAPRadioAdminMode>
+      <option text="On">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAdminMode>
+    <wsAPRadioLoadBalancingMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioLoadBalancingMode>
+    <wsAPRadioOtherChannelsScanMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioOtherChannelsScanMode>
+    <wsAPRadioSentryScanMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioSentryScanMode>
+    <wsAPRadioSentryScanChannel>
+      <option text="802.11a">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="802.11b/g">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="802.11a/b/g">
+        <Device deviceType="" value="3" />
+      </option>
+    </wsAPRadioSentryScanChannel>
+    <wsAPRadioRateLimitMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioRateLimitMode>
+    <wsAPRadioChannelBandwidth>
+      <option text="20MHz">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="40MHz">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioChannelBandwidth>
+    <wsAPRadioProtectionMode>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioProtectionMode>
+    <wsAPRadioFrequency>
+      <option text="IEEE 802.11a">
+        <Device deviceType="" value="1" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="IEEE 802.11b/g">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="IEEE 802.11a/n">
+        <Device deviceType="" value="3" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="IEEE 802.11b/g/n">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.0GHzIEEE 802.11n">
+        <Device deviceType="" value="5" />
+        <apRadioName text="1-802.11a/n" />
+      </option>
+      <option text="2.4GHz IEEE 802.11n">
+        <Device deviceType="" value="6" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsAPRadioFrequency>
+    <wsAPRadioAutoChannelMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAutoChannelMode>
+    <wsAPRadioAutoPowerMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAutoPowerMode>
+    <wsAPRadioUAPSDMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioUAPSDMode>
+    <wsAPRadioStationIsolationMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioStationIsolationMode>
+    <wsAPRadioPrimaryChannel>
+      <option text="Upper">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Lower">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioPrimaryChannel>
+    <wsAPRadioShortGuardInterval>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioShortGuardInterval>
+    <wsEligibleChannelRowStatus>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsEligibleChannelRowStatus>
+    <wsAPRadioSuperAGMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="Enable with Dynamic Turbo">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioSuperAGMode>
+    <wsAPRadio802dot11aLimitChannelSelection>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadio802dot11aLimitChannelSelection>
+    <wsAPRadioAntennaDiversityMode>
+      <option text="Auto">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="Primary">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Secondary">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioAntennaDiversityMode>
+    <wsAPRadioDot11nProtectionMode>
+      <option text="Auto">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Off">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioDot11nProtectionMode>
+    <wsSupportedDataRate>
+      <option text="1">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="11" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="12" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="18" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="22" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="24" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="36" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="48" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="72" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="96" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="108" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsSupportedDataRate>
+    <wsAdvertisedDataRate>
+      <option text="1">
+        <Device deviceType="" value="2" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="2">
+        <Device deviceType="" value="4" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="5.5">
+        <Device deviceType="" value="11" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="6">
+        <Device deviceType="" value="12" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="9">
+        <Device deviceType="" value="18" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="11">
+        <Device deviceType="" value="22" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="12">
+        <Device deviceType="" value="24" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="18">
+        <Device deviceType="" value="36" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="24">
+        <Device deviceType="" value="48" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="36">
+        <Device deviceType="" value="72" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="48">
+        <Device deviceType="" value="96" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+      <option text="54">
+        <Device deviceType="" value="108" />
+        <apRadioName text="1-802.11a/n" />
+        <apRadioName text="2-802.11b/g/n" />
+      </option>
+    </wsAdvertisedDataRate>
+    <!--<SubProfile ProfileNameValue="APProfileQoS">-->
+    <wsAPRadioQOSEDCATemplate>
+      <option text="Custom">
+        <Device deviceType="" value="0" />
+      </option>
+      <option text="Factory Default">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Voice">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioQOSEDCATemplate>
+    <wsAPEDCAMinContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsAPEDCAMinContentionWindow>
+    <wsAPRadioWMMMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsAPRadioWMMMode>
+    <wsAPEDCAMaxContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsAPEDCAMaxContentionWindow>
+    <wsStationEDCAMinContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsStationEDCAMinContentionWindow>
+    <wsStationEDCAMaxContentionWindow>
+      <option text="1">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="3">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="7">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="15">
+        <Device deviceType="" value="15" />
+      </option>
+      <option text="31">
+        <Device deviceType="" value="31" />
+      </option>
+      <option text="63">
+        <Device deviceType="" value="63" />
+      </option>
+      <option text="127">
+        <Device deviceType="" value="127" />
+      </option>
+      <option text="255">
+        <Device deviceType="" value="255" />
+      </option>
+      <option text="511">
+        <Device deviceType="" value="511" />
+      </option>
+      <option text="1023">
+        <Device deviceType="" value="1023" />
+      </option>
+    </wsStationEDCAMaxContentionWindow>
+    <!--<SubProfile ProfileNameValue="APProfileSSID">-->
+    <wsVAPMode>
+      <option text="Enable">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="Disable">
+        <Device deviceType="" value="2" />
+      </option>
+    </wsVAPMode>
+    <wsVAPId>
+      <option text="SSID2">
+        <Device deviceType="" value="1" />
+      </option>
+      <option text="SSID3">
+        <Device deviceType="" value="2" />
+      </option>
+      <option text="SSID4">
+        <Device deviceType="" value="3" />
+      </option>
+      <option text="SSID5">
+        <Device deviceType="" value="4" />
+      </option>
+      <option text="SSID6">
+        <Device deviceType="" value="5" />
+      </option>
+      <option text="SSID7">
+        <Device deviceType="" value="6" />
+      </option>
+      <option text="SSID8">
+        <Device deviceType="" value="7" />
+      </option>
+      <option text="SSID9">
+        <Device deviceType="" value="8" />
+      </option>
+      <option text="SSID10">
+        <Device deviceType="" value="9" />
+      </option>
+      <option text="SSID11">
+        <Device deviceType="" value="10" />
+      </option>
+      <option text="SSID12">
+        <Device deviceType="" value="11" />
+      </option>
+      <option text="SSID13">
+        <Device deviceType="" value="12" />
+      </option>
+      <option text="SSID14">
+        <Device deviceType="" value="13" />
+      </option>
+      <option text="SSID15">
+        <Device deviceType="" value="14" />
+      </option>
+      <option text="SSID16">
+        <Device deviceType="" value="15" />
+      </option>
+    </wsVAPId>
+  </Profile>
+  <Profile ProfileType="MultipleDeviceType" ProfileNameValue="SaveProfile" ProfileNameText="保存配置模板" Description="保存配置模板">
+    <DeviceTypes />
+    <save>
+      <option text="save">
+        <!-- Wireless Switch 4-->
+        <Device deviceType="DWS-4026" oid="1.3.6.1.4.1.171.10.73.5.1" value="1" desc="Enable" />
+        <Device deviceType="DWS-3026" oid="1.3.6.1.4.1.171.10.73.3" value="1" desc="Enable" />
+        <Device deviceType="DWS-3024" oid="1.3.6.1.4.1.171.10.73.2" value="1" desc="Enable" />
+        <Device deviceType="DWS-3024L" oid="1.3.6.1.4.1.171.10.73.4" value="1" desc="Enable" />
+        <Device deviceType="DWS-3160-24TC" oid="1.3.6.1.4.1.171.11.124.1" value="4" />
+        <Device deviceType="DWS-3160-24PC" oid="1.3.6.1.4.1.171.11.124.2" value="4" />
+        <!-- Access Point 12-->
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.42" value="1" />
+        <Device deviceType="DAP-2310" oid="1.3.6.1.4.1.171.10.37.43" value="1" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="1" />
+        <Device deviceType="DAP-2360" oid="1.3.6.1.4.1.171.10.37.40" value="1" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="1" />
+        <Device deviceType="DAP-2553" oid="1.3.6.1.4.1.171.10.37.35" value="1" />
+        <Device deviceType="DAP-2590" oid="1.3.6.1.4.1.171.10.37.36" value="1" />
+        <Device deviceType="DAP-2690" oid="1.3.6.1.4.1.171.10.37.39" value="1" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="1" />
+        <Device deviceType="DAP-3520" oid="1.3.6.1.4.1.171.10.37.37" value="1" />
+        <Device deviceType="DAP-3690" oid="1.3.6.1.4.1.171.10.37.41" value="1" />
+        <Device deviceType="DAP-2660" oid="1.3.6.1.4.1.171.10.37.52" value="1" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="1" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="1" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="1" />
+        <!-- Unified AP 6-->
+        <Device deviceType="DWL-3500AP" oid="1.3.6.1.4.1.171.10.37.27.1" value="1" />
+        <Device deviceType="DWL-3600AP" oid="1.3.6.1.4.1.171.10.129.1.1" value="1" />
+        <Device deviceType="DWL-6600AP" oid="1.3.6.1.4.1.171.10.128.1.1" value="1" />
+        <Device deviceType="DWL-8500AP" oid="1.3.6.1.4.1.171.10.37.28.1" value="1" />
+        <Device deviceType="DWL-8600AP" oid="1.3.6.1.4.1.171.10.37.29.1" value="1" />
+        <Device deviceType="DWL-8610AP" oid="1.3.6.1.4.1.171.10.136.1.1" value="1" />
+        <Device deviceType="DWL-8200AP" oid="1.3.6.1.4.1.171.10.37.21" value="2" />
+        <!-- FE Managed Switch 41-->
+        <Device deviceType="DES-1228/ME" oid="1.3.6.1.4.1.171.10.116.2" value="2" desc="Cfg-Id1" />
+        <Device deviceType="DES-2108" oid="1.3.6.1.4.1.171.10.61.3" value="" desc="" />
+        <Device deviceType="DES-3010FL" oid="1.3.6.1.4.1.171.10.63.4" value="3" desc="Cfg" />
+        <Device deviceType="DES-3010F" oid="1.3.6.1.4.1.171.10.63.1.1" value="3" desc="Cfg" />
+        <Device deviceType="DES-3010G" oid="1.3.6.1.4.1.171.10.63.1.2" value="3" desc="Cfg" />
+        <Device deviceType="DES-3016" oid="1.3.6.1.4.1.171.10.63.10" value="3" desc="Cfg" />
+        <Device deviceType="DES-3018" oid="1.3.6.1.4.1.171.10.63.2" value="3" desc="Cfg" />
+        <Device deviceType="DES-3026" oid="1.3.6.1.4.1.171.10.63.3" value="3" desc="Cfg" />
+        <Device deviceType="DES-3028P" oid="1.3.6.1.4.1.171.10.63.7" value="5" desc="All" />
+        <Device deviceType="DES-3028" oid="1.3.6.1.4.1.171.10.63.6" value="5" desc="All" />
+        <Device deviceType="DES-3028G" oid="1.3.6.1.4.1.171.10.63.11" value="5" desc="All" />
+        <Device deviceType="DES-3052" oid="1.3.6.1.4.1.171.10.63.8" value="5" desc="All" />
+        <Device deviceType="DES-3052P" oid="1.3.6.1.4.1.171.10.63.9" value="5" desc="All" />
+        <Device deviceType="DES-3552" oid="1.3.6.1.4.1.171.10.105.3" value="5" desc="All" />
+        <Device deviceType="DES-3552P" oid="1.3.6.1.4.1.171.10.105.4" value="5" desc="All" />
+        <Device deviceType="DES-3528" oid="1.3.6.1.4.1.171.10.105.1" value="5" desc="All" />
+        <Device deviceType="DES-3528P" oid="1.3.6.1.4.1.171.10.105.2" value="5" desc="All" />
+        <Device deviceType="DES-3528DC" oid="1.3.6.1.4.1.171.10.105.5" value="5" desc="All" />
+        <Device deviceType="DES-3828DC" oid="1.3.6.1.4.1.171.10.69.2" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3828P" oid="1.3.6.1.4.1.171.10.69.3" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3828" oid="1.3.6.1.4.1.171.10.69.1" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3852" oid="1.3.6.1.4.1.171.10.69.4" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3852P" oid="1.3.6.1.4.1.171.10.69.5" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3350SR" oid="1.3.6.1.4.1.171.10.59.7" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3550" oid="1.3.6.1.4.1.171.10.64.2" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3526" oid="1.3.6.1.4.1.171.10.64.1" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3526DC" oid="1.3.6.1.4.1.171.10.64.1.2" value="3" desc="Bootupid" />
+        <Device deviceType="DHS-3226" oid="1.3.6.1.4.1.171.10.36.1.1" value="3" desc="Bootupid" />
+        <Device deviceType="DHS-3218" oid="1.3.6.1.4.1.171.10.36.1.2" value="3" desc="Bootupid" />
+        <Device deviceType="DHS-3210" oid="1.3.6.1.4.1.171.10.36.1.3" value="3" desc="Bootupid" />
+        <Device deviceType="DES-3200-28" oid="1.3.6.1.4.1.171.10.113.5.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-28F" oid="1.3.6.1.4.1.171.10.113.6.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-18" oid="1.3.6.1.4.1.171.10.113.3.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-10" oid="1.3.6.1.4.1.171.10.113.2.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-28" oid="1.3.6.1.4.1.171.10.113.1.3" value="5" desc="All" />
+        <Device deviceType="DES-3200-28F" oid="1.3.6.1.4.1.171.10.113.1.4" value="5" desc="All" />
+        <Device deviceType="DES-3200-18" oid="1.3.6.1.4.1.171.10.113.1.2" value="5" desc="All" />
+        <Device deviceType="DES-3200-10" oid="1.3.6.1.4.1.171.10.113.1.1" value="5" desc="All" />
+        <Device deviceType="DES-3200-26" oid="1.3.6.1.4.1.171.10.113.4.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-28ME" oid="1.3.6.1.4.1.171.10.113.7.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-28P" oid="1.3.6.1.4.1.171.10.113.8.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-52" oid="1.3.6.1.4.1.171.10.113.9.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-52P" oid="1.3.6.1.4.1.171.10.113.10.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3810-28" oid="1.3.6.1.4.1.171.10.114.1.1" value="2" desc="Cfg-Cd1" />
+        <Device deviceType="DES-3810-52" oid="1.3.6.1.4.1.171.10.114.1.3" value="2" desc="Cfg-Cd1" />
+        <!-- FE Smart Switch 17-->
+        <Device deviceType="DES-1210-08PA" oid="1.3.6.1.4.1.171.10.75.13" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-08PB" oid="1.3.6.1.4.1.171.10.75.13.2" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28A" oid="1.3.6.1.4.1.171.10.75.5" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28B" oid="1.3.6.1.4.1.171.10.75.5.2" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28C" oid="1.3.6.1.4.1.171.10.75.18.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28PA" oid="1.3.6.1.4.1.171.10.75.6" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28PB" oid="1.3.6.1.4.1.171.10.75.6.2" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28PC" oid="1.3.6.1.4.1.171.10.75.19.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28MEA" oid="1.3.6.1.4.1.171.10.75.15" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28MEB" oid="1.3.6.1.4.1.171.10.75.15.2" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28MEC" oid="1.3.6.1.4.1.171.10.75.24.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52A" oid="1.3.6.1.4.1.171.10.75.7" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52B" oid="1.3.6.1.4.1.171.10.75.7.2" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52C" oid="1.3.6.1.4.1.171.10.75.20.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52MEC" oid="1.3.6.1.4.1.171.10.75.26.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52PC" oid="1.3.6.1.4.1.171.10.75.28.1" value="1" desc="Cfg" />
+        <!-- GE Managed Swtich 43 -->
+        <Device deviceType="DHS-3226P" oid="1.3.6.1.4.1.89.1.1.171.10.36.9" value="4" desc="Createandgo" />
+        <Device deviceType="DGS-1210-28P/ME" oid="1.3.6.1.4.1.171.10.76.30000.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52/ME" oid="1.3.6.1.4.1.171.10.76.1000.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-3100-24" oid="1.3.6.1.4.1.171.10.94.1" />
+        <Device deviceType="DGS-3100-24P" oid="1.3.6.1.4.1.171.10.94.2" />
+        <Device deviceType="DGS-3100-24TG" oid="1.3.6.1.4.1.171.10.94.5" />
+        <Device deviceType="DGS-3100-48" oid="1.3.6.1.4.1.171.10.94.3" />
+        <Device deviceType="DGS-3100-48P" oid="1.3.6.1.4.1.171.10.94.4" />
+        <Device deviceType="DGS-3120-24PC" oid="1.3.6.1.4.1.171.10.117.1.2" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3120-24SC" oid="1.3.6.1.4.1.171.10.117.1.3" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3120-24SC-DC" oid="1.3.6.1.4.1.171.10.117.1.6" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3120-24TC" oid="1.3.6.1.4.1.171.10.117.1.1" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3120-48PC" oid="1.3.6.1.4.1.171.10.117.1.5" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3120-48TC" oid="1.3.6.1.4.1.171.10.117.1.4" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3120-24TC" oid="1.3.6.1.4.1.171.10.117.2.1" value="4" desc="All" />
+        <Device deviceType="DGS-3120-24PC" oid="1.3.6.1.4.1.171.10.117.3.1" value="4" desc="All" />
+        <Device deviceType="DGS-3120-24SC" oid="1.3.6.1.4.1.171.10.117.4.1" value="4" desc="All" />
+        <Device deviceType="DGS-3120-48TC" oid="1.3.6.1.4.1.171.10.117.5.1" value="4" desc="All" />
+        <Device deviceType="DGS-3120-48PC" oid="1.3.6.1.4.1.171.10.117.6.1" value="4" desc="All" />
+        <Device deviceType="DGS-3120-24SC-DC" oid="1.3.6.1.4.1.171.10.117.7.1" value="4" desc="All" />
+        <Device deviceType="DGS-3200-10" oid="1.3.6.1.4.1.171.10.101.1" value="2" desc="Cfg-Id1" />
+        <Device deviceType="DGS-3200-16" oid="1.3.6.1.4.1.171.10.101.2" value="2" desc="Cfg-Id1" />
+        <Device deviceType="DGS-3200-24" oid="1.3.6.1.4.1.171.10.101.3" value="2" desc="Cfg-Id1" />
+        <Device deviceType="DGS-3324SR" oid="1.3.6.1.4.1.171.10.59.5" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3324SRi" oid="1.3.6.1.4.1.171.10.59.4" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3420-26SC" oid="1.3.6.1.4.1.171.10.119.6" value="5" desc="All" />
+        <Device deviceType="DGS-3420-28PC" oid="1.3.6.1.4.1.171.10.119.3" value="5" desc="All" />
+        <Device deviceType="DGS-3420-28SC" oid="1.3.6.1.4.1.171.10.119.2" value="5" desc="All" />
+        <Device deviceType="DGS-3420-28TC" oid="1.3.6.1.4.1.171.10.119.1" value="5" desc="All" />
+        <Device deviceType="DGS-3420-52P" oid="1.3.6.1.4.1.171.10.119.5" value="5" desc="All" />
+        <Device deviceType="DGS-3420-52T" oid="1.3.6.1.4.1.171.10.119.4" value="5" desc="All" />
+        <Device deviceType="DGS-3450" oid="1.3.6.1.4.1.171.10.70.3" value="5" desc="All" />
+        <Device deviceType="DGS-3427" oid="1.3.6.1.4.1.171.10.70.2" value="5" desc="All" />
+        <Device deviceType="DGS-3426" oid="1.3.6.1.4.1.171.10.70.1" value="5" desc="All" />
+        <Device deviceType="DGS-3426P" oid="1.3.6.1.4.1.171.10.70.7" value="5" desc="All" />
+        <Device deviceType="DGS-3612" oid="1.3.6.1.4.1.171.10.70.10" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3612G" oid="1.3.6.1.4.1.171.10.70.9" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-28PC" oid="1.3.6.1.4.1.171.10.118.3" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-28SC" oid="1.3.6.1.4.1.171.10.118.2" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-28SC-DC" oid="1.3.6.1.4.1.171.10.118.9" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-28TC" oid="1.3.6.1.4.1.171.10.118.1" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-28TC-DC" oid="1.3.6.1.4.1.171.10.118.8" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-52P" oid="1.3.6.1.4.1.171.10.118.5" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3620-52T" oid="1.3.6.1.4.1.171.10.118.4" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3627G" oid="1.3.6.1.4.1.171.10.70.8" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3627" oid="1.3.6.1.4.1.171.10.70.6" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3650" oid="1.3.6.1.4.1.171.10.70.5" value="2" desc="Cfg" />
+        <Device deviceType="DGS-3700-12" oid="1.3.6.1.4.1.171.10.102.1.1" value="2" desc="Cfg-Cd1" />
+        <Device deviceType="DGS-3700-12G" oid="1.3.6.1.4.1.171.10.102.1.2" value="2" desc="Cfg-Cd1" />
+        <Device deviceType="DGS-1100-06ME" oid="1.3.6.1.4.1.171.10.134.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-10ME" oid="1.3.6.1.4.1.171.10.134.2.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-10MPP" oid="1.3.6.1.4.1.171.10.134.13" value="1" desc="Cfg" />
+        <Device deviceType="DGS-3000-28SC" oid="1.3.6.1.4.1.171.10.133.5.1" value="4" desc="All" />
+        <!-- GE Smart Switch 13-->
+        <Device deviceType="DGS-1210-16" oid="1.3.6.1.4.1.171.10.76.9" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-24" oid="1.3.6.1.4.1.171.10.76.10" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-48" oid="1.3.6.1.4.1.171.10.76.11" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10P" oid="1.3.6.1.4.1.171.10.76.12" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-20" oid="1.3.6.1.4.1.171.10.76.14" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-20" oid="1.3.6.1.4.1.171.10.76.19.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28" oid="1.3.6.1.4.1.171.10.76.15" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28P" oid="1.3.6.1.4.1.171.10.76.16" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52" oid="1.3.6.1.4.1.171.10.76.17" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1500-20" oid="1.3.6.1.4.1.171.10.126.1.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1500-28" oid="1.3.6.1.4.1.171.10.126.2.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1500-28P" oid="1.3.6.1.4.1.171.10.126.3.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1500-52" oid="1.3.6.1.4.1.171.10.126.4.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS1510-10L/ME" oid="1.3.6.1.4.1.171.10.141.1.1" value="4" desc="All" />
+        <Device deviceType="DGS1510-20L/ME" oid="1.3.6.1.4.1.171.10.141.2.1" value="4" desc="All" />
+        <Device deviceType="DGS1510-28XS/ME" oid="1.3.6.1.4.1.171.10.141.9.1" value="4" desc="All" />
+        <Device deviceType="DGS1510-52L/ME" oid="1.3.6.1.4.1.171.10.141.5.1" value="4" desc="All" />
+        <!-- GE10 Managed Switch 1-->
+        <Device deviceType="DXS-3350SR" oid="1.3.6.1.4.1.171.10.59.8" value="2" desc="Cfg" />
+        <Device deviceType="DXS-3600-16S" oid="1.3.6.1.4.1.171.10.127.1" value="4" desc="Cfg" />
+        <Device deviceType="DXS-3600-32S" oid="1.3.6.1.4.1.171.10.127.2" value="4" desc="Cfg" />
+        <Device deviceType="DWL-2600AP" oid="1.3.6.1.4.1.171.10.130.1.1" value="2" />
+        <Device deviceType="" oid="1.3.6.1.4.1.171.10.121.2" value="" />
+        <Device deviceType="" oid="1.3.6.1.4.1.171.10.117.4.1" value="" />
+        <Device deviceType="DGS-1210-10P" oid="1.3.6.1.4.1.171.10.76.18.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52" oid="1.3.6.1.4.1.171.10.76.22.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28" oid="1.3.6.1.4.1.171.10.76.20.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28P" oid="1.3.6.1.4.1.171.10.76.21.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10" oid="1.3.6.1.4.1.171.10.76.32.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52P" oid="1.3.6.1.4.1.171.10.76.33.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52MP" oid="1.3.6.1.4.1.171.10.76.34.1" value="1" desc="Cfg" />
+        <Device deviceType="DSR-1000AC" oid="1.3.6.1.4.1.171.20.3.11.1" value="" />
+        <Device deviceType="DGS-1210-10ME" oid="1.3.6.1.4.1.171.10.76.35.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-3000-10TC" oid="1.3.6.1.4.1.171.10.133.1.1" value="4" desc="All" />
+        <Device deviceType="DGS-3000-24TC" oid="1.3.6.1.4.1.171.10.133.4.1" value="4" desc="All" />
+        <Device deviceType="DGS-3000-26SC" oid="1.3.6.1.4.1.171.10.133.3.1" value="4" desc="All" />
+        <Device deviceType="DGS-3000-26TC" oid="1.3.6.1.4.1.171.10.133.2.1" value="4" desc="All" />
+        <Device deviceType="DGS-1100-26MP" oid="1.3.6.1.4.1.171.10.134.16" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-26MPP" oid="1.3.6.1.4.1.171.10.134.14" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-16" oid="1.3.6.1.4.1.171.10.134.3" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-18" oid="1.3.6.1.4.1.171.10.134.5" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-24" oid="1.3.6.1.4.1.171.10.134.7" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-26" oid="1.3.6.1.4.1.171.10.134.11" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-24P" oid="1.3.6.1.4.1.171.10.134.9" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-10MP" oid="1.3.6.1.4.1.171.10.134.15" value="1" desc="Cfg" />
+        <Device deviceType="" oid="1.3.6.1.4.1.171" value="" />
+        <Device deviceType="DGS-1210-10/ME" oid="1.3.6.1.4.1.171.10.76.35.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-20/ME" oid="1.3.6.1.4.1.171.10.76.31.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52/ME" oid="1.3.6.1.4.1.171.10.76.29.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28P/ME" oid="1.3.6.1.4.1.171.10.76.30.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10P/ME" oid="1.3.6.1.4.1.171.10.76.42.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52P/ME" oid="1.3.6.1.4.1.171.10.76.36.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52MP/ME" oid="1.3.6.1.4.1.171.10.76.37.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-12TS/ME" oid="1.3.6.1.4.1.171.10.76.44.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28X/ME" oid="1.3.6.1.4.1.171.10.76.43.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28XS/ME" oid="1.3.6.1.4.1.171.10.76.39.1" value="1" desc="Cfg" />
+        <!-- GE10 L2 10G Switch 1-->
+        <Device deviceType="DXS-1210-12TC" oid="1.3.6.1.4.1.171.10.139.1.1" value="1" desc="Enable" />
+        <Device deviceType="DXS-1210-10TS" oid="1.3.6.1.4.1.171.10.139.2.1" value="1" desc="Enable" />
+        <Device deviceType="DXS-1210-12SC" oid="1.3.6.1.4.1.171.10.139.3.1" value="1" desc="Enable" />
+        <Device deviceType="DXS-1210-16TC" oid="1.3.6.1.4.1.171.10.139.4.1" value="1" desc="Enable" />
+        <Device deviceType="DGS-1210-28MP/ME" oid="1.3.6.1.4.1.171.10.76.48.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28MP" oid="1.3.6.1.4.1.171.10.76.46.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52MPP" oid="1.3.6.1.4.1.171.10.76.45.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-24" oid="1.3.6.1.4.1.171.10.76.24" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-24P" oid="1.3.6.1.4.1.171.10.76.27" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28/ME" oid="1.3.6.1.4.1.171.10.76.28.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10P/ME" oid="1.3.6.1.4.1.171.10.76.42.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-20/ME" oid="1.3.6.1.4.1.171.10.76.31.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52/ME" oid="1.3.6.1.4.1.171.10.76.29.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-16" oid="1.3.6.1.4.1.171.10.76.23" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-48" oid="1.3.6.1.4.1.171.10.76.25" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-08P" oid="1.3.6.1.4.1.171.10.76.26" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52MP/ME" oid="1.3.6.1.4.1.171.10.76.37.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28P/ME" oid="1.3.6.1.4.1.171.10.76.30.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52P/ME" oid="1.3.6.1.4.1.171.10.76.36.2" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28/ME" oid="1.3.6.1.4.1.171.10.76.28.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52MPP/ME" oid="1.3.6.1.4.1.171.10.76.47.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1510-28XMP/ME" oid="1.3.6.1.4.1.171.10.141.8.1" value="2" desc="Cfg" />
+        <Device deviceType="DGS-1510-28LP/ME" oid="1.3.6.1.4.1.171.10.141.7.1" value="2" desc="Cfg" />
+        <Device deviceType="DGS-1510-28L/ME" oid="1.3.6.1.4.1.171.10.141.3.1" value="2" desc="Cfg" />
+        <Device deviceType="DGS-1510-28X/ME" oid="1.3.6.1.4.1.171.10.141.4.1" value="2" desc="Cfg" />
+        <Device deviceType="DGS-1510-52X/ME" oid="1.3.6.1.4.1.171.10.141.6.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-1210-08P" oid="1.3.6.1.4.1.171.10.75.17.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28" oid="1.3.6.1.4.1.171.10.75.18.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28P" oid="1.3.6.1.4.1.171.10.75.19.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52" oid="1.3.6.1.4.1.171.10.75.20.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-10/ME" oid="1.3.6.1.4.1.171.10.75.14.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-10/ME" oid="1.3.6.1.4.1.171.10.75.14.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-28/ME" oid="1.3.6.1.4.1.171.10.75.15.3" value="1" desc="Cfg" />
+        <Device deviceType="DES-1210-52/ME" oid="1.3.6.1.4.1.171.10.75.26.1" value="1" desc="Cfg" />
+        <Device deviceType="DES-3200-18-DC" oid="1.3.6.1.4.1.171.10.113.13.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-26-DC" oid="1.3.6.1.4.1.171.10.113.12.1" value="2" desc="Cfg" />
+        <Device deviceType="DES-3200-10-DC" oid="1.3.6.1.4.1.171.10.113.11.1" value="2" desc="Cfg" />
+        <Device deviceType="" oid="1.3.6.1.4.1.171.10.110.3.1" value="" />
+        <Device deviceType="DGS-1100-24/ME" oid="1.3.6.1.4.1.171.10.134.8" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-18/ME" oid="1.3.6.1.4.1.171.10.134.6" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-26/ME" oid="1.3.6.1.4.1.171.10.134.12" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-24P/ME" oid="1.3.6.1.4.1.171.10.134.10" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1100-16/ME" oid="1.3.6.1.4.1.171.10.134.4" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10P" oid="1.3.6.1.4.1.171.10.153.1.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10MP" oid="1.3.6.1.4.1.171.10.153.2.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-10" oid="1.3.6.1.4.1.171.10.153.3.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-20" oid="1.3.6.1.4.1.171.10.153.4.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28" oid="1.3.6.1.4.1.171.10.153.5.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-26" oid="1.3.6.1.4.1.171.10.153.6.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52" oid="1.3.6.1.4.1.171.10.153.7.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28P" oid="1.3.6.1.4.1.171.10.153.8.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-28MP" oid="1.3.6.1.4.1.171.10.153.9.1" value="1" desc="Cfg" />
+        <Device deviceType="DGS-1210-52MP" oid="1.3.6.1.4.1.171.10.153.10.1" value="1" desc="Cfg" />
+        <Device deviceType="DSR-500AC" oid="1.3.6.1.4.1.171.20.3.10.1" value="" />
+        <Device deviceType="DAP-2695" oid="1.3.6.1.4.1.171.10.37.47" value="1" />
+        <Device deviceType="DAP-2230" oid="1.3.6.1.4.1.171.10.37.56" value="1" />
+        <Device deviceType="DAP-2360B" oid="1.3.6.1.4.1.171.10.37.50" value="1" />
+        <Device deviceType="DAP-2310B" oid="1.3.6.1.4.1.171.10.37.49" value="1" />
+        <Device deviceType="DAP-2690B" oid="1.3.6.1.4.1.171.10.37.45" value="1" />
+        <Device deviceType="DAP-2330" oid="1.3.6.1.4.1.171.10.37.51" value="1" />
+        <Device deviceType="DAP-3662" oid="1.3.6.1.4.1.171.10.37.54" value="1" />
+        <Device deviceType="DAP-3320" oid="1.3.6.1.4.1.171.10.37.55" value="1" />
+        <Device deviceType="DAP-2553B" oid="1.3.6.1.4.1.171.10.37.48" value="1" />
+        <Device deviceType="DWP-2360" oid="1.3.6.1.4.1.171.10.37.53" value="1" />
+      </option>
+    </save>
+  </Profile>
+</Profiles>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SSHSettingProfile>
+      <sshAdminState>3</sshAdminState>
+      <sshPort>22</sshPort>
+    </SSHSettingProfile>
+  </Profile>
+</Device>
+<!--
+SSH Value list:3: Enabled,2: Disabled
+-->

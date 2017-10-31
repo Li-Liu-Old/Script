@@ -1,0 +1,64 @@
+﻿<div>
+    <input type="hidden" value="" id="CurrentModuleName" name="CurrentModuleName" />
+    <ul>
+        <li name="disableControl"><span class="spanTilte">Enable Change</span>
+            <select id="Select1" name="isEnableChange">
+                <option value="Enable">Enable</option>
+                <option value="Disable" selected="selected">Disable</option>
+            </select></li>
+    </ul>
+    <ul style="margin-top: 0px;">
+        <li><span class="spanTilte">Enable Network(SSID No)</span><input type="checkbox"
+            style="margin-left: 3px;" onchange="DUI.profile.APProfile.vapModeControl(this)" name="ssidSelectControl" /><span
+                class="spanTip">ALL</span></li>
+    </ul>
+    <div id="ssidDiv">
+        <ul id="DataForm">
+            <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileVAPEntry_PageData"
+                name="APProfile_wsAPProfileId_wsAPProfileVAPEntry_PageData" />
+            <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileVAPEntry_PageData"
+                name="APProfile_wsAPRadioInterface_wsAPProfileVAPEntry_PageData" />
+            <li>
+                <input type="checkbox" checked="checked" disabled="disabled" /><span class="spanTip w50">SSID1</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID2</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID3</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID4</span>
+            </li>
+            <li>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID5</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID6</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID7</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID8</span>
+            </li>
+            <li>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID9</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID10</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID11</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID12</span>
+            </li>
+            <li>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID13</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID14</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID15</span>
+                <input type="checkbox" name="APProfile_wsVAPId_wsAPProfileVAPEntry_PageData" /><span
+                    value="APProfile_wsVAPMode_wsAPProfileVAPEntry_PageData" class="spanTip w50">SSID16</span>
+            </li>
+        </ul>
+    </div>
+    <span id="ssidMsg" style="display: none; color: Red">*please choose at least one SSID
+        except SSID1.</span>
+</div>

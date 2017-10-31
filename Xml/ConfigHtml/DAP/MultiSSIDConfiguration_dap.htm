@@ -1,0 +1,172 @@
+﻿<div>
+    <div id="InputTable">
+        <input id="moduleName" type="hidden" value="MultiSSIDConfiguration" />
+        <div id="dataTable">
+            <ul>
+                <li><span class="spanTilte profilePartTitle">Multi-SSID Settings</span> </li>
+                <li><span class="spanTilte">Multi-SSID</span>
+                    <select id="MultiSSIDConfiguration_dot11MssidState_dot11MssidStateEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidState_dot11MssidStateEntry_PageData">
+                    </select></li>
+                <li><span class="spanTilte profilePartTitle">Wireless Selection</span> </li>
+                <li><span class="spanTilte">Wireless Band</span>
+                    <select id="dot11MssidState" name="MultiSSIDConfiguration_radioIndex_dot11MssidEntry,dot11MssidStateEntry,dot11MssidRADIUSEntry_PageData">
+                    </select></li></ul>
+            <ul id="disableControls">
+                <li><span class="spanTilte profilePartTitle">Wireless Settings</span> </li>
+                <input type="hidden" value="1" name="MultiSSIDConfiguration_dot11MssIndividualState_dot11MssidEntry_PageData" />
+                <input type="hidden" value="1" id="MultiSSIDConfiguration_dot11MssidAuthentication_dot11MssidEntry_PageData"
+                    name="MultiSSIDConfiguration_dot11MssidAuthentication_dot11MssidEntry_PageData" />
+                <input type="hidden" value="0" id="MultiSSIDConfiguration_dot11MssidEncryption_dot11MssidEntry_PageData"
+                    name="MultiSSIDConfiguration_dot11MssidEncryption_dot11MssidEntry_PageData" />
+                <li><span class="spanTilte">SSID Index</span>
+                    <select id="MultiSSIDConfiguration_dot11MssidIndex_dot11MssidEntry,dot11MssidRADIUSEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidIndex_dot11MssidEntry,dot11MssidRADIUSEntry_PageData">
+                    </select></li>
+                <li><span class="spanTilte">SSID Name</span>
+                    <input id="MultiSSIDConfiguration_dot11MssidSsid_dot11MssidEntry_PageData" name="MultiSSIDConfiguration_dot11MssidSsid_dot11MssidEntry_PageData"
+                        type="text" maxlength="32" class="validate[required,custom[LetterNumberSign],maxSize[32]]" /><span
+                            class="spanTip">(between 1 and 32 characters)</span> </li>
+                <li><span class="spanTilte">SSID Visibility</span>
+                    <select id="Select2" name="MultiSSIDConfiguration_dot11MssidSuppress_dot11MssidEntry_PageData">
+                    </select></li>
+                <li><span class="spanTilte">WMM(Wi-Fi Multimedia)</span>
+                    <select id="Select3" name="MultiSSIDConfiguration_dot11MssidWmm_dot11MssidEntry_PageData"
+                        size="">
+                    </select></li>
+                <li><span class="spanTilte profilePartTitle">Security Configuration</span> </li>
+                <li><span class="spanTilte">Security</span>
+                    <select id="SecuritySetting" name="otherControl">
+                        <option value="None" selected="selected">None</option>
+                        <option value="Static WEP">Static WEP</option>
+                        <option value="WPA Personal">WPA Personal</option>
+                        <option value="WPA Enterprise">WPA Enterprise</option>
+                        <option value="WEP IEEE802.1x">WEP IEEE802.1x</option>
+                    </select></li>
+                <li><span id="SettingText" class="spanTilte profilePartTitle">Key Settings</span></li>
+                <!-- wep -->
+                <li mp="wep"><span class="spanTilte">Authentication</span>
+                    <select id="WepAuthSetting" name="otherControl">
+                        <option value="Open System" selected="selected">Open System</option>
+                        <!--<option value="Share Key">Share Key</option>-->
+                        <!-- 屏蔽原因：有些设备支持有些不支持，没有规律可循。 -->
+                    </select>
+                </li>
+                <li mp="wep"><span class="spanTilte">Key Size</span>
+                    <select id="wepKeySize" name="otherControl">
+                        <!-- unfinished -->
+                        <option value="64">64</option>
+                        <option value="128">128</option>
+                    </select></li>
+                <li mp="wep"><span class="spanTilte">WEP Key Type</span>
+                    <select id="MultiSSIDConfiguration_dot11MssidKeyType_dot11MssidEntry_PageData" name="MultiSSIDConfiguration_dot11MssidKeyType_dot11MssidEntry_PageData">
+                    </select></li>
+                <li mp="wep"><span class="spanTilte">WEP Key Index(1-4)</span>
+                    <select id="MultiSSIDConfiguration_dot11MssidWepKeyIndex_dot11MssidEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidWepKeyIndex_dot11MssidEntry_PageData">
+                    </select></li>
+                <li mp="wep"><span class="spanTilte">Key Value</span>
+                    <input id="MultiSSIDConfiguration_dot11MssidWepKey_dot11MssidEntry_PageData" name="MultiSSIDConfiguration_dot11MssidWepKey_dot11MssidEntry_PageData"
+                        type="password" class="validate[required,custom[onlyLetterNumber]]" /><input id="text1" name="controlSpan"
+                            type="text" style="display: none" /><img src="../../Images/textEyeIcon.png" title="Show Text"
+                                class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle; margin-left: 5px;
+                                cursor: pointer;" onclick="showPwd(this,'text1','MultiSSIDConfiguration_dot11MssidWepKey_dot11MssidEntry_PageData')"
+                                name="isResultDisplayControl" /><span class="spanTip">(Characters required:<span
+                                    id="keyValueTip"></span>)</span></li>
+                <!-- WPA -->
+                <li mp="wpa"><span class="spanTilte">WPA Mode</span>
+                    <select id="WPAModeSetting" name="otherControl">
+                        <option value="WPA" selected="selected">WPA</option>
+                        <option value="WPA2">WPA2</option>
+                        <option value="AUTO">AUTO</option>
+                    </select>
+                </li>
+                <li mp="wpa"><span class="spanTilte">Cipher Type</span>
+                    <select id="" name="MultiSSIDConfiguration_dot11MssidCipherType_dot11MssidEntry_PageData">
+                    </select>
+                </li>
+                <li mp="wpa"><span class="spanTilte">Group Key Update Interval(Seconds)</span>
+                    <input type="text" id="MultiSSIDConfiguration_dot11MssidGroupKeyUpdateInterval_dot11MssidEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidGroupKeyUpdateInterval_dot11MssidEntry_PageData"
+                        class="validate[required,custom[validNumber],min[300],max[9999999]]" /><span class="spanTip">(300
+                            to 9999999)</span> </li>
+                <!-- WPA Personal-->
+                <li mp="wpaPer"><span class="spanTilte">Periodical Key Change</span>
+                    <select id="MultiSSIDConfiguration_dot11MssidAutoRekeyControl_dot11MssidEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidAutoRekeyControl_dot11MssidEntry_PageData">
+                        <option value="0">Disable</option>
+                    </select></li>
+                <li mp="wpaPer"><span class="spanTilte">PassPhrase</span>
+                    <input type="password" id="MultiSSIDConfiguration_dot11MssidPassPhrase_dot11MssidEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidPassPhrase_dot11MssidEntry_PageData" class="validate[required,custom[onlyLetterNumber],minSize[8],maxSize[63]]"
+                        maxlength="63" /><input id="text2" name="controlSpan" type="text" style="display: none" /><img
+                            src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                            style="vertical-align: middle; margin-left: 5px; cursor: pointer;" onclick="showPwd(this,'text2','MultiSSIDConfiguration_dot11MssidPassPhrase_dot11MssidEntry_PageData')"
+                            name="isResultDisplayControl" /><span class="spanTip">(between 8 and 63 characters)</span></li>
+                <!-- WPA Enterprise-->
+                <!-- 802.11X -->
+                <input type="hidden" value="1" name="MultiSSIDConfiguration_dot11MssidRADIUSIndex_dot11MssidRADIUSEntry_PageData" />
+                <li mp="ieee802x"><span class="spanTilte">Key Update Interval</span>
+                    <input id="MultiSSIDConfiguration_dot11MssidRadiusKeyUpdateInterval_dot11MssidRADIUSEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidRadiusKeyUpdateInterval_dot11MssidRADIUSEntry_PageData"
+                        type="text" class="validate[required,custom[validNumber],min[300],max[9999999]]]" /><span
+                            class="spanTip">(Seconds,300 to 9999999)</span> </li>
+                <!-- Primary RADIUS -->
+                <li mp="priRadius"><span class="spanTilte profilePartTitle">Primary RADIUS Server Setting</span></li>
+                <li mp="priRadius"><span class="spanTilte">Radius Server</span>
+                    <input type="text" id="MultiSSIDConfiguration_dot11MssidRADIUSServer_dot11MssidRADIUSEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidRADIUSServer_dot11MssidRADIUSEntry_PageData"
+                        class="validate[required,custom[ipv4]]" />
+                </li>
+                <li mp="priRadius"><span class="spanTilte">Port</span>
+                    <input type="text" id="MultiSSIDConfiguration_dot11MssidRADIUSPort_dot11MssidRADIUSEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidRADIUSPort_dot11MssidRADIUSEntry_PageData"
+                        class="validate[required,custom[validNumber],min[1],max[65535]" /><span class="spanTip">(1
+                            to 65535)</span> </li>
+                <li mp="priRadius" style="margin-bottom:15px;"><span class="spanTilte">Radius Secret</span>
+                    <input type="password" id="MultiSSIDConfiguration_dot11MssidRADIUSSecret_dot11MssidRADIUSEntry_PageData"
+                        name="MultiSSIDConfiguration_dot11MssidRADIUSSecret_dot11MssidRADIUSEntry_PageData"
+                        class="validate[required,custom[onlyLetterNumber],maxSize[32]]" maxlength="32" /><input id="text3" name="controlSpan"
+                            type="text" style="display: none" /><img src="../../Images/textEyeIcon.png" title="Show Text"
+                                class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle; margin-left: 10px;
+                                cursor: pointer;" onclick="showPwd(this,'text3','MultiSSIDConfiguration_dot11MssidRADIUSSecret_dot11MssidRADIUSEntry_PageData')"
+                                name="isResultDisplayControl" /><span class="spanTip">(between 1 and 32 characters)</span>
+                </li>
+            </ul>
+        </div>
+        <input type="button" value="Add" onclick="changeValidate(false);ClearTableValidate();if(Submit()){DUI.profile.common.actionMethod('addNew');}"
+            class="bgBtnInput" style="height: 26px; margin-top:5px;" id="addBtn" />
+        <div class="clear">
+        </div>
+    </div>
+    <div class="tableData mt20">
+        <table id="StatusTable" width="100%" align="center" class="statusShowTable">
+            <thead>
+                <tr class="HeaderRow">
+                    <th>
+                        SSID Index
+                    </th>
+                    <th>
+                        SSID Name
+                    </th>
+                    <th>
+                        SSID Visibility
+                    </th>
+                    <th>
+                        Security
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Row">
+                    <td colspan="5">
+                        <span class="dblock tc noDataSpan">No Data Found.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

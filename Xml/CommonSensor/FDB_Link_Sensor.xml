@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_FDB>
+      <dot1dTpFdbEntry mac="" port="" status=""/>
+      <dot1qTpFdbEntry mac="" port="" status=""/>
+    </Sensor_FDB>
+  </Profile>
+</Device>
+

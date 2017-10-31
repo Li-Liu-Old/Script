@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_DeviceInfo>
+      <Firmware/>
+      <Hardware/>
+      <PrivateMacAddress />
+      <SerialNumber/>
+      <TotalFlash/>
+    </Sensor_DeviceInfo>
+  </Profile>
+  <ExecTime/>
+</Device>

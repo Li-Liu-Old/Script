@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogServerEntry>
+        <Item sysLogServerIndex="1" sysLogServerAddress="" sysLogServerFacility="1" sysLogServerSeverity="9" sysLogServerUDPPort="514" sysLogServerState="3" />
+      </sysLogServerEntry>
+      <sysLogCtrlState>3</sysLogCtrlState>
+    </SyslogProfile>
+  </Profile>
+</Device>

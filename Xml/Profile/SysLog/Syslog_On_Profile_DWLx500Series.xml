@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <apLogSeverity>7</apLogSeverity>
+      <sysLogServerState>1</sysLogServerState>
+      <sysLogServerAddress></sysLogServerAddress>
+      <apLogRelayPort>514</apLogRelayPort>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+apLogSeverity  Size list:	1: 0..7 Default values:	1: 7 (int) (不清楚具体项，只有1到7的数据)
+apLogRelayEnabled(sysLogServerState) Value list:	0: disabled(0)  	1: enabled(1) 
+sysLogServerAddressHex IPAddressHex
+-->

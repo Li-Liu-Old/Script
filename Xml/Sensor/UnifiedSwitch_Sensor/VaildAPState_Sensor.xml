@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <VaildAPConfigProfile type="Custom">
+      <wsValidAPConfigEntry wsAPMacAddress=""
+              wsAPMode=""
+              wsUseAPProfileId=""
+              wsAPConfigRowStatus="" />
+    </VaildAPConfigProfile>
+  </Profile>
+</Device>

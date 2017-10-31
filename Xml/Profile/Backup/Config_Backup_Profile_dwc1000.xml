@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile type="Custom">
+      <configEntry>
+        <Item
+		          ifIndex="0"
+		          uploadServerAddress=""
+		          uploadFilename=""
+		          configMgmtProtocol="1"
+		          configMgmtAction="1"/>
+      </configEntry>
+    </BackupProfile>
+  </Profile>
+</Device>

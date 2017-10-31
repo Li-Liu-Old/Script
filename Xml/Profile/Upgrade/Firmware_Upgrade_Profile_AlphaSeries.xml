@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <agentBscFileSystemLoadType>3</agentBscFileSystemLoadType>
+      <!--<agentBscFileSystemCtrlUnitID></agentBscFileSystemCtrlUnitID>-->
+      <agentBscFileSystemCtrl>3</agentBscFileSystemCtrl>
+    </FirmwareProfile>
+  </Profile>
+</Device>
+<!--
+agentBscFileSystemLoadType
+Value list:	1: other(1) 
+ 	2: upload(2) 
+ 	3: download(3) 
+agentBscFileSystemCtrl
+Value list:	1: other(1) 
+ 	2: inactive(2) 
+ 	3: start(3) 
+-->

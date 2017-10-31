@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapManagerStatus>1</trapManagerStatus>
+      <trapManagerEntry>
+        <Item trapManagerIndex="1"
+              trapManagerIpAddress=""
+              />
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>
+<!--
+trapStatus Value list:	0: disabled(0) 1: enabled(1) 
+trapHostIPAddress: IPAddress
+-->

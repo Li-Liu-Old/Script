@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Device Name="DWL-8200AP" DefaultFramework="2.10" SOID="1.3.6.1.4.1.171.10.37.21">
+  <Command>
+    <!--Device CMD Template , Update time: 9.18  SOID:1.3.6.1.4.1.171.10.37.21-->
+    <!-- IfXTable NoData -->
+    <Sensor_CPULoadPercent>
+      <CPULoadPercent Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.37.4.4.1.2.1.0" CommandType="Integer" />
+    </Sensor_CPULoadPercent>
+    <Sensor_MemoryFreeReal>
+      <MemoryFreeReal Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.37.4.4.1.2.2.0" CommandType="Integer" />
+    </Sensor_MemoryFreeReal>
+    <Sensor_WLANUtilizationBytes>
+      <Transmitted Proto="SNMPv2" Options="R" CommandText="" CommandType="Counter64" />
+      <Received Proto="SNMPv2" Options="R" CommandText="" CommandType="Counter64" />
+    </Sensor_WLANUtilizationBytes>
+    <Sensor_WLANUtilizationPackets>
+      <Transmitted Proto="SNMPv2" Options="R" CommandText="" CommandType="Counter64" />
+      <Received Proto="SNMPv2" Options="R" CommandText="" CommandType="Counter64" />
+    </Sensor_WLANUtilizationPackets>
+    <!-- Profile -->
+    <!--Update time: 9.18  finished -->
+    <FirmwareProfile>
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.1.0" CommandType="IPAddress" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.2.0" CommandType="String" />
+      <uLocalFileName Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.3.0" CommandType="String" />
+      <uTFTPCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.4.0" CommandType="Integer" />
+      <uUpgradeSettingCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.5.0" CommandType="Integer" />
+    </FirmwareProfile>
+    <!--Upgrade Firmware -->
+    <BackupProfile>
+      <uploadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.1.0" CommandType="IPAddress" />
+      <uploadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.2.0" CommandType="String" />
+      <uLocalFileName Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.3.0" CommandType="String" />
+      <uTFTPCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.4.0" CommandType="Integer" />
+      <uUpgradeSettingCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.5.0" CommandType="Integer" />
+    </BackupProfile>
+    <!--Upload Config(Backup) -->
+    <RestoreProfile>
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.1.0" CommandType="IPAddress" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.2.0" CommandType="String" />
+      <uLocalFileName Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.3.0" CommandType="String" />
+      <uTFTPCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.4.0" CommandType="Integer" />
+      <uUpgradeSettingCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.3.5.0" CommandType="Integer" />
+    </RestoreProfile>
+    <!--Download Config(Restore) -->
+    <!--Update time: 10.22 Syslog -->
+    <SyslogProfile>
+      <adSystemLevel Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.11.1.0" CommandType="Integer" />
+      <adWirelessLevel Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.11.2.0" CommandType="Integer" />
+      <adNoticeLevel Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.11.3.0" CommandType="Integer" />
+      <sysLogServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.11.9.0" CommandType="IPAddress" />
+    </SyslogProfile>
+    <!--10.26  DHCP Server Telnet Web -->
+    <DHCPProfile>
+      <dhcpStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.1.0" CommandType="Integer" />
+      <!--
+      <dynamicIpPoolStart  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.1.0" CommandType="IPAddress" />
+      <dynamicIpPoolRange  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.2.0" CommandType="Integer" />
+      <dynamicMask  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.3.0" CommandType="IPAddress" />
+      <dynamicGateway  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.4.0" CommandType="IPAddress" />
+      <dynamicWins  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.5.0" CommandType="IPAddress" />
+      <dynamicDns  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.6.0" CommandType="IPAddress" />
+      <dynamicDomainName  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.7.0" CommandType="String" />
+      <dynamicLeaseTime  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.8.0" CommandType="Integer" />
+      <dynamicStatus  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.2.7.2.9.0" CommandType="Integer" />-->
+    </DHCPProfile>
+    <TelnetProfile>
+      <telnetStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.4.1.0" CommandType="Integer" />
+    </TelnetProfile>
+    <!-- Save/Reboot/RMON/SafeGuard Engine/Spanning Tree -->
+    <SaveProfile>
+      <save Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.5.1.0" CommandType="Integer" />
+    </SaveProfile>
+    <RebootProfile>
+      <reboot Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.11.37.4.3.2.1.0" CommandType="Integer" />
+    </RebootProfile>
+    <TrapProfile />
+  </Command>
+  <Method>
+    <Append_1 ParaCount="1" />
+    <Append_2 ParaCount="2" />
+  </Method>
+</Device>

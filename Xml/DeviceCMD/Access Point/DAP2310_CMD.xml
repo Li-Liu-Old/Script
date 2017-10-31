@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Name="DAP-2310" DefaultFramework="1.16" SOID="1.3.6.1.4.1.171.10.37.43">
+  <Command>
+    <!-- Update time: 9.13  SOID:1.3.6.1.4.1.171.10.37.43 -->   
+    <Sensor_WirelessClientsInfo>
+      <TotalClients Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.1.1.2.1" CommandType="Integer" />
+      <!--TotalAuthenticatedClients Proto="SNMPv1" Options="R" CommandText="" CommandType="Gauge" /-->
+      <!--dap have no this node,how to solve?-->
+    </Sensor_WirelessClientsInfo>   
+    <Sensor_WLANUtilizationBytes>
+      <Transmitted Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.2.2.1.1.1.20.1" CommandType="Integer" />
+      <Received Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.2.2.1.1.1.24.1" CommandType="Integer" />
+    </Sensor_WLANUtilizationBytes>   
+    <Sensor_WLANUtilizationPackets>
+      <Transmitted Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.2.2.1.1.1.19.1" CommandType="Integer" />
+      <Received Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.2.2.1.1.1.23.1" CommandType="Integer" />
+    </Sensor_WLANUtilizationPackets>  
+    <Sensor_MemoryFreeReal>
+      <MemoryFreeReal  Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.1.4.0" CommandType="Integer"/>
+    </Sensor_MemoryFreeReal>  
+    <Sensor_CPULoadPercent>
+      <CPULoadPercent Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.1.3.0" CommandType="Integer"/>
+    </Sensor_CPULoadPercent>
+    <!-- 12.25 -->
+    <Sensor_WirelessErrorPackets>
+      <!--<dot11ReceivedMICErrorCount Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.2.2.1.1.1.28.1" CommandType="Integer" />-->
+      <totalErrorPacketsEntry Proto="SNMP" Type="EditTable" Desc =""  Method="Append_1">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <RxErrors  Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.2.2.1.1.1.29" CommandType="Integer" />
+      </totalErrorPacketsEntry>
+    </Sensor_WirelessErrorPackets>
+    <Sensor_WirelessInfo>
+      <dot11MssidStateEntry Proto="SNMP" Type="EditTable" Desc =""  Method="Append_1">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MssidState CommandText="1.3.6.1.4.1.171.10.37.43.3.3.1.1.1" Options="RW" CommandType="Integer"/>
+      </dot11MssidStateEntry>
+      <interfaceInformationEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <ifIndex Options="N" CommandText="X" CommandType="Integer" CommandSuffix="0"/>
+        <ifMacAddress Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.1.2.1.1.5" CommandType="MAC" />
+        <ssidMacAddressStart Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.1.2.1.1.9" CommandType="MAC" />
+        <ssidMacAddressEnd Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.5.1.2.1.1.10" CommandType="MAC" />
+      </interfaceInformationEntry>
+      <dot11MssidEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_2">
+        <ifIndex Options="N" CommandText="1.3.6.1.2.1.2.2.1.1" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MssidIndex Options="N" CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.1" CommandType="Integer" CommandSuffix="1"/>
+        <dot11MssIndividualState Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.2" CommandType="Integer" />
+        <dot11MssidSsid Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.3" CommandType="String" />
+        <dot11MssidAuthentication Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.5" CommandType="Integer" />
+        <dot11MssidPassPhrase Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.11" CommandType="String" />
+      </dot11MssidEntry>
+      <dot11ParametersEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <ifIndex Options="N" CommandText="1.3.6.1.2.1.2.2.1.1" CommandType="Integer" CommandSuffix="0"/>
+        <dot11Ssid Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.1" CommandType="String" />
+        <dot11WifiMode Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.16" CommandType="Integer" />
+        <dot11Band Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.34" CommandType="Integer" />
+        <dot11Channel Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.3" CommandType="Integer" />
+        <dot11ChannelWidth Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.29" CommandType="Integer" />
+        <dot11ApMode Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.28" CommandType="Integer" />
+        <dot11RadioWave Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.23" CommandType="Integer" />
+      </dot11ParametersEntry>
+    </Sensor_WirelessInfo>
+    <Sensor_AuthenticatedClientsInfo>
+      <clientInformationEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_2">
+        <ifIndex Options="N" CommandText="1.3.6.1.2.1.2.2.1.1" CommandType="Integer"  CommandSuffix="0"/>
+        <clientIndex Options="N" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.1" CommandType="Integer"  CommandSuffix="1"/>
+        <clientMacAddress Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.2" CommandType="MAC" />
+        <!--<dot11ClientBand Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.3" CommandType="Integer" /> -->
+        <clientAuthentication Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.4" CommandType="Integer" />
+        <!--<dot11ClientRssi Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.5" CommandType="Integer" /> -->
+        <!--<clientAuthenticated Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.6" CommandType="Integer" />-->
+        <ssidIndex Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.7" CommandType="String" />
+        <!-- PrimarySSID  dap2590_2 -->
+		<apAssocRxBytes  Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.12" CommandType="Integer" />
+        <apAssocTxBytes  Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.4.2.1.11" CommandType="Integer" />
+      </clientInformationEntry>
+    </Sensor_AuthenticatedClientsInfo>
+    
+    <!--Update time: 11.10  -->
+    <FirmwareProfile>
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.1.0" CommandType="IPAddress" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.2.0" CommandType="String" />
+      <tftpCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.4.0" CommandType="Integer" />
+      <tftpUpgradeSettingCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.5.0" CommandType="Integer" />
+    </FirmwareProfile>
+    <!--Upgrade Firmware -->
+    <BackupProfile>
+      <uploadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.1.0" CommandType="IPAddress" />
+      <uploadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.2.0" CommandType="String" />
+      <tftpCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.4.0" CommandType="Integer" />
+      <tftpUpgradeSettingCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.5.0" CommandType="Integer" />
+    </BackupProfile>
+    <!--Upload Config(Backup) -->
+    <RestoreProfile>
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.1.0" CommandType="IPAddress" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.2.0" CommandType="String" />
+      <tftpCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.4.0" CommandType="Integer" />
+      <tftpUpgradeSettingCommand Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.2.5.0" CommandType="Integer" />
+    </RestoreProfile>
+    <!--Download Config(Restore) -->
+    <!--Update time: 10.24 Trap & Syslog -->
+    <TrapProfile>
+      <trapManagerStatus  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.5.7.1.1.0" CommandType="Integer" />
+      <trapManagerEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <trapManagerIndex Options="N" CommandText="1.3.6.1.4.1.171.10.37.43.5.7.1.3.1" CommandType="Integer" CommandSuffix="0" />
+        <trapManagerIpAddress Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.5.7.1.3.1.2" CommandType="IPAddress" />
+      </trapManagerEntry>
+    </TrapProfile>
+    <SyslogProfile>
+      <sysLogServerAddress  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.5.4.9.0" CommandType="IPAddress" />
+      <systemLogSystemLevel  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.5.4.1.0" CommandType="Integer" />
+      <systemLogWirelessLevel  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.5.4.2.0" CommandType="Integer" />
+      <systemLogNoticeLevel  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.5.4.3.0" CommandType="Integer" />
+    </SyslogProfile>
+    <!--10.29  DHCP Server Telnet Web-->
+    <DHCPProfile>
+      <dhcpStatus  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.1.0" CommandType="Integer" />
+      <!--<dhcpServerDynamicEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <dynamicIndex Options="N" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.1" CommandType="Integer" CommandSuffix="0" />
+        <dynamicIpPoolStart Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.3" CommandType="IPAddress" />
+        <dynamicIpPoolEnd Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.4" CommandType="IPAddress" />
+        <dynamicMask Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.6" CommandType="IPAddress" />
+        <dynamicGateway Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.7" CommandType="IPAddress" />
+        <dynamicWins Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.8" CommandType="IPAddress" />
+        <dynamicDns Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.9" CommandType="IPAddress" />
+        <dynamicDomainName Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.10" CommandType="String" />
+        <dynamicLeaseTime Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.11" CommandType="Integer" />
+      </dhcpServerDynamicEntry>-->
+    </DHCPProfile>
+    <TelnetProfile>
+      <telnetStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.4.1.0" CommandType="Integer" />
+    </TelnetProfile>
+    <WebProfile>
+      <webStatus  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.5.1.0" CommandType="Integer" />
+    </WebProfile>
+
+    <!--Wireless Configuration Setting -->
+    <!-- System -->
+    <SystemConfiguration>
+      <lanIfSettingEntry Proto="SNMP" Type="EditTable" Desc ="" Method="Append_1">
+        <ifIndex  CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <lanIfGetIpAddressFrom CommandText="1.3.6.1.4.1.171.10.37.43.2.1.1.1.1.1" Options="RW" CommandType="Integer"/>
+        <lanIfSubnetMask CommandText="1.3.6.1.4.1.171.10.37.43.2.1.1.1.1.3" Options="RW" CommandType="IPAddress"/>
+        <lanIfDefaultGateway CommandText="1.3.6.1.4.1.171.10.37.43.2.1.1.1.1.4" Options="RW" CommandType="IPAddress"/>
+      </lanIfSettingEntry>
+      <usersEntry Proto="SNMP" Type="EditTable" Desc ="" Method="Append_1">
+        <usersIndex CommandText="1.3.6.1.4.1.171.10.37.43.4.1.1.1.1" Options="N" CommandType="Integer"  CommandSuffix="0"/>
+        <usersName CommandText="1.3.6.1.4.1.171.10.37.43.4.1.1.1.2" Options="RW" CommandType="String"/>
+        <usersPassword  CommandText="1.3.6.1.4.1.171.10.37.43.4.1.1.1.3" Options="RW" CommandType="String"/>
+      </usersEntry>
+      <telnet Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.37.43.4.4.1.0" Options="RW" CommandType="Integer"/>
+      <ssh Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.37.43.4.4.2.0" Options="RW" CommandType="Integer"/>
+      <timeout Proto="SNMP" CommandText="1.3.6.1.4.1.171.10.37.43.4.4.3.0" Options="RW" CommandType="Integer"/>
+    </SystemConfiguration>
+    <!-- Wireless -->
+    <WirelessConfiguration>
+      <dot11ParametersEntry  Proto="SNMPv2" Type="EditTable" Desc ="" Method="Append_1">
+        <dot11Band  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.34" Options="RW" CommandType="Integer" CommandSuffix="0"/>
+        <dot11Ssid  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.1" Options="RW" CommandType="String"/>
+        <dot11AutoChannelScan  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.24" Options="RW" CommandType="Integer"/>
+        <dot11Channel  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.3" Options="RW" CommandType="Integer"/>
+        <dot11SsidBroadcast  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.2" Options="RW" CommandType="Integer"/>
+        <dot11DataRate  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.11" Options="RW" CommandType="String"/>
+        <dot11BeaconInterval  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.17" Options="RW" CommandType="Integer"/>
+        <dot11Dtim  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.18" Options="RW" CommandType="Integer"/>
+        <dot11RadioWave  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.23" Options="RW" CommandType="Integer"/>
+        <dot11ChannelWidth  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.1.1.1.29" Options="RW" CommandType="Integer"/>
+      </dot11ParametersEntry>
+    </WirelessConfiguration>
+    <!-- Security -->
+    <SecurityConfiguration>
+      <dot11WepKeyEntry Proto="SNMP" Type="EditTable" Desc ="" Method="Append_2">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer"  CommandSuffix="0"/>
+        <dot11wepKeyIndex CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.2.1.1" Options="N" CommandType="Integer"  CommandSuffix="1"/>
+        <dot11WepKeyEntryMethod  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.2.1.2" Options="RW" CommandType="Integer"/>
+        <dot11WepKey  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.2.1.3" Options="RW" CommandType="String"/>
+      </dot11WepKeyEntry>
+      <dot11SecuritiesEntry Proto="SNMPv2" Type="EditTable" Desc ="" Method="Append_1">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11Authentication  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.1" Options="RW" CommandType="Integer"/>
+        <dot11Encryption CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.2" Options="RW" CommandType="Integer"/>
+        <dot11KeyIndex CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.3" Options="RW" CommandType="Integer"/>
+        <!--different from dot11wepKeyIndex-->
+        <dot11PassPhrase  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.4" Options="RW" CommandType="String"/>
+        <dot11CipherType  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.5" Options="RW" CommandType="Integer"/>
+        <dot11GroupKeyUpdateInterval  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.6" Options="RW" CommandType="Integer"/>
+        <dot11PrimaryRadiusServer  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.8" Options="RW" CommandType="IPAddress"/>
+        <dot11PrimaryRadiusPort  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.9" Options="RW" CommandType="Integer"/>
+        <dot11PrimaryRadiusSecret  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.10" Options="RW" CommandType="String"/>
+        <dot11NetworkAccessProtection CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.22" Options="RW" CommandType="Integer"/>
+        <dot11RadiusKeyUpdateInterval CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.24" Options="RW" CommandType="Integer"/>
+        <dot11WpaEapType CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.25" Options="RW" CommandType="Integer"/>
+        <dot11WpaEapAuthenticationType CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.26" Options="RW" CommandType="Integer"/>
+        <dot11WpaEapUsername CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.27" Options="RW" CommandType="Integer"/>
+        <dot11WpaEapPasswd CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.28" Options="RW" CommandType="Integer"/>
+        <dot11AutoRekeyControl CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.29" Options="RW" CommandType="Integer"/>
+        <dot11AutoRekeyStartWeek CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.30" Options="RW" CommandType="Integer"/>
+        <dot11AutoRekeyStartTime CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.31" Options="RW" CommandType="Integer"/>
+        <dot11AutoRekeyTimeInterval CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.32" Options="RW" CommandType="Integer"/>
+        <dot11AutoRekeyPassPhrase CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.1.1.33" Options="RW" CommandType="Integer"/>
+      </dot11SecuritiesEntry>
+    </SecurityConfiguration>
+    <!-- Filter -->
+    <WirelessMacAclSettings>
+      <dot11MacAccessControlEntry Proto="SNMPv2" Type="CreateTable1" Desc ="dot11MacAccessControlListEntry" Method="Append_1">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MacAccessControl  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.3.2.1.1" Options="RW" CommandType="Integer"/>
+        <dot11MacAccessControlMacAddressAdd  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.3.2.1.2" Options="RW" CommandType="MAC" CommandStatus="add"/>
+        <dot11MacAccessControlMacAddressDelete  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.3.2.1.3" Options="RW" CommandType="MAC" CommandStatus="delete"/>
+      </dot11MacAccessControlEntry>
+      <dot11MacAccessControlListEntry Proto="SNMPv2" Type="CreateTable1" Desc ="" Method="Append_2">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MacAccessControlListIndex  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.3.3.1.1" Options="N" CommandType="Integer" CommandSuffix="1"/>
+        <dot11MacAccessControlListMacAddress  CommandText="1.3.6.1.4.1.171.10.37.43.2.1.3.3.2.3.3.1.2" Options="RW" CommandType="MAC" CommandStatus="relate"/>
+      </dot11MacAccessControlListEntry>
+    </WirelessMacAclSettings>
+    <!-- Multi SSID -->
+    <MultiSSIDConfiguration>
+      <dot11MssidStateEntry Proto="SNMP" Type="EditTable" Desc =""  Method="Append_1">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MssidState CommandText="1.3.6.1.4.1.171.10.37.43.3.3.1.1.1" Options="RW" CommandType="Integer"/>
+      </dot11MssidStateEntry>
+      <dot11MssidEntry Proto="SNMP" Type="EditTable" Desc ="" Method="Append_2">
+        <radioIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MssidIndex  CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.1" Options="N" CommandType="Integer" CommandSuffix="1"/>
+        <dot11MssIndividualState  CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.2" Options="RW" CommandType="Integer"/>
+        <dot11MssidSsid  CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.3" Options="RW" CommandType="String"/>
+        <dot11MssidSuppress CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.4" Options="RW" CommandType="Integer"/>
+        <dot11MssidAuthentication CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.5" Options="RW" CommandType="Integer"/>
+        <dot11MssidEncryption  CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.6" Options="RW" CommandType="Integer"/>
+        <dot11MssidWepKeyIndex  CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.7" Options="RW" CommandType="Integer"/>
+        <dot11MssidWepKey  CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.8" Options="RW" CommandType="String"/>
+        <dot11MssidCipherType CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.10" Options="RW" CommandType="Integer"/>
+        <dot11MssidPassPhrase CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.11" Options="RW" CommandType="String"/>
+        <dot11MssidKeyType CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.12" Options="RW" CommandType="Integer"/>
+        <dot11MssidWmm CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.14" Options="RW" CommandType="Integer"/>
+        <dot11MssidGroupKeyUpdateInterval CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.15" Options="RW" CommandType="Integer"/>
+        <dot11MssidPriority CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.16" Options="RW" CommandType="Integer"/>
+        <dot11MssidAutoRekeyControl CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.17" Options="RW" CommandType="Integer"/>
+        <dot11MssidAutoRekeyStartWeek CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.18" Options="RW" CommandType="Integer"/>
+        <dot11MssidAutoRekeyStartTime CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.19" Options="RW" CommandType="Integer"/>
+        <dot11MssidAutoRekeyTimeInterval CommandText="1.3.6.1.4.1.171.10.37.43.3.3.3.1.20" Options="RW" CommandType="Integer"/>
+      </dot11MssidEntry>
+      <dot11MssidRADIUSEntry Proto="SNMP" Type="EditTable" Desc =""  Method="Append_2">
+        <dot11MssidRADIUSIndex CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11MssidIndex CommandText="X" Options="N" CommandType="Integer" CommandSuffix="1"/>
+        <dot11MssidRADIUSServer CommandText="1.3.6.1.4.1.171.10.37.43.3.3.4.1.2" Options="RW" CommandType="IPAddress"/>
+        <dot11MssidRADIUSPort CommandText="1.3.6.1.4.1.171.10.37.43.3.3.4.1.3" Options="RW" CommandType="Integer"/>
+        <dot11MssidRADIUSSecret CommandText="1.3.6.1.4.1.171.10.37.43.3.3.4.1.4" Options="RW" CommandType="String"/>
+        <dot11MssidRadiusKeyUpdateInterval CommandText="1.3.6.1.4.1.171.10.37.43.3.3.4.1.6" Options="RW" CommandType="Integer"/>
+      </dot11MssidRADIUSEntry>
+    </MultiSSIDConfiguration>
+    <!-- Wireless Schedule -->
+    <WirelessScheduleSettings>
+      <dot11ScheduleStatus Proto="SNMPv2" CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.1.1.0" Options="RW" CommandType="Integer" />
+      <ScheduleRuleSetting Proto="SNMPv2" Type="CreateTable2" Desc ="dot11ScheduleListEntry" Method="">
+        <dot11ScheduleRuleName  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.1.0" Options="RW" CommandType="String" />
+        <dot11ScheduleDaysSelect  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.2.0" Options="RW" CommandType="Integer" />
+        <dot11ScheduleRuleStartTime CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.4.0" Options="RW" CommandType="String" />
+        <dot11ScheduleRuleEndTime  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.5.0" Options="RW" CommandType="String" />
+        <dot11ScheduleAllDaySelect  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.3.0" Options="RW" CommandType="Integer"/>
+        <dot11ScheduleSSIDIndex  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.8.0" Options="RW" CommandType="Integer"  CommandStatus="relate"/>
+        <dot11ScheduleNodeStatus  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.9.0" Options="RW" CommandType="Integer"  />
+        <dot11ScheduleAction  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.1.2.7.0" Options="RW" CommandType="Integer"  CommandStatus="action"/>
+      </ScheduleRuleSetting>
+      <dot11ScheduleListEntry Proto="SNMPv2" Type="CreateTable2" Desc ="" Method="Append_1">
+        <dot11ScheduleListIndex  CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dot11ScheduleListName  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.2" Options="RW" CommandType="String"/>
+        <dot11ScheduleListDays  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.3" Options="RW" CommandType="String"/>
+        <dot11ScheduleListTimeFrame  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.4" Options="RW" CommandType="String"/>
+        <dot11ScheduleListWirelessStatus  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.5" Options="RW" CommandType="Integer"/>
+        <dot11ScheduleListSSIDIndex  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.6" Options="RW" CommandType="Integer" CommandStatus="relate"/>
+        <dot11ScheduleListSSID  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.7" Options="RW" CommandType="Integer"/>
+        <dot11ScheduleListNodeStatus  CommandText="1.3.6.1.4.1.171.10.37.43.3.10.2.1.1.8" Options="RW" CommandType="Integer"/>
+      </dot11ScheduleListEntry>
+    </WirelessScheduleSettings>
+    <!-- DHCP Dynamic Pool -->
+    <DhcpDynamicPoolConfiguration>
+      <dhcpServerDynamicEntry Proto="SNMPv2" Type="EditTable" Desc ="" Method="Append_1">
+        <dynamicIndex CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0"/>
+        <dynamicIpPoolStart  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.3" Options="RW" CommandType="IPAddress"/>
+        <dynamicIpPoolEnd  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.4" Options="RW" CommandType="IPAddress"/>
+        <dynamicMask  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.6" Options="RW" CommandType="IPAddress"/>
+        <dynamicGateway  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.7" Options="RW" CommandType="IPAddress"/>
+        <dynamicWins  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.8" Options="RW" CommandType="IPAddress"/>
+        <dynamicDns  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.9" Options="RW" CommandType="IPAddress"/>
+        <dynamicDomainName  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.10" Options="RW" CommandType="String"/>
+        <dynamicLeaseTime  CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.2.1.11" Options="RW" CommandType="Integer"/>
+      </dhcpServerDynamicEntry>
+      <dhcpServerDynamicControl Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.3.1.2.1.0" CommandType="Integer" />
+    </DhcpDynamicPoolConfiguration>
+    
+    <!-- Save/Reboot/RMON/SafeGuard Engine/Spanning Tree -->
+    <SaveProfile>
+      <save Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.2.3.0" CommandType="Integer"/>
+    </SaveProfile>
+    <RebootProfile>
+      <reboot Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.2.1.0" CommandType="Integer"/>
+    </RebootProfile>
+    <SSHSettingProfile>
+      <sshAdminState  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.4.2.0" CommandType="Integer"/>
+    </SSHSettingProfile>
+    <SNTPSettingProfile>
+      <sntpServerIpAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.8.1.0" CommandType="Integer"/>
+      <sntpTimeZoneIndex Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.8.2.0" CommandType="Integer"/>
+      <sntpState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.37.43.4.8.5.0" CommandType="Integer"/>
+    </SNTPSettingProfile>
+</Command>
+  <Method>
+    <Append_1 ParaCount="1"/>
+    <Append_2 ParaCount="2"/>
+    <Append_3 ParaCount="3"/>
+  </Method>
+</Device>

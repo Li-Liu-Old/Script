@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogCtrlState>1</sysLogCtrlState>
+      <sysLogServerEntry>
+        <Item sysLogServerIndex="1"
+              sysLogServerAddress=""
+              sysLogServerUDPPort="514"
+              sysLogServerSeverity="7"             
+              />
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+sysLogCtrlState Value list:	1: enable(1)2: disable(2) 
+sysLogServerAddress : IPAddress
+agentLogHostTableSeverityFilter Value list:7debug
+agentLogHostTableRowStatus(sysLogServerState) Value List:1:active(1) 2:notInService(2) 3:notReady(3) 4:createAndGo(4) 5:createAndWait(5) 6:destory(6)
+-->

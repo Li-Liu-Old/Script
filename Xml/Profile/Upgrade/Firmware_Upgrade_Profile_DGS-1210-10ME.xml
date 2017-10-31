@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <tftpFwTargetServerIpType>1</tftpFwTargetServerIpType>
+      <downloadFilename>
+      </downloadFilename>
+      <tftpFwTargetConfigID>1</tftpFwTargetConfigID>
+      <tftpFwTargetTftpOperation>1</tftpFwTargetTftpOperation>
+    </FirmwareProfile>
+  </Profile>
+</Device>

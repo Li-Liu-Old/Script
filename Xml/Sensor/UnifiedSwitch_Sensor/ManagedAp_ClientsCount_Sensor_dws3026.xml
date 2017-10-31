@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_AuthenticatedClientsInfo  type="Custom">
+      <clientInformationEntry clientMacAddress=""
+                              clientSSIDName=""
+                              clientAuthenticated=""
+                              wsAuthenticatedClientAge=""/>
+      <wsAuthenticatedClientStatisticsEntry  wsAuthenticatedClientMacAddress=""
+                                             wsAuthenticatedClientPktsRecvd=""
+                                             wsAuthenticatedClientBytesRecvd=""
+                                             wsAuthenticatedClientPktsTransmitted=""
+                                             wsAuthenticatedClientBytesTransmitted=""/>
+    </Sensor_AuthenticatedClientsInfo>
+  </Profile>
+  <ExecTime/>
+</Device>
+<!--
+clientStatus:
+1: none(0),2: authenticated(1),3: associated(2),4: disassociated(3),5: deleted(4) 
+-->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <Sensor_SIMTraffic>
+      <StatSIMUseStatus>
+      </StatSIMUseStatus>
+      <StatSIMTotalDL>
+      </StatSIMTotalDL>
+      <StatSIMTotalUL>
+      </StatSIMTotalUL>
+    </Sensor_SIMTraffic>
+  </Profile>
+</Device>

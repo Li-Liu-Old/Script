@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <tftpCfgTargetServerIpType>1</tftpCfgTargetServerIpType>
+      <downloadFilename>
+      </downloadFilename>
+      <tftpCfgTargetConfigID>1</tftpCfgTargetConfigID>
+      <tftpCfgTargetTftpOperation>1</tftpCfgTargetTftpOperation>
+    </RestoreProfile>
+  </Profile>
+</Device>

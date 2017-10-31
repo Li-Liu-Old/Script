@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">      
+      <sysLogServerEntry >
+        
+      </sysLogServerEntry>
+      <sysLogCtrlState>2</sysLogCtrlState>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+<Item sysLogServerIndex="1" sysLogServerRowStatus="6" />
+sysLogServerRowStatus Value List:1:active(1) 2:notInService(2) 3:notReady(3) 4:createAndGo(4) 5:createAndWait(5) 6:destory(6)
+-->

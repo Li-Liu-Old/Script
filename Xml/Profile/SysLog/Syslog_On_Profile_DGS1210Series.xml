@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <sysLogServerAddress>
+      </sysLogServerAddress>
+      <syslogUDPPort>514</syslogUDPPort>
+      <syslogTimeStamp>1</syslogTimeStamp>
+      <syslogSeverity>7</syslogSeverity>
+      <syslogFacility>128</syslogFacility>
+      <sysLogServerState>1</sysLogServerState>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+sysLogServerAddress IPAddress
+syslogTimeStamp Enable(1) Disable(2)
+syslogSeverity warning(4) info(6) all(7)
+syslogFacility 128:local(0) 136:local(1) 144:local(2) 152:local(3) 160:local(4) 168:local(5) 176:local(6) 184:local(7)
+sysLogServerState Enable(1) Disable(0)
+-->

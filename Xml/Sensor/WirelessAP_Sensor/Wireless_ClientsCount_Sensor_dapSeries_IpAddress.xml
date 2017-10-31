@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <Sensor_AuthenticatedClientsInfo type="Custom">
+      <clientInformationEntry ifIndex="" clientIndex="" clientMacAddress="" ssidIndex="" 
+	                          apAssocRxBytes="" apAssocTxBytes="" wsAuthenticatedClientIpAddress="" />
+    </Sensor_AuthenticatedClientsInfo>
+  </Profile>
+  <ExecTime />
+</Device>
+<!--
+clientPsm Value list:	0: off(0),1: on(1) 
+-->

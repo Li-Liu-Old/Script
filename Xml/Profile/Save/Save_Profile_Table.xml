@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SaveProfile >
+      <saveEntry>
+        <Item   rlCopyIndex="200"
+                rlCopySourceLocation="1"
+                rlCopySourceUnitNumber="0"
+                rlCopySourceFileType="2"
+                rlCopyDestinationLocation="1"
+                rlCopyDestinationUnitNumber="0"
+                rlCopyDestinationFileType="3"
+                rlCopyRowStatus="4"/>
+      </saveEntry>
+    </SaveProfile>
+  </Profile>
+</Device>
+<!--
+rlCopySourceLocation  1:Local;3:TFTP
+rlCopySourceUnitNumber 0:UnitNumber0;1:UnitNumber1
+rlCopySourceFileType  2:runningConfig;3:startupConfig
+rlCopyDestinationLocation 1:Local;3:TFTP
+rlCopyDestinationUnitNumber 0:UnitNumber0;1:UnitNumber1
+rlCopyDestinationFileType 2:runningConfig;3:startupConfig
+rlCopyRowStatus 
+-->

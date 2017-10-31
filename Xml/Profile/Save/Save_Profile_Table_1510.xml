@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SaveProfile>
+      <saveEntry>
+        <Item dsfCopyIndex="1" dsfCopyType="1" dsfCopySrcUrl="running-config" dsfCopyDstUrl="startup-config" dsfCopyRowStatus="4" />
+      </saveEntry>
+    </SaveProfile>
+  </Profile>
+</Device>
+<!--
+
+-->

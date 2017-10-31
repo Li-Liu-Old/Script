@@ -1,0 +1,122 @@
+﻿<div>
+    <input id="moduleName" type="hidden" value="SecurityConfiguration" />
+    <ul>
+        <input type="hidden" value="First" id="SecurityConfiguration_dot11KeyIndex_dot11SecuritiesEntry_PageData"
+            name="SecurityConfiguration_dot11KeyIndex_dot11SecuritiesEntry_PageData" />
+        <input type="hidden" value="1" id="SecurityConfiguration_dot11Authentication_dot11SecuritiesEntry_PageData"
+            name="SecurityConfiguration_dot11Authentication_dot11SecuritiesEntry_PageData" />
+        <input type="hidden" value="0" id="SecurityConfiguration_dot11Encryption_dot11SecuritiesEntry_PageData"
+            name="SecurityConfiguration_dot11Encryption_dot11SecuritiesEntry_PageData" />
+        <li><span class="spanTilte profilePartTitle">Wireless Selection</span> </li>
+        <li><span class="spanTilte">Wireless Band</span>
+            <select id="SecurityConfiguration_radioIndex_dot11SecuritiesEntry,dot11WepKeyEntry_PageData"
+                name="SecurityConfiguration_radioIndex_dot11SecuritiesEntry,dot11WepKeyEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte profilePartTitle">Security Configuration</span> </li>
+        <li style="margin-bottom:0px;"><span class="spanTilte">Security</span>
+            <select id="SecuritySetting" name="otherControl">
+                <option value="None" selected="selected">None</option>
+                <option value="Static WEP">Static WEP</option>
+                <option value="WPA Personal">WPA Personal</option>
+                <option value="WPA Enterprise">WPA Enterprise</option>
+                <option value="WEP IEEE802.1x">WEP IEEE802.1x</option>
+            </select>
+        </li>
+        <li><span id="SettingText" class="spanTilte profilePartTitle">Key Settings</span>
+        </li>
+        <!-- wep -->
+        <li mp="wep"><span class="spanTilte">Authentication</span>
+            <select id="WepAuthSetting" name="otherControl">
+                <option value="Open System" selected="selected">Open System</option>
+                <!--<option value="Share Key">Share Key</option>-->
+                <!-- 屏蔽原因：有些设备支持有些不支持，没有规律可循。 -->
+            </select>
+        </li>
+        <li mp="wep"><span class="spanTilte">Key Size</span>
+            <select id="wepKeySize" name="otherControl">
+                <option value="64">64</option>
+                <option value="128">128</option>
+            </select></li>
+        <li mp="wep"><span class="spanTilte">Key Type</span>
+            <select id="SecurityConfiguration_dot11WepKeyEntryMethod_dot11WepKeyEntry_PageData"
+                name="SecurityConfiguration_dot11WepKeyEntryMethod_dot11WepKeyEntry_PageData">
+            </select></li>
+        <li mp="wep"><span class="spanTilte">Key Index(1 - 4)</span>
+            <select id="SecurityConfiguration_dot11wepKeyIndex_dot11WepKeyEntry_PageData" name="SecurityConfiguration_dot11wepKeyIndex_dot11WepKeyEntry_PageData">
+            </select></li>
+        <li mp="wep" style="margin-bottom:0px;"><span class="spanTilte">Key Value</span>
+            <input id="SecurityConfiguration_dot11WepKey_dot11WepKeyEntry_PageData" name="SecurityConfiguration_dot11WepKey_dot11WepKeyEntry_PageData"
+                type="password" class="validate[required,custom[onlyLetterNumber]]" /><input id="text2" name="controlSpan1"
+                    type="text" style="display: none" /><img src="../../Images/textEyeIcon.png" title="Show Text"
+                        class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle; margin-left: 10px;
+                        cursor: pointer;" onclick="showPwd(this,'text2','SecurityConfiguration_dot11WepKey_dot11WepKeyEntry_PageData')"
+                        name="isResultDisplayControl" /><span class="spanTip">(Characters required:<span
+                            id="keyValueTip"></span>)</span></li>
+        <!-- WPA -->
+        <li mp="wpa"><span class="spanTilte">WPA Mode</span>
+            <select id="WPAModeSetting" name="otherControl">
+                <option value="WPA" selected="selected">WPA</option>
+                <option value="WPA2">WPA2</option>
+                <option value="AUTO">AUTO</option>
+            </select>
+        </li>
+        <li mp="wpa"><span class="spanTilte">Cipher Type</span>
+            <select id="Select6" name="SecurityConfiguration_dot11CipherType_dot11SecuritiesEntry_PageData">
+            </select></li>
+        <li mp="wpa" style="margin-bottom:0px;"><span class="spanTilte">Group Key Update Interval</span>
+            <input id="SecurityConfiguration_dot11GroupKeyUpdateInterval_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11GroupKeyUpdateInterval_dot11SecuritiesEntry_PageData"
+                type="text" class="validate[required,custom[validNumber],min[300],max[9999999]]]" /><span
+                    class="spanTip">(Seconds,300 to 9999999)</span> </li>
+        <!-- WPA Personal-->
+        <li mp="wpaPer"><span class="spanTilte">Periodical Key Change</span>
+            <select id="SecurityConfiguration_dot11AutoRekeyControl_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11AutoRekeyControl_dot11SecuritiesEntry_PageData">
+                <option value="0">Disable</option>
+            </select></li>
+        <li mp="wpaPer" style="margin-bottom:0px;"><span class="spanTilte">PassPhrase</span>
+            <input id="SecurityConfiguration_dot11PassPhrase_dot11SecuritiesEntry_PageData" name="SecurityConfiguration_dot11PassPhrase_dot11SecuritiesEntry_PageData"
+                type="password" class="validate[required,custom[onlyLetterNumber],minSize[8],maxSize[63]]" maxlength="63" /><input
+                    id="text1" name="controlSpan1" type="text" style="display: none" /><img src="../../Images/textEyeIcon.png"
+                        title="Show Text" class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle;
+                        margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text1','SecurityConfiguration_dot11PassPhrase_dot11SecuritiesEntry_PageData')"
+                        name="isResultDisplayControl" /><span class="spanTip">(between 8 and 63 characters)</span></li>
+        <!-- WPA Enterprise-->
+        <li mp="wpaEnt"><span class="spanTilte profilePartTitle">Network Access Protection</span></li>
+        <li mp="wpaEnt" style="margin-bottom:0px;"><span class="spanTilte">Network Access Protection</span>
+            <select id="SecurityConfiguration_dot11NetworkAccessProtection_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11NetworkAccessProtection_dot11SecuritiesEntry_PageData">
+                <option value="0">Disable</option>
+                <option value="1">Enable</option>
+            </select>
+        </li>
+        <!-- 802.11X -->
+        <li mp="ieee802x" style="margin-bottom:0px;"><span class="spanTilte">Key Update Interval</span>
+            <input id="SecurityConfiguration_dot11RadiusKeyUpdateInterval_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11RadiusKeyUpdateInterval_dot11SecuritiesEntry_PageData"
+                type="text" class="validate[required,custom[validNumber],min[300],max[9999999]]]" /><span
+                    class="spanTip">(Seconds,300 to 9999999)</span> </li>
+        <!-- Primary RADIUS -->
+        <li mp="priRadius"><span class="spanTilte profilePartTitle">Primary RADIUS Server Setting</span></li>
+        <li mp="priRadius"><span class="spanTilte">RADIUS Server</span>
+            <input id="SecurityConfiguration_dot11PrimaryRadiusServer_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11PrimaryRadiusServer_dot11SecuritiesEntry_PageData"
+                type="text" class="validate[required,custom[ipv4]]" />
+        </li>
+        <li mp="priRadius"><span class="spanTilte">RADIUS Port</span>
+            <input id="SecurityConfiguration_dot11PrimaryRadiusPort_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11PrimaryRadiusPort_dot11SecuritiesEntry_PageData"
+                type="text" class="validate[required,custom[validNumber],min[0],max[65535]]" /><span
+                    class="spanTip">(0 to 65535)</span> </li>
+        <li mp="priRadius" style="margin-bottom:0px;"><span class="spanTilte">RADIUS Secret</span>
+            <input id="SecurityConfiguration_dot11PrimaryRadiusSecret_dot11SecuritiesEntry_PageData"
+                name="SecurityConfiguration_dot11PrimaryRadiusSecret_dot11SecuritiesEntry_PageData"
+                type="password" maxlength="32" class="validate[required,custom[onlyLetterNumber],maxSize[32]]" /><input id="text3"
+                    name="controlSpan" type="text" style="display: none" /><img src="../../Images/textEyeIcon.png"
+                        title="Show Text" class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle;
+                        margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text3','SecurityConfiguration_dot11PrimaryRadiusSecret_dot11SecuritiesEntry_PageData')"
+                        name="isResultDisplayControl" /><span class="spanTip">(between 1 and 32 characters)</span>
+        </li>
+    </ul>
+</div>

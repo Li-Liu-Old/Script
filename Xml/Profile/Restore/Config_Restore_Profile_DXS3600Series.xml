@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <swGenFileSystemMgmtServerAddrType>1</swGenFileSystemMgmtServerAddrType>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <swGenFileSystemMgmtTranserProtocol>1</swGenFileSystemMgmtTranserProtocol>
+      <swGenFileSystemMgmtServerFileName>config.cfg</swGenFileSystemMgmtServerFileName>
+      <downloadFilename></downloadFilename>
+      <swGenFileSystemMgmtLoadType>3</swGenFileSystemMgmtLoadType>
+      <swGenFileSystemMgmtCtrl>3</swGenFileSystemMgmtCtrl>
+    </RestoreProfile>
+  </Profile>
+</Device>

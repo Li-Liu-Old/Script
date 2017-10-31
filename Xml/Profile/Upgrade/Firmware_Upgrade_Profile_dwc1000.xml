@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile type="Custom">
+      <configEntry>
+        <Item  ifIndex="0"
+               downloadServerAddress=""
+               downloadFilename=""
+               firmwareMgmtProtocol="1"
+               firmwareMgmtAction="1" />
+      </configEntry>
+    </FirmwareProfile>
+  </Profile>
+</Device>

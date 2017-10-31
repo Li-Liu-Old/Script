@@ -1,0 +1,97 @@
+﻿<div>
+    <div id="InputTable">
+        <input id="moduleName" type="hidden" value="WirelessScheduleSettings" />
+        <div>
+            <ul id="dataTable">
+                <li style="padding-top:5px;"><span class="spanTilte" style="margin-left:0px;">Wireless Schedule</span>
+                    <select id="WirelessScheduleSettings_dot11ScheduleStatus_PageData" name="WirelessScheduleSettings_dot11ScheduleStatus_PageData">
+                    </select></li>
+                <li><span class="spanTilte profilePartTitle">Add Schedule Rule</span> </li>
+                <li><span class="spanTilte spanTitle2">Index</span>
+                    <select id="WirelessScheduleSettings_dot11ScheduleSSIDIndex_ScheduleRuleSetting_PageData"
+                        name="WirelessScheduleSettings_dot11ScheduleSSIDIndex_ScheduleRuleSetting_PageData">
+                    </select></li>
+                <li><span class="spanTilte spanTitle2">Name</span>
+                    <input id="WirelessScheduleSettings_dot11ScheduleRuleName_ScheduleRuleSetting_PageData"
+                        name="WirelessScheduleSettings_dot11ScheduleRuleName_ScheduleRuleSetting_PageData"
+                        type="text" class="validate[required,custom[LetterNumberSign],maxSize[32]]" maxlength="32" /><span
+                            class="spanTip">(between 1 and 32 characters)</span></li>
+                <li style="margin-bottom:10px;"><span class="spanTilte spanTitle2">Day(s)</span>
+                    <select id="WeekDaysSelectControl" name="WeekDaysSelectControl">
+                        <option value="127">All Week</option>
+                        <option value="0">Select Day(s)</option>
+                    </select>
+                </li>
+                <li style="margin-top:10px;"><span class="spanTilte"></span>
+                    <div class="diblock">
+                        <div id="dateDiv">
+                            <!-- Sun 1 Mon 2 Tue 4 Wed 8 Thu 16 Fri 32 Sat 64 All week 0 -->
+                            <input name="WeekDaysSelect" type="checkbox" value="1" /><span class="spanTip">Sun</span>
+                            <input name="WeekDaysSelect" type="checkbox" value="2" /><span class="spanTip">Mon</span>
+                            <input name="WeekDaysSelect" type="checkbox" value="4" /><span class="spanTip">Tue</span>
+                            <input name="WeekDaysSelect" type="checkbox" value="8" /><span class="spanTip">Wed</span>
+                            <input name="WeekDaysSelect" type="checkbox" value="16" /><span class="spanTip">Thu</span>
+                            <input name="WeekDaysSelect" type="checkbox" value="32" /><span class="spanTip">Fri</span>
+                            <input name="WeekDaysSelect" type="checkbox" value="64" /><span class="spanTip">Sat</span>
+                            <input id="WirelessScheduleSettings_dot11ScheduleDaysSelect_ScheduleRuleSetting_PageData"
+                                name="WirelessScheduleSettings_dot11ScheduleDaysSelect_ScheduleRuleSetting_PageData"
+                                type="hidden" value="0" />
+                        </div>
+                        <span id="dateMsg" style="display: none" class="checkboxTableVMsg validateMsg none diblock">
+                            *please choose at least one Day.</span></div>
+                </li>
+                <li><span class="spanTilte spanTitle2">All Day(s)</span>
+                    <select id="WirelessScheduleSettings_dot11ScheduleAllDaySelect_ScheduleRuleSetting_PageData"
+                        name="WirelessScheduleSettings_dot11ScheduleAllDaySelect_ScheduleRuleSetting_PageData">
+                    </select></li>
+                <li><span class="spanTilte spanTitle2">Start Time</span>
+                    <input id="WirelessScheduleSettings_dot11ScheduleRuleStartTime_ScheduleRuleSetting_PageData"
+                        name="WirelessScheduleSettings_dot11ScheduleRuleStartTime_ScheduleRuleSetting_PageData"
+                        type="text" class="validate[required,custom[Time]]" />
+                    <span class="spanTip">(hour:minute,24 hour time)</span></li>
+                <li style="margin-bottom:15px;"><span class="spanTilte spanTitle2">End Time</span>
+                    <input id="WirelessScheduleSettings_dot11ScheduleRuleEndTime_ScheduleRuleSetting_PageData"
+                        name="WirelessScheduleSettings_dot11ScheduleRuleEndTime_ScheduleRuleSetting_PageData"
+                        type="text" class="validate[required,custom[Time]]" />
+                    <span class="spanTip">(hour:minute,24 hour time)</span></li>
+            </ul>
+            <input type="button" value="Add" onclick="changeValidate(false);ClearTableValidate();DUI.profile.common.actionMethod('addNew');"
+                class="bgBtnInput" style="height: 26px; margin-top:5px;" id="profileAddBtn" />
+            <div class="clear">
+            </div>
+        </div>
+    </div>
+    <div class="tableData mt20">
+        <table id="StatusTable" width="100%" align="center" class="statusShowTable">
+            <thead>
+                <tr class="HeaderRow">
+                    <th>
+                        SSID Index
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Day(s)
+                    </th>
+                    <th>
+                        Time Frame
+                    </th>
+                    <th>
+                        Wireless
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Row">
+                    <td colspan="6">
+                        <span class="dblock tc noDataSpan">No Data Found.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

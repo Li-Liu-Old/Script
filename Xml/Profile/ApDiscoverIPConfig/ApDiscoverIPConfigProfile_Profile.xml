@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <ApDiscoverIPConfigProfile>
+      <wsIPPollMode></wsIPPollMode>
+      <wsIPPollListEntry >
+        <Item  wsPollIpAddress="" />
+      </wsIPPollListEntry>
+    </ApDiscoverIPConfigProfile>
+  </Profile>
+</Device>
+<!--
+wsIPPollMode 1 Enable 2 Disable
+wsPollIPStatus
+1: not-polled(1) 2: polled(2) 3: discovered(3) 4: discovered-failed(4) 
+wsIPPollRowStatus
+active(1) notInservice(2) notReady(3) createAndGo(4) createAndWait(5) destory(6) 
+-->

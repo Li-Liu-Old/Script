@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_SNMP>
+      <sysContact></sysContact>
+      <sysName></sysName>
+      <sysLocation></sysLocation>
+    </Sensor_SNMP>
+  </Profile>
+</Device>

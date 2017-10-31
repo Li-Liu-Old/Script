@@ -1,0 +1,2815 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Device_Description>
+  <Device sysObjectID="1.3.6.1.4.1.171.11.124.1" DeviceType="DWS-3160-24TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.11.124.2" DeviceType="DWS-3160-24PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.73.3" DeviceType="DWS-3026">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.13.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.9.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.4.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.4413" DeviceType="DWS-4026">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.10.1" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.73.2" DeviceType="DWS-3024">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.10.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.9.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.4.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.73.4" DeviceType="DWS-3024L">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.10.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.9.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.11.1.1.4.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.73.5.1" DeviceType="DWS-4026">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.50.1.1.1.13.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.50.1.1.1.9.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.73.50.1.1.1.4.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.121.1" DeviceType="DWC-1000">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.121.1.2.1.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.121.1.2.1.1.3.0" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.121.1.2.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+    <Method>
+      <Append_1 ParaCount="1" />
+    </Method>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.20.3.4" DeviceType="DSR-1000N">
+    <Command>
+      <Sensor_DeviceInfo>
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.21" DeviceType="DWL-8200AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.32.1.9.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.32.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.128.1.1" DeviceType="DWL-6600AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.1.6.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.129.1.1" DeviceType="DWL-3600AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.1.6.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.29.1" DeviceType="DWL-8600AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.29.1.26.1.1.6.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.136.1.1" DeviceType="DWL-8610AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.136.1.1.26.1.1.6.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.27.1" DeviceType="DWL-3500AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.25.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.25.1.1.6.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.28.1" DeviceType="DWL-8500AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.25.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.25.1.1.6.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.4413.1.1.28" DeviceType="DWL-X600AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.26.1.1.3.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.35" DeviceType="DAP-2553">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.35.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.35.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.36" DeviceType="DAP-2590">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.36.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.36.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.37" DeviceType="DAP-3520">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.37.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.37.5.1.2.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.39" DeviceType="DAP-2690">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.39.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.39.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.45" DeviceType="DAP-2690B">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.45.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.45.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.40" DeviceType="DAP-2360A">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.40.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.40.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.50" DeviceType="DAP-2360B">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.50.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.50.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.41" DeviceType="DAP-3690">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.41.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.41.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.42" DeviceType="DAP-2310A">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.42.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.42.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.49" DeviceType="DAP-2310B">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.49.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.49.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.43" DeviceType="DAP-2310">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.43.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.52" DeviceType="DAP-2660">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.52.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.52.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.47" DeviceType="DAP-2695">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.47.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.47.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.36.1.1" DeviceType="DHS-3226">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.36.1.2" DeviceType="DHS-3218">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.36.1.3" DeviceType="DHS-3210">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.48.1" DeviceType="DES-3226STK">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.48.2" DeviceType="DES-3226SR">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.59.7" DeviceType="DES-3350SR">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.1.1" DeviceType="DES-3010F">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.1.2" DeviceType="DES-3010G">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.4" DeviceType="DES-3010FL">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.10" DeviceType="DES-3016">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.2" DeviceType="DES-3018">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.3" DeviceType="DES-3026">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.6" DeviceType="DES-3028">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.7" DeviceType="DES-3028P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.8" DeviceType="DES-3052">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.9" DeviceType="DES-3052P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.64.1" DeviceType="DES-3526">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.64.1.2" DeviceType="DES-3526DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.64.2" DeviceType="DES-3550">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.69.1" DeviceType="DES-3828">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.69.2" DeviceType="DES-3828DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.69.3" DeviceType="DES-3828P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.69.4" DeviceType="DES-3852">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.69.5" DeviceType="DES-3852P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.105.1" DeviceType="DES-3528">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.105.3" DeviceType="DES-3552">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.105.2" DeviceType="DES-3528P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.105.4" DeviceType="DES-3552P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.105.5" DeviceType="DES-3528DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.1.1" DeviceType="DES-3200-10">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.1.2" DeviceType="DES-3200-18">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.1.4" DeviceType="DES-3200-28F">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.2.1" DeviceType="DES-3200-10">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.3.1" DeviceType="DES-3200-18">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.4.1" DeviceType="DES-3200-26">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.5.1" DeviceType="DES-3200-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.1.3" DeviceType="DES-3200-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.6.1" DeviceType="DES-3200-28F">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.7.1" DeviceType="DES-3200-28/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.8.1" DeviceType="DES-3200-28P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.9.1" DeviceType="DES-3200-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.10.1" DeviceType="DES-3200-52P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.114.1.1" DeviceType="DES-3810-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.114.1.3" DeviceType="DES-3810-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.116.2" DeviceType="DES-1228/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.63.11" DeviceType="DES-3028G">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.61.3" DeviceType="DES-2108">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.61.3.11.1.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.61.3.11.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.59.1" DeviceType="DGS-3324SRi">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.59.5" DeviceType="DGS-3324SR">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.1" DeviceType="DGS-3426">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.2" DeviceType="DGS-3427">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.3" DeviceType="DGS-3450">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.5" DeviceType="DGS-3650">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.4.1.1.1.1.2.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.6" DeviceType="DGS-3627">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.7" DeviceType="DGS-3426P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.8" DeviceType="DGS-3627G">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.9" DeviceType="DGS-3612G">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.70.10" DeviceType="DGS-3612">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.101.1" DeviceType="DGS-3200-10">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.101.2" DeviceType="DGS-3200-16">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.101.3" DeviceType="DGS-3200-24">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.102.1.1" DeviceType="DGS-3700-12">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.102.1.2" DeviceType="DGS-3700-12G">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.1.1" DeviceType="DGS-3120-24TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.1.2" DeviceType="DGS-3120-24PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.1.3" DeviceType="DGS-3120-24SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.1.4" DeviceType="DGS-3120-48TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.1.5" DeviceType="DGS-3120-48PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.1.6" DeviceType="DGS-3120-24SC-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.1" DeviceType="DGS-3620-28TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.2" DeviceType="DGS-3620-28SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.3" DeviceType="DGS-3620-28PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.4" DeviceType="DGS-3620-52T">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.5" DeviceType="DGS-3620-52P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.8" DeviceType="DGS-3620-28TC-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.118.9" DeviceType="DGS-3620-28SC-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.119.1" DeviceType="DGS-3420-28TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.119.2" DeviceType="DGS-3420-28SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.119.3" DeviceType="DGS-3420-28PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.119.4" DeviceType="DGS-3420-52T">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.119.5" DeviceType="DGS-3420-52P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.119.6" DeviceType="DGS-3420-26SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.89.1.1.171.10.36.9" DeviceType="DHS-3226P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.89.2.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.89.2.11.1.0 " CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.67108992" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.94.3" DeviceType="DGS-3100-48">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.11.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.53.4.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.134217856" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.96.4.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.94.1" DeviceType="DGS-3100-24">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.11.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.53.4.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.134217856" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.96.4.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.94.2" DeviceType="DGS-3100-24P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.11.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.53.4.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.134217856" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.96.4.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.94.4" DeviceType="DGS-3100-48P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.11.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.53.4.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.134217856" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.96.4.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.94.5" DeviceType="DGS-3100-24TG">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.2.11.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.53.4.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.134217856" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.94.89.89.96.4.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.59.8" DeviceType="DXS-3350SR">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.5" DeviceType="DES-1210-28A">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.5.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.5.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.5.2" DeviceType="DES-1210-28B">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.5.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.5.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.18.1" DeviceType="DES-1210-28CX">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.18.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.18.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.6" DeviceType="DES-1210-28PA">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.6.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.6.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.19.1" DeviceType="DES-1210-28PCX">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.19.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.19.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.7" DeviceType="DES-1210-52A">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.7.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.7.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.20.1" DeviceType="DES-1210-52CX">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.20.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.20.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.26.1" DeviceType="DES-1210-52MECX">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.26.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.26.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.26.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.28.1" DeviceType="DES-1210-52PCX">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.28.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.28.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.13" DeviceType="DES-1210-08PA">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.13.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.13.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.15" DeviceType="DES-1210-28/MEA">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.24.1" DeviceType="DES-1210-28/MECX">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.24.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.24.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.15.2" DeviceType="DES-1210-28/MEB">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.10" DeviceType="DGS-1210-24">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.10.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.10.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.9" DeviceType="DGS-1210-16">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.9.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.9.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.11" DeviceType="DGS-1210-48">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.11.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.11.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.12" DeviceType="DGS-1210-10P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.12.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.12.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.14" DeviceType="DGS-1210-20">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.14.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.14.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.19.1" DeviceType="DGS-1210-20C">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.19.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.19.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.15" DeviceType="DGS-1210-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.15.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.15.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.16" DeviceType="DGS-1210-28P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.16.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.16.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.17" DeviceType="DGS-1210-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.17.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.17.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.126.1.1" DeviceType="DGS-1500-20">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.1.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.126.2.1" DeviceType="DGS-1500-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.2.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.2.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.126.3.1" DeviceType="DGS-1500-28P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.3.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.3.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.126.4.1" DeviceType="DGS-1500-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.4.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.126.4.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.30000.1" DeviceType="DGS-1210-28P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.1000.1" DeviceType="DGS-1210-52/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.13.2" DeviceType="DES-1210-08P(Rev B)">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.13.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.13.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.6.2" DeviceType="DES-1210-28P(Rev B)">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.6.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.6.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.7.2" DeviceType="DES-1210-52(Rev B)">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.7.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.7.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.2.1" DeviceType="DGS-1510-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.3.1" DeviceType="DGS-1510-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.6.1" DeviceType="DGS-1510-28X">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.4.1" DeviceType="DGS-1510-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.8.1" DeviceType="DGS-1510-52X">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.130.1.1" DeviceType="DWL-2600AP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.1.6.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.127.1" DeviceType="DXS-3600-32S">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.127.2" DeviceType="DXS-3600-16S">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.8.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.3.1" DeviceType="DGS-3120-24PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.59.4" DeviceType="DGS-3324SRi">
+    <Command>
+      <Sensor_DeviceInfo />
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.1" DeviceType="DGS-1100-06/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.1.1.1.2.0" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.1.1.1.30.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.40.1.1.1" DeviceType="DWL-1800B">
+    <Command>
+      <Sensor_DeviceInfo />
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.2.1" DeviceType="DGS-1100-10/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.2.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.2.1.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.2.1.1.26.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.134.2.1.1.29.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.121.2" DeviceType="DWC-2000">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.121.2.2.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.121.2.2.1.1.1.1.2.32.76.97.110.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.121.2.2.1.1.2.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.51" DeviceType="DAP-2330">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.51.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.51.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.54" DeviceType="DAP-3662">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.54.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.54.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.9.1" DeviceType="00">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.5.1" DeviceType="DGS-3120-48TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.6.1" DeviceType="DGS-3120-48PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.2.1" DeviceType="DGS-3120-24TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.4.1" DeviceType="DGS-3120-24SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.117.7.1" DeviceType="DGS-3120-24SC-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.120.2" DeviceType="DGS-6608">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.120.1" DeviceType="DGS-6604">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.137.1.1" DeviceType="DGS-1510-20">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.9.1" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.10.1" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.7.1" CommandType="MAC" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.1.1" DeviceType="DGS-1510-10l/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.5.1" DeviceType="DGS-1510-52L/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.9.1" DeviceType="DGS-1510-28XS/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.2.1" DeviceType="DGS-1510-20L/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.133.3.1" DeviceType="DGS-3000-26SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.133.5.1" DeviceType="DGS-3000-28SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.13" DeviceType="DGS-1100-10MPP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.121.1.1" DeviceType="DWC-1000">
+    <Command>
+      <Sensor_DeviceInfo />
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.18.1" DeviceType="DGS-1210-10P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.18.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.18.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.22.1" DeviceType="DGS-1210-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.22.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.22.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.20.1" DeviceType="DGS-1210-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.20.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.20.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.21.1" DeviceType="DGS-1210-28P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.21.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.21.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.32.1" DeviceType="DGS-1210-10">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.32.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.32.1.1.2.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.33.1" DeviceType="DGS-1210-52P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.33.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.33.1.1.2.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.34.1" DeviceType="DGS-1210-52MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.34.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.34.1.1.2.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.20.3.11.1" DeviceType="DSR-1000AC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.11.1.4.1.1.4.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.11.1.4.1.1.1.1.2.32.76.97.110.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.11.1.4.1.1.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.11.1.4.1.1.3.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.35.2" DeviceType="DGS-1210-10ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.35.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.35.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.35.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.133.1.1" DeviceType="DGS-3000-10TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.133.4.1" DeviceType="DGS-3000-24TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.133.2.1" DeviceType="DGS-3000-26TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.2.2.1.6" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.16" DeviceType="DGS-1100-26MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.14" DeviceType="DGS-1100-26MPP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.3" DeviceType="DGS-1100-16">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.5" DeviceType="DGS-1100-18">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.7" DeviceType="DGS-1100-24">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.11" DeviceType="DGS-1100-26">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.9" DeviceType="DGS-1100-24P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.15" DeviceType="DGS-1100-10MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171" DeviceType="DWR-927">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.9.1.1.1.7.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.148.1.1" DeviceType="DXS-3400-24TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.148.2.1" DeviceType="DXS-3400-24SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.35.1" DeviceType="DGS-1210-10/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.35.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.35.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.35.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.31.1" DeviceType="DGS-1210-20/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.31.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.31.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.31.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.29.1" DeviceType="DGS-1210-52/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.30.1" DeviceType="DGS-1210-28P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.42.1" DeviceType="DGS-1210-10P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.42.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.42.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.42.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.36.1" DeviceType="DGS-1210-52P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.36.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.36.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.36.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.37.1" DeviceType="DGS-1210-52MP/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.37.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.37.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.37.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.44.1" DeviceType="DGS-1210-12TS/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.44.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.44.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.44.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.43.1" DeviceType="DGS-1210-28X/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.43.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.43.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.43.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.39.1" DeviceType="DGS-1210-28XS/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.39.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.39.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.39.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.139.1.1" DeviceType="DXS-1210-12TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.1.1.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.1.1.1.1.1.4.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.1.1.1.1.1.5.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.1.1.1.1.1.7.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.139.2.1" DeviceType="DXS-1210-10TS">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.2.1.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.2.1.1.1.1.4.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.2.1.1.1.1.5.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.2.1.1.1.1.7.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.139.3.1" DeviceType="DXS-1210-12SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.3.1.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.3.1.1.1.1.4.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.3.1.1.1.1.5.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.3.1.1.1.1.7.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.139.4.1" DeviceType="DXS-1210-16TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.4.1.1.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.4.1.1.1.1.4.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.4.1.1.1.1.5.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.139.4.1.1.1.1.7.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.48.1" DeviceType="DGS-1210-28MP/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.48.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.48.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.48.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.46.1" DeviceType="DGS-1210-28MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.46.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.46.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.43.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.147.1.1" DeviceType="DGS-3630-28TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.147.3.1" DeviceType="DGS-3630-52TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.147.2.1" DeviceType="DGS-3630-28SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.45.1" DeviceType="DGS-1210-52MPP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.45.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.45.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.43.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.24" DeviceType="DGS-1210-24">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.24.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.24.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.24.1.17.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.24.1.18.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.27" DeviceType="DGS-1210-24P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.27.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.27.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.27.1.17.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.27.1.18.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.28.2" DeviceType="DGS-1210-28/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.28.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.28.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.28.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.42.2" DeviceType="DGS-1210-10P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.42.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.42.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.42.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.31.2" DeviceType="DGS-1210-20/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.31.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.31.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.31.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.29.2" DeviceType="DGS-1210-52/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.29.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.23" DeviceType="DGS-1210-16">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.23.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.23.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.23.1.17.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.23.1.18.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.25" DeviceType="DGS-1210-48">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.25.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.25.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.25.1.17.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.25.1.18.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.26" DeviceType="DGS-1210-08P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.26.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.26.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.26.1.17.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.26.1.18.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.37.2" DeviceType="DGS-1210-52MP/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.37.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.37.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.37.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.30.2" DeviceType="DGS-1210-28P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.30.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.36.2" DeviceType="DGS-1210-52P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.36.2.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.36.2.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.36.2.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.28.1" DeviceType="DGS-1210-28/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.28.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.28.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.28.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.76.47.1" DeviceType="DGS-1210-52MPP/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.47.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.47.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.76.47.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.8.1" DeviceType="DGS-1510-28XMP/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.7.1" DeviceType="DGS-1510-28LP/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.3.1" DeviceType="DGS-1510-28L/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.4.1" DeviceType="DGS-1510-28X/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.141.6.1" DeviceType="DGS-1510-52X/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.0.8802.1.1.2.1.5.4795.1.2.5.0" CommandType="StringHex" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.1" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.146.2.1" DeviceType="DXS-1100-16TC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.146.1.1" DeviceType="DXS-1100-10TS">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.146.3.1" DeviceType="DXS-1100-16SC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.17.1" DeviceType="DES-1210-08P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.17.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.17.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.14.1" DeviceType="DES-1210-10/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.14.1.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.14.1.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.14.1.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.75.15.3" DeviceType="DES-1210-28/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.3.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.3.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.75.15.3.1.30.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.13.1" DeviceType="DES-3200-18-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.12.1" DeviceType="DES-3200-26-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.113.11.1" DeviceType="DES-3200-10-DC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2.0" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.110.3.1" DeviceType="DES-8510">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.9.225.1.8.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.9.225.1.9.0" CommandType="MAC" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.9.225.1.7.0" CommandType="String" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.9.225.1.2.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.8" DeviceType="DGS-1100-24/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.6" DeviceType="DGS-1100-18/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.12" DeviceType="DGS-1100-26/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.10" DeviceType="DGS-1100-24P/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.4" DeviceType="DGS-1100-16/ME">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.5.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.2.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.15.3.1.6.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.1.1" DeviceType="DGS-1210-10P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.70.3.2.0.1" DeviceType="DWM-312">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.70.3.2.0.2.1.1.1.7.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.12.0" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.12.1.1.10.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.2.1" DeviceType="DGS-1210-10MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.3.1" DeviceType="DGS-1210-10">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.4.1" DeviceType="DGS-1210-20">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.5.1" DeviceType="DGS-1210-28">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.6.1" DeviceType="DGS-1210-26">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.7.1" DeviceType="DGS-1210-52">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.8.1" DeviceType="DGS-1210-28P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.9.1" DeviceType="DGS-1210-28MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.153.10.1" DeviceType="DGS-1210-52MP">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.3.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.11.153.1000.1.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.18.2" DeviceType="DGS-1100-05">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.19.2" DeviceType="DGS-1100-05PD">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.20.2" DeviceType="DGS-1100-08">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.21.2" DeviceType="DGS-1100-08P">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.134.22.2" DeviceType="DGS-1100-08PD">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.20.3.10.1" DeviceType="DSR-500AC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.10.1.4.1.1.4.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.10.1.4.1.1.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.10.1.4.1.1.1.1.2.32.76.97.110.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.20.3.10.1.4.1.1.2.0" CommandType="String" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.56" DeviceType="DAP-2230">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.56.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.56.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.55" DeviceType="DAP-3320">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.55.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.55.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.48" DeviceType="DAP-2553B">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.48.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.48.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.37.53" DeviceType="DWP-2360">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.53.4.3.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.10.37.53.2.1.1.1.1.5.1" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.147.4.1" DeviceType="DGS-3630-28PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.10.147.5.1" DeviceType="DGS-3630-52PC">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.16.19.3.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+        <SerialNumber Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.47.1.1.1.1.11.1" CommandType="String" />
+        <TotalFlash Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.4.1.2" CommandType="Integer" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
+</Device_Description>

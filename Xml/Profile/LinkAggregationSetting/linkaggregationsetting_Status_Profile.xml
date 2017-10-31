@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <LinkAggregationProfile>
+      <swL2TrunkAlgorithm>
+      </swL2TrunkAlgorithm>
+      <swPortTrunkEntry />
+    </LinkAggregationProfile>
+  </Profile>
+</Device>
+<!--
+  swPortTrunkIndex=""  
+                         swPortTrunkMasterPort=""
+                         swPortTrunkPortList=""
+                         swPortTrunkType=""
+                         swPortTrunkActivePort=""
+                         swPortTrunkState=""
+                         swPortTrunkFloodingPort=""
+-->

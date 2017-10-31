@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_AuthenticatedClientsInfo  type="Custom">
+      <clientInformationEntry clientMacAddress=""
+                              clientSSIDName=""
+                              clientAuthenticated=""
+                              wsManagedAPMacAddress=""
+                              clientBSSID=""
+                              clientRadioInterface=""
+                              clientAssociatingSwitch=""
+                              clientSwitchMacAddress=""
+                              clientSwitchIpAddress=""
+                              wsAuthenticatedClientAge=""
+                              wsAuthenticatedClientNwTime=""
+                              wsAuthenticatedClientIpAddress=""/>
+      <wsAuthenticatedClientStatisticsEntry  wsAuthenticatedClientMacAddress=""
+                                             wsAuthenticatedClientPktsRecvd=""
+                                             wsAuthenticatedClientBytesRecvd=""
+                                             wsAuthenticatedClientPktsTransmitted=""
+                                             wsAuthenticatedClientBytesTransmitted=""/>
+    </Sensor_AuthenticatedClientsInfo>
+  </Profile>
+  <ExecTime/>
+</Device>
+<!--
+clientAuthenticated:1: authenticated(1),2: associated(2),3: disassociated(3) 
+clientAssociatingSwitch:1: local-switch(1),2: peer-switch(2)
+wsManagedAPMacAddress
+-->

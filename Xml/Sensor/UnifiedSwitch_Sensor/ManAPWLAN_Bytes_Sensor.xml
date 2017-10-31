@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_ManagedAPWLANUtilizationBytes type="Custom">
+      <rxtxStatisticsEntry wsManagedAPMacAddress="" Transmitted="" Received=""/>
+    </Sensor_ManagedAPWLANUtilizationBytes>
+  </Profile>
+  <ExecTime/>
+</Device>

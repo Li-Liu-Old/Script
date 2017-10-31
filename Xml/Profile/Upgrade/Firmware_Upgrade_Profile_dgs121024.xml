@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <downloadFilename>
+      </downloadFilename>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <tftpFwTargetTftpOperation>1</tftpFwTargetTftpOperation>
+    </FirmwareProfile>
+  </Profile>
+</Device>
+<!--
+tftpFwTargetTftpOperation
+Value list:	0: none(0) 
+ 	1: download(1) 
+ 	2: upload(2) 
+-->

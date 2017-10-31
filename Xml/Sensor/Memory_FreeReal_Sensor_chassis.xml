@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_MemoryFreeReal>
+      <MemoryFreeReal/>
+	  <chassisControlModuleLEDlnfoEntry/>
+    </Sensor_MemoryFreeReal>
+  </Profile>
+  <ExecTime/>
+</Device>
