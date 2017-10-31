@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <dsfCopyType>2</dsfCopyType>
+      <dsfCopySrcUrl>running-config</dsfCopySrcUrl>
+      <uploadFilename>
+      </uploadFilename>
+      <dsfCopyRemoteAddrType>1</dsfCopyRemoteAddrType>
+      <uploadServerAddress>
+      </uploadServerAddress>
+      <dsfCopyRowStatus>1</dsfCopyRowStatus>
+    </BackupProfile>
+  </Profile>
+</Device>

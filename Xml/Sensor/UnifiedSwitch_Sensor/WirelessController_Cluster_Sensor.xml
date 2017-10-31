@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_Cluster type="Custom">
+      <wsPeerGroupId />
+      <wsClusterControllerIndicator />
+      <wsClusterController />
+      <wsPeerStatusEntry wsPeerIpAddress=""
+                         wsPeerClusterControllerIndicator=""
+                         wsPeerTotalPeerSwitches=""
+                         wsPeerVendorId=""
+                         wsPeerProtocolVersion=""
+                         wsPeerSoftwareVersion=""
+                         wsPeerDiscoveryReason=""
+                         wsPeerAge=""
+                         wsPeerManagedAPCount=""/>       
+    </Sensor_Cluster>
+  </Profile>
+</Device>
+<!--
+wsPeerClusterControllerIndicator Value list:	1: yes(1)，2: no(2) 
+wsClusterControllerIndicator Value list:	1: yes(1)，2: no(2) 
+wsPeerDiscoveryReason Value list:	1: ip-poll(1)，2: l2-poll(2) 
+-->

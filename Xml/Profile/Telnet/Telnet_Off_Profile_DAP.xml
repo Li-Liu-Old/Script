@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TelnetProfile>
+      <telnetStatus>0</telnetStatus>
+    </TelnetProfile>
+  </Profile>
+</Device>
+<!--
+telnet Value list:0: disabled(0),1: enabled(1) 
+-->

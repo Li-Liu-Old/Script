@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <adSystemLevel>1</adSystemLevel>
+      <adWirelessLevel>1</adWirelessLevel>
+      <adNoticeLevel>1</adNoticeLevel>
+      <sysLogServerAddress></sysLogServerAddress>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+Value list:	0: disable(0) 1: enable(1)
+sysLogServerAddress : IPAddress
+-->

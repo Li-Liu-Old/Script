@@ -1,0 +1,40 @@
+﻿<div>
+    <input id="moduleName" type="hidden" value="RFManagement" />
+    <ul class="noTopCon noPartTitle">
+        <li><span class="spanTilte">Channel Plan</span>
+            <select id="RFManagement_wsChannelPlan_wsChannelPlanEntry_PageData" name="RFManagement_wsChannelPlan_wsChannelPlanEntry_PageData">
+                <option value="1">5 GHz(802.11 a/n)</option>
+                <option value="2">2.4 GHz(802.11 b/g/n)</option>
+            </select></li>
+        <li><span class="spanTilte">Channel Plan Mode</span>
+            <select id="RFManagement_wsChannelPlanMode_wsChannelPlanEntry_PageData" name="RFManagement_wsChannelPlanMode_wsChannelPlanEntry_PageData">
+                <option value="3">Fixed Time</option>
+                <option value="1">Manual</option>
+                <option value="2">Interval</option>
+            </select></li>
+        <li><span class="spanTilte">Channel Plan History Depth</span>
+            <input type="text" id="RFManagement_wsChannelPlanHistoryDepth_wsChannelPlanEntry_PageData"
+                name="RFManagement_wsChannelPlanHistoryDepth_wsChannelPlanEntry_PageData" maxlength="2"
+                class="validate[required,custom[validNumber],min[0],max[10]]" /><span class="spanTip">(0
+                    to 10)</span></li>
+        <li><span class="spanTilte">Channel Plan Interval(hours)</span>
+            <input type="text" id="RFManagement_wsChannelPlanInterval_wsChannelPlanEntry_PageData"
+                name="RFManagement_wsChannelPlanInterval_wsChannelPlanEntry_PageData" maxlength="2"
+                class="validate[required,custom[validNumber],min[6],max[24]]" /><span class="spanTip">(6
+                    to 24)</span></li>
+        <li><span class="spanTilte">Channel Plan Fixed Time(sec)</span>
+            <input type="text" id="RFManagement_wsChannelPlanTime_wsChannelPlanEntry_PageData"
+                name="RFManagement_wsChannelPlanTime_wsChannelPlanEntry_PageData" maxlength="4"
+                class="validate[required,custom[validNumber],min[0],max[1440]]" /><span class="spanTip">(0
+                    to 1440)</span> </li>
+        <li><span class="spanTilte">Power Adjustment Mode</span>
+            <select id="RFManagement_wsPowerAdjustmentMode_PageData" name="RFManagement_wsPowerAdjustmentMode_PageData">
+                <option value="1">Manual</option>
+                <option value="2">Interval</option>
+            </select></li>
+        <li><span class="spanTilte">Power Adjustment Interval(minutes)</span>
+            <input type="text" id="RFManagement_wsPowerAdjustmentInterval_PageData" name="RFManagement_wsPowerAdjustmentInterval_PageData"
+                maxlength="4" class="validate[required,custom[validNumber],min[15],max[1440]]" />(15
+            to 1440) </li>
+    </ul>
+</div>

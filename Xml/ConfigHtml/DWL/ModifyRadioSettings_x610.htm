@@ -1,0 +1,135 @@
+﻿<div>
+    <input id="moduleName" type="hidden" value="ModifyRadioSettings" />
+    <ul id="ModifyRadioSettings" class="noTopCon noPartTitle">
+        <li><span class="spanTilte">Radio</span>
+            <select id="ModifyRadioSettings_apRadioName-Item_apRadioTable_PageData" name="ModifyRadioSettings_apRadioName-Item_apRadioTable_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Status</span>
+            <select id="ModifyRadioSettings_apRadioStatus-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioStatus-Item1_apRadioTable_PageData">
+                <option value="1">On</option>
+                <option value="2">Off</option>
+            </select>
+            <select id="ModifyRadioSettings_apRadioStatus-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioStatus-Item2_apRadioTable_PageData">
+                <option value="1">On</option>
+                <option value="2">Off</option>
+            </select>
+        </li>
+        <li><span class="spanTilte">Mode</span>
+            <select id="ModifyRadioSettings_apRadioMode-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioMode-Item1_apRadioTable_PageData">
+            </select>
+            <select id="ModifyRadioSettings_apRadioMode-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioMode-Item2_apRadioTable_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Channel</span>
+            <select id="ModifyRadioSettings_apRadioStaticChannel-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioStaticChannel-Item1_apRadioTable_PageData">
+            </select><input type="hidden" id="ModifyRadioSettings_apRadioChannelPolicy-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioChannelPolicy-Item1_apRadioTable_PageData" value="2" />
+            <select id="ModifyRadioSettings_apRadioStaticChannel-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioStaticChannel-Item2_apRadioTable_PageData">
+            </select><input type="hidden" id="ModifyRadioSettings_apRadioChannelPolicy-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioChannelPolicy-Item2_apRadioTable_PageData" value="2" />
+        </li>
+        <li><span class="spanTilte">Channel Bandwidth</span>
+            <select id="ModifyRadioSettings_apRadioChannelBandwidth-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioChannelBandwidth-Item1_apRadioTable_PageData">
+            </select><select id="ModifyRadioSettings_apRadioChannelBandwidth-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioChannelBandwidth-Item2_apRadioTable_PageData"></select><span
+                    class="spanTip">(MHz)</span> </li>
+        <li><span class="spanTilte">Primary Channel</span>
+            <select id="ModifyRadioSettings_apRadioPrimaryChannel-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioPrimaryChannel-Item1_apRadioTable_PageData">
+            </select>
+            <select id="ModifyRadioSettings_apRadioPrimaryChannel-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioPrimaryChannel-Item2_apRadioTable_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Short Guard Interval Supported</span>
+            <select id="ModifyRadioSettings_apRadioShortGuardIntervalSupported-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioShortGuardIntervalSupported-Item1_apRadioTable_PageData">
+            </select>
+            <select id="ModifyRadioSettings_apRadioShortGuardIntervalSupported-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioShortGuardIntervalSupported-Item2_apRadioTable_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Protection</span>
+            <select id="ModifyRadioSettings_apRadioProtection-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioProtection-Item1_apRadioTable_PageData">
+            </select>
+            <select id="ModifyRadioSettings_apRadioProtection-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioProtection-Item2_apRadioTable_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Beacon Interval</span>
+            <input id="ModifyRadioSettings_apRadioBeaconInterval-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioBeaconInterval-Item1_apRadioTable_PageData"
+                type="text" maxlength="4" value="" class="validate[required,custom[validNumber],min[20],max[2000]]" />
+            <input id="ModifyRadioSettings_apRadioBeaconInterval-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioBeaconInterval-Item2_apRadioTable_PageData"
+                type="text" maxlength="4" value="" class="validate[required,custom[validNumber],min[20],max[2000]]" />
+            <span class="spanTip">(Range:20 to 2000)</span></li>
+        <li><span class="spanTilte">DTIM Period</span>
+            <input type="text" id="ModifyRadioSettings_apBssDtimPeriod-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apBssDtimPeriod-Item1_apRadioTable_PageData" class="validate[required,custom[validNumber],min[1],max[255]]" />
+            <input type="text" id="ModifyRadioSettings_apBssDtimPeriod-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apBssDtimPeriod-Item2_apRadioTable_PageData" class="validate[required,custom[validNumber],min[1],max[255]]" />
+            <span class="spanTip">(Range: 1-255)</span></li>
+        <li><span class="spanTilte">Fragmentation Threshold</span>
+            <input id="ModifyRadioSettings_apRadioFragThreshold-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioFragThreshold-Item1_apRadioTable_PageData" type="text"
+                maxlength="4" value="" class="validate[required,custom[validNumber,EvenNumber],min[256],max[2346]]" />
+            <input id="ModifyRadioSettings_apRadioFragThreshold-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioFragThreshold-Item2_apRadioTable_PageData" type="text"
+                maxlength="4" value="" class="validate[required,custom[validNumber,EvenNumber],min[256],max[2346]]" />
+            <span class="spanTip">(Range: 256 to 2346, Even Numbers)</span> </li>
+        <li><span class="spanTilte">RTS Threshold</span>
+            <input id="ModifyRadioSettings_apRadioRtsThreshold-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioRtsThreshold-Item1_apRadioTable_PageData"
+                type="text" maxlength="4" value="" class="validate[required,custom[validNumber],min[0],max[2347]]" />
+            <input id="ModifyRadioSettings_apRadioRtsThreshold-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioRtsThreshold-Item2_apRadioTable_PageData"
+                type="text" maxlength="4" value="" class="validate[required,custom[validNumber],min[0],max[2347]]" />
+            <span class="spanTip">(Range:0 to 2347)</span> </li>
+        <li><span class="spanTilte">Maximum Stations</span>
+            <input id="ModifyRadioSettings_apRadioMaxStations-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioMaxStations-Item1_apRadioTable_PageData"
+                type="text" class="validate[required,custom[validNumber],min[0],max[200]]" />
+            <input id="ModifyRadioSettings_apRadioMaxStations-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioMaxStations-Item2_apRadioTable_PageData"
+                type="text" class="validate[required,custom[validNumber],min[0],max[200]]" />
+            <span class="spanTip">(Range: 0-200)</span> </li>
+        <li><span class="spanTilte">Transmit Power</span>
+            <input id="ModifyRadioSettings_apRadioTxPower-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioTxPower-Item1_apRadioTable_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[1],max[100]]" />
+            <input id="ModifyRadioSettings_apRadioTxPower-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioTxPower-Item2_apRadioTable_PageData"
+                type="text" maxlength="3" value="" class="validate[required,custom[validNumber],min[1],max[100]]" />
+            <span class="spanTip">(Percent,Range:1 to 100) </span></li>
+        <li><span class="spanTilte">Fixed multicast Rate</span>
+            <select id="ModifyRadioSettings_apRadioFixedMulticastRate-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioFixedMulticastRate-Item1_apRadioTable_PageData">
+            </select><select id="ModifyRadioSettings_apRadioFixedMulticastRate-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioFixedMulticastRate-Item2_apRadioTable_PageData"></select><span
+                    class="spanTip">(Mbps)</span> </li>
+        <li><span class="spanTilte">Broadcast/Multicast Rate Limiting</span>
+            <select id="ModifyRadioSettings_apRadioRateLimitEnable-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioRateLimitEnable-Item1_apRadioTable_PageData">
+                <option value="1">On</option>
+                <option value="2">Off</option>
+            </select>
+            <select id="ModifyRadioSettings_apRadioRateLimitEnable-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioRateLimitEnable-Item2_apRadioTable_PageData">
+                <option value="1">On</option>
+                <option value="2">Off</option>
+            </select>
+        </li>
+        <li><span class="spanTilte">Rate Limit</span>
+            <input id="ModifyRadioSettings_apRadioRateLimit-Item1_apRadioTable_PageData" name="ModifyRadioSettings_apRadioRateLimit-Item1_apRadioTable_PageData"
+                type="text" maxlength="2" class="validate[required,custom[validNumber],min[1],max[50]]" />
+            <input id="ModifyRadioSettings_apRadioRateLimit-Item2_apRadioTable_PageData" name="ModifyRadioSettings_apRadioRateLimit-Item2_apRadioTable_PageData"
+                type="text" maxlength="2" class="validate[required,custom[validNumber],min[1],max[50]]" />
+            <span class="spanTip">(packets per second,1 to 50)</span> </li>
+        <li><span class="spanTilte">Rate Limit Burst</span>
+            <input id="ModifyRadioSettings_apRadioRateLimitBurst-Item1_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioRateLimitBurst-Item1_apRadioTable_PageData"
+                type="text" maxlength="2" class="validate[required,custom[validNumber],min[1],max[75]]" />
+            <input id="ModifyRadioSettings_apRadioRateLimitBurst-Item2_apRadioTable_PageData"
+                name="ModifyRadioSettings_apRadioRateLimitBurst-Item2_apRadioTable_PageData"
+                type="text" maxlength="2" class="validate[required,custom[validNumber],min[1],max[75]]" />
+            <span class="spanTip">(packets per second,1 to 75)</span></li>
+    </ul>
+</div>

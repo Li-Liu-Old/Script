@@ -1,0 +1,61 @@
+﻿<div>
+    <input id="moduleName" type="hidden" value="DhcpDynamicPoolConfiguration" />
+    <ul>
+        <input type="hidden" value="1" name="DhcpDynamicPoolConfiguration_dynamicIndex_dhcpServerDynamicEntry_PageData" />
+        <li><span class="spanTilte profilePartTitle">DHCP Server Control </span></li>
+        <li><span class="spanTilte">Function Enable/Disable</span>
+            <select name="DhcpDynamicPoolConfiguration_dhcpServerDynamicControl_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte profilePartTitle">Dynamic Pool Settings</span> </li>
+        <li><span class="spanTilte">IP Assigned From</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicIpPoolStart_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicIpPoolStart_dhcpServerDynamicEntry_PageData"
+                type="text" class="validate[required,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">The Range of Pool</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicIpPoolEnd_dhcpServerDynamicEntry_PageData"
+                name="" type="text" class="validate[required,custom[validNumber],min[1],max[254]]" maxlength="3"/><span class="spanTip">(1
+                    - 254)</span>
+            <input type="hidden" id="Hidden_DhcpDynamicPoolConfiguration_dynamicIpPoolEnd_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicIpPoolEnd_dhcpServerDynamicEntry_PageData"
+                value="" />
+        </li>
+        <li><span class="spanTilte">Subnet Mask</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicMask_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicMask_dhcpServerDynamicEntry_PageData"
+                type="text" class="validate[required,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">Gateway</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicGateway_dhcpServerDynamicEntry_PageData"
+                name="" type="text" class="validate[optional,custom[ipv4]]" />
+            <input type="hidden" id="Hidden_DhcpDynamicPoolConfiguration_dynamicGateway_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicGateway_dhcpServerDynamicEntry_PageData"
+                value="0.0.0.0" />
+        </li>
+        <li><span class="spanTilte">WINS</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicWins_dhcpServerDynamicEntry_PageData"
+                name="" type="text" class="validate[optional,custom[ipv4]]" />
+            <input type="hidden" id="Hidden_DhcpDynamicPoolConfiguration_dynamicWins_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicWins_dhcpServerDynamicEntry_PageData"
+                value="0.0.0.0" />
+        </li>
+        <li><span class="spanTilte">DNS</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicDns_dhcpServerDynamicEntry_PageData"
+                name="" type="text" class="validate[optional,custom[ipv4]]" />
+            <input type="hidden" id="Hidden_DhcpDynamicPoolConfiguration_dynamicDns_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicDns_dhcpServerDynamicEntry_PageData"
+                value="0.0.0.0" />
+        </li>
+        <li><span class="spanTilte">Domain Name</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicDomainName_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicDomainName_dhcpServerDynamicEntry_PageData"
+                type="text" maxlength="64" class="validate[required,maxSize[64]]" />
+        </li>
+        <li><span class="spanTilte">Lease Time(seconds)</span>
+            <input id="DhcpDynamicPoolConfiguration_dynamicLeaseTime_dhcpServerDynamicEntry_PageData"
+                name="DhcpDynamicPoolConfiguration_dynamicLeaseTime_dhcpServerDynamicEntry_PageData"
+                type="text" maxlength="8" class="validate[required,custom[validNumber],min[60],max[31536000]]" /><span
+                    class="spanTip">(60 to 31536000)</span> </li>
+    </ul>
+</div>

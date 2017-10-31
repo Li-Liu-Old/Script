@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <sysLogServerState>2</sysLogServerState>
+      <sysLogServerEntry>
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>

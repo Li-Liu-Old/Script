@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device>
+  <Profile>
+    <RestoreProfile>
+      <dsfCopyType>5</dsfCopyType>
+      <downloadFilename>
+      </downloadFilename>
+      <dsfCopyDstUrl>startup-config</dsfCopyDstUrl>
+      <dsfCopyRemoteAddrType>1</dsfCopyRemoteAddrType>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <dsfCopyRowStatus>1</dsfCopyRowStatus>
+    </RestoreProfile>
+  </Profile>
+</Device>

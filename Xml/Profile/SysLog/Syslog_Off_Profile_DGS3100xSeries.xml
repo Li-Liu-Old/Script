@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogCtrlState>2</sysLogCtrlState>
+      <sysLogServerEntry>
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+<Item snmpSyslogCollectorIndex="1"
+              snmpSyslogCollectorRowStatus="6"
+              />
+snmpSyslogCollectorRowStatus(sysLogServerState) 
+ Value List:active(1) notInservice(2) notReady(3) createAndGo(4) createAndWait(5) destory(6)
+-->

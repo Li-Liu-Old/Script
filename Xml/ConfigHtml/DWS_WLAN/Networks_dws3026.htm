@@ -1,0 +1,219 @@
+﻿<div id="NetWorksDataTable">
+    <div id="InputTable">
+        <input id="moduleName" type="hidden" value="Networks" />
+        <ul id="dataTable" class="noTopCon noPartTitle">
+            <li><span class="spanTilte">ID </span>
+                <select name="Networks_wsNetworkId_wsNetworkEntry,wsNetworkClientQosEntry_PageData"
+                    style="width: 50px">
+                </select>
+            </li>
+            <li><span class="spanTilte">SSID Name </span>
+                <input id="Networks_wsNetworkSSID_wsNetworkEntry_PageData" name="Networks_wsNetworkSSID_wsNetworkEntry_PageData"
+                    type="text" value="" class="validate[required,custom[LetterNumberSign],maxSize[32]]"
+                    maxlength="32" /><span class="spanTip">(between 1 and 32 characters)</span>
+            </li>
+            <li><span class="spanTilte">Hide SSID </span>
+                <select name="Networks_wsNetworkHideSSIDMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">VLAN</span>
+                <input id="Networks_wsNetworkDefaultVLANId_wsNetworkEntry_PageData" name="Networks_wsNetworkDefaultVLANId_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[validNumber],min[1],max[3965]]" /><span
+                        class="spanTip">(1 to 3965)</span> </li>
+            <li><span class="spanTilte">L3 Tunnel</span>
+                <select id="Networks_wsNetworkL3TunnelMode_wsNetworkEntry_PageData" name="Networks_wsNetworkL3TunnelMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">L3 Tunnel Subnet IP</span>
+                <input id="Networks_wsNetworkL3TunnelSubnetIP_wsNetworkEntry_PageData" name="Networks_wsNetworkL3TunnelSubnetIP_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[ipv4]]" /><span class="spanTip"
+                        style="display: none">If tunneling is enabled, this object indicates the default
+                        network IP Address for the tunnel.</span> </li>
+            <li><span class="spanTilte">L3 Tunnel Mask</span>
+                <input id="Networks_wsNetworkL3TunnelSubnetMask_wsNetworkEntry_PageData" name="Networks_wsNetworkL3TunnelSubnetMask_wsNetworkEntry_PageData"
+                    type="text" class="validate[required,custom[ipv4]]" /><span
+                        class="spanTip" style="display: none">If tunneling is enabled, this object indicates
+                        the length in bits for default subnet mask. Default value is 255.255.255.0.</span>
+            </li>
+            <li><span class="spanTilte">MAC Authentication</span>
+                <select name="Networks_wsNetworkMACAuthenticationMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">RADIUS IP Address</span> <div class="userProfile" style="display: inline-block;">
+                <input id="Networks_wsNetworkRadiusServerIP_wsNetworkEntry_PageData" name="Networks_wsNetworkRadiusServerIP_wsNetworkEntry_PageData"
+                    type="text" value="0.0.0.0" class="validate[required,custom[ipv4]]" /></div>
+                <select id="Networks_wsNetworkUseProfileRadiusConfig_wsNetworkEntry_PageData" style="margin:0px 5px;" name="Networks_wsNetworkUseProfileRadiusConfig_wsNetworkEntry_PageData">
+                </select><span style="font-size: 14px; vertical-align:middle;">Use Profile</span> </li>
+            <li><span class="spanTilte">RADIUS Secret</span> <div class="userProfile" style="display: inline-block;">
+                <input id="Networks_wsNetworkRadiusServerSecret_wsNetworkEntry_PageData" name="Networks_wsNetworkRadiusServerSecret_wsNetworkEntry_PageData"
+                    type="password" class="validate[maxSize[64],custom[onlyLetterNumber]]" maxlength="64" /><input id="text5" name="controlSpan"
+                        type="text" style="display: none" /><img src="../../Images/textEyeIcon.png" title="Show Text"
+                            class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle; margin-left: 10px;
+                            cursor: pointer;" onclick="showPwd(this,'text5','Networks_wsNetworkRadiusServerSecret_wsNetworkEntry_PageData')"
+                            name="isResultDisplayControl" /></div><span class="spanTip">(between 0 and 64 characters)</span>
+            </li>
+            <li><span class="spanTilte">Backup RADIUS Server IP Address</span> <div class="userProfile" style="display: inline-block;">
+                <input id="Networks_wsNetworkRadiusBackuponeServerIP_wsNetworkEntry_PageData" name="Networks_wsNetworkRadiusBackuponeServerIP_wsNetworkEntry_PageData"
+                    type="text" value="0.0.0.0" class="validate[required,custom[ipv4]]" /></div>
+            </li>
+            <li><span class="spanTilte">Backup RADIUS Server Secret</span> <div class="userProfile" style="display: inline-block;">
+                <input id="Networks_wsNetworkRadiusBackuponeServerSecret_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkRadiusBackuponeServerSecret_wsNetworkEntry_PageData"
+                    type="password" class="validate[maxSize[64],custom[onlyLetterNumber]]" maxlength="64" /><input id="text7" name="controlSpan"
+                        type="text" style="display: none" /><img src="../../Images/textEyeIcon.png" title="Show Text"
+                            class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle; margin-left: 10px;
+                            cursor: pointer;" onclick="showPwd(this,'text7','Networks_wsNetworkRadiusBackuponeServerSecret_wsNetworkEntry_PageData')"
+                            name="isResultDisplayControl" /></div> <span class="spanTip" style="margin-left:0px;">(between 0 and 64 characters)</span></li>
+            <li><span class="spanTilte">RADIUS Accounting</span> <div class="userProfile" style="display: inline-block;">
+                <select name="Networks_wsNetworkRadiusAccountingMode_wsNetworkEntry_PageData">
+                </select></div> </li>
+            <li><span class="spanTilte">Radius Failthrough Mode</span> <div class="userProfile" style="display: inline-block;">
+                <select name="Networks_wsNetworkRadiusFailthroughMode_wsNetworkEntry_PageData">
+                </select></div> </li>
+            <li><span class="spanTilte">Security</span>
+                <select name="Networks_wsNetworkSecurityMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <!-- Begin WEP -->
+            <li mp="StaticWEP"><span class="spanTilte">Authentication</span>
+                <select name="Networks_wsNetworkStaticWEPAuthenticationMode_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEP Key Type</span>
+                <select name="Networks_wsNetworkWEPKeyType_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEP Key Length(bits)</span>
+                <select name="Networks_wsNetworkWEPKeyLength_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte">WEP Key Index</span>
+                <select id="Networks_wsNetworkUseWEPTransferKeyIndex_wsNetworkEntry_PageData" name="Networks_wsNetworkUseWEPTransferKeyIndex_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="StaticWEP"><span class="spanTilte profilePartTitle">WEP Keys</span> <span>Tx
+                (Characters required: <span id="wepkeytxt">5</span>)</span></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 1</span>
+                <input id="Networks_wsNetworkWEPKey1_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey1_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text1" name="controlSpan" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text1','Networks_wsNetworkWEPKey1_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 2</span>
+                <input id="Networks_wsNetworkWEPKey2_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey2_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text2" name="controlSpan" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text2','Networks_wsNetworkWEPKey2_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 3</span>
+                <input id="Networks_wsNetworkWEPKey3_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey3_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text3" name="controlSpan" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text3','Networks_wsNetworkWEPKey3_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <li mp="StaticWEP"><span class="spanTilte">WEPKey 4</span>
+                <input id="Networks_wsNetworkWEPKey4_wsNetworkEntry_PageData" name="Networks_wsNetworkWEPKey4_wsNetworkEntry_PageData"
+                    type="password" value="" /><input id="text4" name="controlSpan" type="text" style="display: none" /><img
+                        src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                        style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text4','Networks_wsNetworkWEPKey4_wsNetworkEntry_PageData')"
+                        name="isResultDisplayControl" /></li>
+            <!-- End WEP -->
+            <!-- Begin WPA/WPA2 -->
+            <li mp="WPAVersions"><span class="spanTilte">WPA Versions</span>
+                <select name="Networks_wsNetworkWPAVersionsSupported_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <li mp="WPACipher"><span class="spanTilte">WPA Ciphers</span>
+                <select name="Networks_wsNetworkWPACipherSuites_wsNetworkEntry_PageData">
+                </select>
+            </li>
+            <!-- End WPA  Personal & Enterprise-->
+            <!-- Begin WPA Personal -->
+            <li mp="WPAKey"><span class="spanTilte">WPA Key Type</span> <span>ASCII</span> </li>
+            <li mp="WPAKey"><span class="spanTilte">Passphrase</span>
+                <input id="Networks_wsNetworkWPAKey_wsNetworkEntry_PageData" name="Networks_wsNetworkWPAKey_wsNetworkEntry_PageData"
+                    type="password" class="validate[required,custom[onlyLetterNumber],minSize[8],maxSize[63]]" maxlength="63" /><input
+                        id="text6" name="controlSpan2" type="text" style="display: none" /><img src="../../Images/textEyeIcon.png"
+                            title="Show Text" class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle;
+                            margin-left: 10px; cursor: pointer;" onclick="showPwd(this,'text6','Networks_wsNetworkWPAKey_wsNetworkEntry_PageData')"
+                            name="isResultDisplayControl" /><span class="spanTip">(between 8 and 63 characters)</span></li>
+            <!-- End WPA Personal -->
+            <!-- Begin WPA Enterprise -->
+            <li mp="WPAEnterprise"><span class="spanTilte">Per-Authentication</span>
+                <select id="Networks_wsNetworkWPA2PreAuthenticationMode_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkWPA2PreAuthenticationMode_wsNetworkEntry_PageData">
+                    <option value="1">Enable</option>
+                    <option value="2">Disable</option>
+                </select>
+            </li>
+            <li mp="WPAEnterprise"><span class="spanTilte">Per-Authentication Limit</span>
+                <input id="Networks_wsNetworkWPA2PreAuthenticationLimit_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkWPA2PreAuthenticationLimit_wsNetworkEntry_PageData" type="text"
+                    class="validate[required,custom[validNumber],min[0],max[192]]" maxlength="3" /><span
+                        class="spanTip">(0 to 192)</span> </li>
+            <li mp="WPAEnterprise"><span class="spanTilte">Key Forwarding</span>
+                <select id="Select1" name="Networks_wsNetworkWPA2DynamicKeyForwardingMode_wsNetworkEntry_PageData">
+                    <option value="1">Enable</option>
+                    <option value="2">Disable</option>
+                </select>
+            </li>
+            <li mp="WPAEnterprise"><span class="spanTilte">Key Caching Hold Time</span>
+                <input type="text" id="Networks_wsNetworkWPA2RoambackKeyCacheHoldtime_wsNetworkEntry_PageData"
+                    name="Networks_wsNetworkWPA2RoambackKeyCacheHoldtime_wsNetworkEntry_PageData"
+                    class="validate[required,custom[validNumber],min[1],max[1440]]" maxlength="4" /><span>(1
+                        - 1440)</span> </li>
+            <!-- End WPA/WPA2 -->
+            <li><span class="spanTilte">Client QoS</span>
+                <select name="Networks_wsNetworkClientQosMode_wsNetworkClientQosEntry_PageData">
+                </select>
+            </li>
+            <li><span class="spanTilte">Client QoS Bandwidth Limit Down</span>
+                <input id="Networks_wsNetworkClientQosBandwidthLimitDown_wsNetworkClientQosEntry_PageData"
+                    name="Networks_wsNetworkClientQosBandwidthLimitDown_wsNetworkClientQosEntry_PageData"
+                    type="text" maxlength="10" class="validate[required,custom[validNumber],min[0],max[4294967295],Multi[64000]]" /><span
+                        class="spanTip">(0 to 4294967295, 0 - Disable)</span> </li>
+            <li><span class="spanTilte">Client QoS Bandwidth Limit Up</span>
+                <input id="Networks_wsNetworkClientQosBandwidthLimitUp_wsNetworkClientQosEntry_PageData"
+                    name="Networks_wsNetworkClientQosBandwidthLimitUp_wsNetworkClientQosEntry_PageData"
+                    type="text" maxlength="10" class="validate[required,custom[validNumber],min[0],max[4294967295],Multi[64000]]" /><span
+                        class="spanTip">(0 to 4294967295, 0 - Disable)</span> </li>
+        </ul>
+        <input type="button" value="Add" onclick="changeValidate(false);ClearTableValidate();if(Submit()){DUI.profile.common.actionMethod('addNew');}"
+            class="bgBtnInput" style="height: 26px; margin-top:20px;" />
+        <div class="clear">
+        </div>
+    </div>
+    <div class="tableData mt20">
+        <table id="StatusTable" width="100%" align="center" class="statusShowTable">
+            <thead>
+                <tr class="HeaderRow">
+                    <th>
+                        ID
+                    </th>
+                    <th>
+                        SSID
+                    </th>
+                    <th>
+                        VLAN
+                    </th>
+                    <th>
+                        Hide SSID
+                    </th>
+                    <th>
+                        Security
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Row">
+                    <td colspan="6">
+                        <span class="dblock tc noDataSpan">No Data Found.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <TelnetProfile>
+      <telnetStatus>1</telnetStatus>
+      <telnetTcpPort>23</telnetTcpPort>
+    </TelnetProfile>
+  </Profile>
+</Device>

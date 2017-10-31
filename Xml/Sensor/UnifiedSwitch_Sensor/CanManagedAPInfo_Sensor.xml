@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_CanManagedAPInfo  type="Custom">
+      <wsFailureAPStatusEntry  wsFailedAPMacAddress=""
+                               wsFailedAPIpAddress=""
+                               wsFailedAPVendorId=""
+                               />
+    </Sensor_CanManagedAPInfo> 
+</Profile>
+<ExecTime/>
+</Device>
+<!--
+wsFailedAPVendorId : 1: dlink(32) 2: others(65535)
+-->

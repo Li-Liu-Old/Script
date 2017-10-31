@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Device Name="DWL-6600AP" DefaultFramework="4.1.0.11" SOID="1.3.6.1.4.1.171.10.128.1.1">
+  <Command>
+    <!--Device CMD Template , Update time: 9.20  SOID:1.3.6.1.4.1.171.10.128.1.1-->
+    <!-- 12.25 -->
+    <Sensor_WLANUtilizationBytes>
+      <rxtxStatisticsEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <Index Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.1" CommandType="Integer" CommandSuffix="0"/>
+        <Transmitted Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.31" CommandType="Counter64" />
+        <Received Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.28" CommandType="Counter64" />
+      </rxtxStatisticsEntry>
+    </Sensor_WLANUtilizationBytes>
+    <Sensor_WLANUtilizationPackets>
+      <rxtxStatisticsEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <Index Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.1" CommandType="Integer" CommandSuffix="0"/>
+        <Transmitted Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.32" CommandType="Counter64" />
+        <Received Proto="SNMPv2" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.29" CommandType="Counter64" />
+      </rxtxStatisticsEntry>
+    </Sensor_WLANUtilizationPackets>
+    <Sensor_WirelessErrorPackets>
+      <totalErrorPacketsEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <Index Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.1" CommandType="Integer" CommandSuffix="0"/>
+        <RxErrors Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.30" CommandType="Integer" />
+        <TxErrors Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.33" CommandType="Integer" />
+      </totalErrorPacketsEntry>
+    </Sensor_WirelessErrorPackets>
+    <Sensor_WirelessInfo>
+      <apRadioEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apRadioId Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.1" CommandType="String" CommandSuffix="0"/>
+        <apRadioStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.2" CommandType="Integer" />
+        <apRadioName Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.3" CommandType="String" />
+        <apRadioMac Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.4" CommandType="MAC" />
+        <apRadioMode Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.7" CommandType="Integer" />
+        <apRadioChannel Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.11" CommandType="Integer" />
+        <apRadioChannelBandwidth Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.26" CommandType="Integer" />
+      </apRadioEntry>
+      <apVapEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_2">
+        <apVapId Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.1" CommandType="String" CommandSuffix="0"/>
+        <apVapRadio Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.2" CommandType="String" CommandSuffix="1"/>
+        <apVapStatus Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.3" CommandType="Integer" />
+        <!--  SsidState -->
+      </apVapEntry>
+      <apIfConfigEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apIfConfigIndex Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.1" CommandType="Integer" CommandSuffix="0"/>
+        <apIfConfigName Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.2" CommandType="String" />
+        <!-- Interface wlan0vap1 -->
+        <apIfConfigType Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.3" CommandType="String" />
+        <!-- vlan wds -->
+        <apIfConfigMacAddress Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.4" CommandType="MAC" />
+        <!-- ssid Mac -->
+        <apIfConfigSsid Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.11" CommandType="String" />
+        <!-- SsidName -->
+        <apIfConfigSecurity Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.13" CommandType="Integer" />
+        <!-- wpaPersonal(3) -->
+      </apIfConfigEntry>
+    </Sensor_WirelessInfo>
+    <Sensor_AuthenticatedClientsInfo>
+      <clientInformationEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <clientMacAddress  Options="N" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.1" CommandType="MAC" CommandSuffix="0"/>
+        <radioInterface  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.2" CommandType="String" />
+        <clientAuthenticated  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.3" CommandType="String" />
+        <!--<apAssocAssociated  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.4" CommandType="String" />-->
+        <apAssocRxPackets  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.5" CommandType="Integer" />
+        <apAssocTxPackets  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.6" CommandType="Integer" />
+        <apAssocRxBytes  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.7" CommandType="Integer" />
+        <apAssocTxBytes  Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.7.1.1.8" CommandType="Integer" />
+      </clientInformationEntry>
+    </Sensor_AuthenticatedClientsInfo>
+    
+    <!-- Profile -->
+    <!--Update time: 9.20  11.09-->
+    <FirmwareProfile>
+      <!--<apFirmwareUpgradeAddressType Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.1.0" CommandType="Integer" />\-->
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.2.0" CommandType="IPAddressHex" />
+      <apFirmwareUpgradePort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.3.0" CommandType="Integer" />
+      <!--<apFirmwareUpgradeDirectory Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.4.0" CommandType="String" />-->
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.5.0" CommandType="String" />
+      <!--<apFirmwareUpgradeProtocol Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.6.0" CommandType="Integer" />-->
+      <apFirmwareUpgradeStart Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.3.7.0" CommandType="Integer" />
+    </FirmwareProfile>
+    <!--Upgrade Firmware -->
+    <BackupProfile>
+      <!--<apFileUploadAddressType Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.1.0" CommandType="Integer" />-->
+      <uploadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.2.0" CommandType="IPAddressHex" />
+      <apFileUploadPort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.3.0" CommandType="Integer" />
+      <!--<apFileUploadDirectory Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.4.0" CommandType="String" />-->
+      <uploadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.5.0" CommandType="String" />
+      <!--<apFileUploadDataType Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.6.0" CommandType="Integer" />-->
+      <apFileUploadFileFormat Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.7.0" CommandType="Integer" />
+      <!--<apFileUploadProtocol Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.8.0" CommandType="Integer" />-->
+      <apFileUploadStart Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.2.9.0" CommandType="Integer" />
+    </BackupProfile>
+    <!--Upload Config(Backup) -->
+    <RestoreProfile>
+      <!--<apFileDownloadAddressType Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.1.0" CommandType="Integer" />-->
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.2.0" CommandType="IPAddressHex" />
+      <apFileDownloadPort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.3.0" CommandType="Integer" />
+      <!--<apFileDownloadDirectory Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.4.0" CommandType="String" />-->
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.5.0" CommandType="String" />
+      <!--<apFileDownloadDataType Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.6.0" CommandType="Integer" />-->
+      <apFileDownloadFileFormat Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.7.0" CommandType="Integer" />
+      <!--<apFileDownloadProtocol Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.8.0" CommandType="Integer" />-->
+      <apFileDownloadStart Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.2.1.9.0" CommandType="Integer" />
+    </RestoreProfile>
+    <!--Download Config(Restore) -->
+    <!--Update time: 12.10 Syslog-->
+    <SyslogProfile>
+      <!--<apLogDepth  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.3.1.1.0" CommandType="Integer" />
+      <apLogPersistence  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.3.1.2.0" CommandType="Integer" />-->
+      <apLogSeverity  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.3.1.3.0" CommandType="Integer" />
+      <sysLogServerState  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.3.1.4.0" CommandType="Integer" />
+      <sysLogServerAddress  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.3.1.6.0" CommandType="IPAddressHex" />
+      <apLogRelayPort  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.3.1.7.0" CommandType="Integer" />
+    </SyslogProfile>
+    <!-- No LLDP  -->
+    <TelnetProfile>
+      <telnetStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.1.0" CommandType="Integer" />
+    </TelnetProfile>
+    <WebProfile>
+      <webStatus  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.3.0" CommandType="Integer"/>
+      <webTcpPort  Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.4.0" CommandType="Integer"/>
+    </WebProfile>
+    <WebHttpsProfile>
+      <webHttpsStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.2.0" CommandType="Integer" />
+    </WebHttpsProfile>
+
+    <!-- Managed -->
+    <!--  EthernetSetting/ WirelesssSetting/ Radio/ VAP /MACAuthentication 
+          /ManagedAccessPoint/ Authentication / Management ACL  -->
+    <EthernetSettings>
+      <apHostId Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.5.1.0" CommandType="String" />
+      <apManagementVlanID Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.1.0" CommandType="Integer" />
+      <apUntaggedVlanID Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.13.0" CommandType="Integer" />
+      <apUntaggedVlanStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.14.0" CommandType="Integer" />
+      <apManagementDhcpStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.12.0" CommandType="Integer" />
+      <apManagementIPv6Status Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.15.0" CommandType="Integer" />
+      <apManagementIPv6AutoConfigStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.16.0" CommandType="Integer" />
+      <apManagementStaticIPv6PrefixLength Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.19.0" CommandType="Integer" />
+    </EthernetSettings>
+    <WirelessSettings>
+      <apManagementIP Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.8.0" CommandType="IPAddressHex" />
+      <apManagementIPv6Status Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.15.0" CommandType="Integer" />
+      <apManagementIPv6AutoConfigStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.16.0" CommandType="Integer" />
+      <apManagementStaticIPv6 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.18.0" CommandType="IPv6AddressHex" />
+      <apManagementStaticIPv6PrefixLength Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.7.19.0" CommandType="Integer" />
+      <apSysConfBaseMac Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.1.6.0" CommandType="MAC" />
+      <apRadioTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apRadioName CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.3" Options="R" CommandType="String"/>
+        <apRadioStationIsolation CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.17" Options="RW" CommandType="Integer"/>
+        <apRadioMac CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.4" Options="R" CommandType="MAC"/>
+        <apRadioStatus CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.2" Options="RW" CommandType="Integer"/>
+        <apRadioMode CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.7" Options="RW" CommandType="Integer"/>
+        <apRadioChannelPolicy CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.6" Options="RW" CommandType="Integer"/>
+        <apRadioStaticChannel CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.10" Options="RW" CommandType="Integer"/>
+        <apRadioChannel CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.11" Options="R" CommandType="Integer"/>
+        <apRadioChannelBandwidth CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.26" Options="RW" CommandType="Integer"/>
+        <apRadioPrimaryChannel CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.27" Options="RW" CommandType="Integer"/>
+        <apRadioShortGuardIntervalSupported CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.28" Options="RW" CommandType="Integer"/>
+        <apRadioProtection CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.30" Options="RW" CommandType="Integer"/>
+        <apRadioBeaconInterval CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.13" Options="RW" CommandType="Integer"/>
+        <apRadioFragThreshold CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.15" Options="RW" CommandType="Integer"/>
+        <apRadioRtsThreshold CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.14" Options="RW" CommandType="Integer"/>
+        <apRadioFixedMulticastRate CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.31" Options="RW" CommandType="String"/>
+        <apRadioDtimPeriod CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.32" Options="RW" CommandType="Integer"/>
+        <apRadioTxPower CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.12" Options="RW" CommandType="Integer"/>
+        <apRadioWmeNoAck CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.20" Options="RW" CommandType="Integer"/>
+        <apRadioWmeAPSD CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.21" Options="RW" CommandType="Integer"/>
+      </apRadioTable>
+      <apIfConfigEntry Proto="SNMP" Type="EditTable" Desc ="Network" Method="NOTDEFINE">
+        <apIfConfigSsid CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.11" Options="RW" CommandType="String"/>
+        <apIfConfigSecurity CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.13" Options="RW" CommandType="Integer"/>
+        <apIfConfigRemoteMac CommandText="1.3.6.1.4.1.171.10.128.1.1.26.5.1.1.23" Options="RW" CommandType="MAC"/>
+      </apIfConfigEntry>
+      <apQosGlobalMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.10.1.0" CommandType="Integer" />
+    </WirelessSettings>
+    <ModifyRadioSettings>
+      <apRadioTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apRadioName CommandText="X" Options="N" CommandType="String" CommandSuffix="0"/>
+        <apRadioStatus CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.2" Options="RW" CommandType="Integer"/>
+        <!--<apRadioMac CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.4" Options="R" CommandType="MAC"/>-->
+        <apRadioChannelPolicy CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.6" Options="RW" CommandType="Integer"/>
+        <apRadioMode CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.7" Options="RW" CommandType="Integer"/>
+        <apRadioDot11d CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.9" Options="RW" CommandType="String" />
+        <apRadioStaticChannel CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.10" Options="RW" CommandType="Integer"/>
+        <!--<apRadioChannel CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.11" Options="R" CommandType="Integer"/>-->
+        <apRadioTxPower CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.12" Options="RW" CommandType="Integer"/>
+        <apRadioBeaconInterval CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.13" Options="RW" CommandType="Integer"/>
+        <apRadioRtsThreshold CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.14" Options="RW" CommandType="Integer"/>
+        <apRadioFragThreshold CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.15" Options="RW" CommandType="Integer"/>
+        <apRadioApDetection CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.16" Options="RW" CommandType="String" />
+        <apRadioStationIsolation CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.17" Options="RW" CommandType="Integer"/>
+        <apRadioWme CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.19" Options="RW" CommandType="String" />
+        <apRadioWmeNoAck CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.20" Options="RW" CommandType="Integer"/>
+        <apRadioWmeAPSD CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.21" Options="RW" CommandType="Integer"/>
+        <apRadioRateLimitEnable CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.22" Options="RW" CommandType="Integer"/>
+        <apRadioRateLimit CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.23" Options="RW" CommandType="Integer"/>
+        <apRadioRateLimitBurst CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.24" Options="RW" CommandType="Integer"/>
+        <apRadioChannelBandwidth CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.26" Options="RW" CommandType="Integer"/>
+        <apRadioPrimaryChannel CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.27" Options="RW" CommandType="Integer"/>
+        <apRadioShortGuardIntervalSupported CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.28" Options="RW" CommandType="Integer"/>
+        <apRadioProtection CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.30" Options="RW" CommandType="Integer"/>
+        <apRadioFixedMulticastRate CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.31" Options="RW" CommandType="String"/>
+        <apBssDtimPeriod CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.32" Options="RW" CommandType="Integer"/>
+        <apRadioMaxStations CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.33" Options="RW" CommandType="Integer"/>
+        <apRadioEdcaTemplate CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.35" Options="RW" CommandType="Integer"/>
+        <apRadioSchedulerProfile CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.36" Options="RW" CommandType="Integer"/>
+        <apRadioOperationalStatus CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.37" Options="RW" CommandType="Integer"/>
+      </apRadioTable>
+    </ModifyRadioSettings>
+    <VAP>
+      <apGlobalRadiusIPAddressType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.2.0" CommandType="Integer" />
+      <apGlobalRadiusPrimaryServerIPAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.3.0" CommandType="IPAddressHex" />
+      <apGlobalRadiusBackuponeServerIPAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.5.0" CommandType="IPAddressHex" />
+      <apGlobalRadiusBackuptwoServerIPAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.7.0" CommandType="IPAddressHex" />
+      <apGlobalRadiusBackupthreeServerIPAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.9.0" CommandType="IPAddressHex" />
+      <apGlobalRadiusPrimaryServerIPv6Address Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.11.0" CommandType="IPv6AddressHex" />
+      <apGlobalRadiusBackuponeServerIPv6Address Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.13.0" CommandType="IPv6AddressHex" />
+      <apGlobalRadiusBackuptwoServerIPv6Address Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.15.0" CommandType="IPv6AddressHex" />
+      <apGlobalRadiusBackupthreeServerIPv6Address Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.17.0" CommandType="IPv6AddressHex" />
+      <apGlobalRadiusPrimaryServerKey Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.18.0" CommandType="String" />
+      <apGlobalRadiusBackuponeServerKey Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.19.0" CommandType="String" />
+      <apGlobalRadiusBackuptwoServerKey Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.20.0" CommandType="String" />
+      <apGlobalRadiusBackupthreeServerKey Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.21.0" CommandType="String" />
+      <apGlobalRadiusAccMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.1.0" CommandType="Integer" />
+      <apGlobalRadiusFailThrough Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.8.22.0" CommandType="Integer" />
+      <apVapTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_2">
+        <apVapname1 CommandText="XXXX" Options="N" CommandType="String" CommandSuffix="0"/>
+        <apVapname2 CommandText="XXXX" Options="N" CommandType="String" CommandSuffix="1"/>
+        <apVapStatus CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.3" Options="RW" CommandType="Integer"/>
+        <apVapVlanID CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.4" Options="RW" CommandType="Integer"/>
+      </apVapTable>
+      <apBssTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apBsswlanVap CommandText="XXXX" Options="N" CommandType="String"  CommandSuffix="0"/>
+        <apBssIgnoreBcastSsid CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.2.1.8" Options="RW" CommandType="Integer"/>
+      </apBssTable>
+      <apVapConfigSSid Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apIfConfigEntryID CommandText="XXXX" Options="N" CommandType="Integer"  CommandSuffix="0"/>
+        <apIfConfigSsid CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.3" Options="RW" CommandType="String"/>
+      </apVapConfigSSid>
+    </VAP>
+    <MACauthentication>
+      <apBssTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apBsswlanVap CommandText="X" Options="N" CommandType="String"  CommandSuffix="0"/>
+        <apBssMacAclMode CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.2.1.10" Options="RW" CommandType="Integer"/>
+      </apBssTable>
+    </MACauthentication>
+    <ManagedAccessPoint>
+      <apMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.3.1.0" CommandType="Integer" />
+      <apSwitchAddress1 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.3.3.0" CommandType="IPAddressHex" />
+      <apSwitchAddress2 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.3.5.0" CommandType="IPAddressHex" />
+      <apSwitchAddress3 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.3.7.0" CommandType="IPAddressHex" />
+      <apSwitchAddress4 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.3.9.0" CommandType="IPAddressHex" />
+      <apSwitchPassPhrase Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.3.11.0" CommandType="String" />
+    </ManagedAccessPoint>
+    <SupplicantAuthenticationSettings>
+      <apSupplicantConfigStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.4.1.0" CommandType="Integer" />
+      <apSupplicantConfigUser Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.4.2.0" CommandType="String" />
+      <apSupplicantConfigPassword Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.4.3.0" CommandType="String" />
+    </SupplicantAuthenticationSettings>
+    <ManagementACL>
+      <apMgmtAccACLMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.9.0" CommandType="Integer" />
+      <apMgmtAccACLIpAddr1 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.11.0" CommandType="IPAddressHex" />
+      <apMgmtAccACLIpAddr2 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.13.0" CommandType="IPAddressHex" />
+      <apMgmtAccACLIpAddr3 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.15.0" CommandType="IPAddressHex" />
+      <apMgmtAccACLIpAddr4 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.17.0" CommandType="IPAddressHex" />
+      <apMgmtAccACLIpAddr5 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.19.0" CommandType="IPAddressHex" />
+      <apMgmtAccACLIpv6Addr1 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.21.0" CommandType="IPv6AddressHex" />
+      <apMgmtAccACLIpv6Addr2 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.23.0" CommandType="IPv6AddressHex" />
+      <apMgmtAccACLIpv6Addr3 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.25.0" CommandType="IPv6AddressHex" />
+      <apMgmtAccACLIpv6Addr4 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.27.0" CommandType="IPv6AddressHex" />
+      <apMgmtAccACLIpv6Addr5 Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.29.0" CommandType="IPv6AddressHex" />
+    </ManagementACL>
+    <!-- Service -->
+    <!-- QoS / Time / Web Server/ SSH / Telnet / -->
+    <QoS>
+      <apRadioTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_1">
+        <apRadioName Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.3" CommandType="String"/>
+        <apRadioWme Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.6.1.1.19" CommandType="Integer"/>
+      </apRadioTable>
+    </QoS>
+    <Time>
+      <apMgmtAccNtp Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.6.0" CommandType="Integer" />
+      <apMgmtAccNtpAddr Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.8.0" CommandType="IPAddressHex" />
+    </Time>
+    <WebServer>
+      <apMgmtAccHttpsStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.2.0" CommandType="Integer" />
+      <apMgmtAccHttpStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.3.0" CommandType="Integer" />
+      <apMgmtAccHttpPort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.4.0" CommandType="Integer" />
+    </WebServer>
+    <SSH>
+      <apMgmtAccSsh Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.31.0" CommandType="Integer" />
+    </SSH>
+    <Telnet>
+      <apMgmtAccTelnet Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.1.0" CommandType="Integer" />
+    </Telnet>
+    <!-- Client QoS -->
+    <!-- VAPQoSParameter -->
+    <VAPQoSParameters>
+      <apQosGlobalMode Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.10.1.0" CommandType="Integer"  />
+      <apVapTable Proto="SNMP" Type="EditTable" Desc ="Network" Method="Append_2">
+        <apVapname1 CommandText="XXX" Options="N" CommandType="String" CommandSuffix="0"/>
+        <apVapname2 CommandText="XXX" Options="N" CommandType="String" CommandSuffix="0"/>
+        <apVapQosMode CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.9" Options="RW" CommandType="Integer"/>
+        <apVapDefBwMaxUp CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.10" Options="RW" CommandType="Integer"/>
+        <apVapDefBwMaxDown CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.11" Options="RW" CommandType="Integer"/>
+        <apVapAclTypeUp CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.12" Options="RW" CommandType="Integer"/>
+        <apVapAclUp CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.13" Options="RW" CommandType="String"/>
+        <apVapAclTypeDown CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.14" Options="RW" CommandType="Integer"/>
+        <apVapAclDown CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.15" Options="RW" CommandType="String"/>
+        <apVapPolicyUp CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.16" Options="RW" CommandType="String"/>
+        <apVapPolicyDown CommandText="1.3.6.1.4.1.171.10.128.1.1.26.4.1.1.17" Options="RW" CommandType="String"/>
+      </apVapTable>
+    </VAPQoSParameters>
+
+    <!-- Save/Reboot/RMON/SafeGuard Engine/Spanning Tree -->
+    <SaveProfile>
+      <save Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.2.2.0" CommandType="Integer" />
+    </SaveProfile>
+    <RebootProfile>
+      <reboot Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.2.1.0" CommandType="Integer" />
+    </RebootProfile>
+    <SSHSettingProfile>
+      <sshAdminState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.31.0" CommandType="Integer" />
+    </SSHSettingProfile>
+    <SNTPSettingProfile>
+      <sntpState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.6.0" CommandType="Integer" />
+      <apMgmtAccNtpAddr Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.128.1.1.26.1.6.7.0" CommandType="Integer" />
+    </SNTPSettingProfile>
+  </Command>
+  <Method>
+    <Append_1 ParaCount="1"/>
+    <Append_2 ParaCount="2"/>
+    <Append_3 ParaCount="3"/>
+  </Method>
+</Device>

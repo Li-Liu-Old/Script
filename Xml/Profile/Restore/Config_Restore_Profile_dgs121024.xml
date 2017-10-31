@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <tftpCfgTargetTftpOperation>1</tftpCfgTargetTftpOperation>
+    </RestoreProfile>
+  </Profile>
+</Device>
+<!--
+tftpConfigTftpOperation
+Value list:	1: download(1) 
+ 	2: upload(2) 
+ 	3: progressing(3) 
+-->

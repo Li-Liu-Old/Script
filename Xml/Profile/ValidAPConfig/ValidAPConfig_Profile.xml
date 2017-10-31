@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <VaildAPConfigProfile type="Custom">
+      <wsValidAPConfigEntry >
+        <Item wsAPMacAddress="" wsAPMode="" wsUseAPProfileId="" wsAPConfigRowStatus=""/>
+      </wsValidAPConfigEntry>
+    </VaildAPConfigProfile>
+    <Sensor_ManagedApStatus >
+      <wsManagedAPStatusEntry>
+        <Item wsManagedAPMacAddress=""  wsManagedAPReset="1" />
+      </wsManagedAPStatusEntry>
+    </Sensor_ManagedApStatus>
+  </Profile>
+</Device>
+<!--
+wsAPMode: 1: wsManaged(1) 2: standalone(2) 3: rogue(3) 
+wsAPConfigRowStatus  :active(1)  createAndGo(4)  destroy(6)  
+-->

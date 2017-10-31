@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <apFileDownloadPort>69</apFileDownloadPort>
+      <!--<apFileDownloadDirectory></apFileDownloadDirectory>-->
+      <apFileDownloadFileFormat>1</apFileDownloadFileFormat>
+      <apFileDownloadStart>1</apFileDownloadStart>
+    </RestoreProfile>
+  </Profile>
+</Device>

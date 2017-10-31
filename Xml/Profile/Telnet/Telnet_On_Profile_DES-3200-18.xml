@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <TelnetProfile>
+      <telnetStatus>3</telnetStatus>
+      <telnetTcpPort>23</telnetTcpPort>
+    </TelnetProfile>
+  </Profile>
+</Device>
+<!--
+telnet Value list: 2: disabled,3: enabled 
+telnetTcpPort Default Value:23
+-->

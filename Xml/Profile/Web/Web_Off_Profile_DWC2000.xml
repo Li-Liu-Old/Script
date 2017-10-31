@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <WebProfile>
+      <webStatus>0</webStatus>
+    </WebProfile>
+  </Profile>
+</Device>
+<!--
+webStatus Value list: disabled(0), enabled(1) 
+-->

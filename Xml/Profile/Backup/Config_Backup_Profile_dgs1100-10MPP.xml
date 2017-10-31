@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+	  <CopyType>1</CopyType>
+	  <CopySrcUrl>config</CopySrcUrl>
+	  <uploadFilename></uploadFilename>
+	  <uploadServerAddress></uploadServerAddress>
+	  <CopyRowStatus>4</CopyRowStatus>
+    </BackupProfile>
+  </Profile>
+</Device>

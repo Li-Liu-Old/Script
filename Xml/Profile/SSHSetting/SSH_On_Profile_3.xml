@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SSHSettingProfile>
+      <sshAdminState>3</sshAdminState>
+    </SSHSettingProfile>
+  </Profile>
+</Device>
+<!--
+SSH Value list:3: Enabled,2: Disabled
+-->

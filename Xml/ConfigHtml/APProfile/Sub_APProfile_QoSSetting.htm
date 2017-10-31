@@ -1,0 +1,119 @@
+﻿<div>
+    <input  type="hidden" value="QoSSettings" id="CurrentModuleName" name="CurrentModuleName"/>
+    <ul>
+        <li name="disableControl"><span class="spanTilte">Enable Change</span>
+            <select id="Select17" name="isEnableChange">
+                <option value="Enable">Enable</option>
+                <option value="Disable" selected="selected">Disable</option>
+            </select></li>
+    </ul>
+    <ul id="DataForm" style="margin-top:0px;">
+       <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileQOSEntry_PageData"  name="APProfile_wsAPProfileId_wsAPProfileQOSEntry_PageData"/>
+       <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileQOSEntry_PageData"  name="APProfile_wsAPRadioInterface_wsAPProfileQOSEntry_PageData"/>
+       <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioEntry1_PageData"  name="APProfile_wsAPProfileId_wsAPProfileRadioEntry1_PageData"/>
+       <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioEntry1_PageData"  name="APProfile_wsAPRadioInterface_wsAPProfileRadioEntry1_PageData"/>
+        <li><span class="spanTilte">Template</span>
+            <select id="APProfile_wsAPRadioQOSEDCATemplate_wsAPProfileRadioEntry1_PageData" name="APProfile_wsAPRadioQOSEDCATemplate_wsAPProfileRadioEntry1_PageData">
+            </select>         
+        </li>
+        <li>
+        <div class="tableData">
+        <span class="dblock tc bgTit">AP EDCA Parameters</span>
+         <table id="apEDCA" width="100%">
+          <thead>
+           <tr class="HeaderRow">
+              <th>Queue</th>
+              <th>AIFS(msecs,1 to 255)</th>
+              <th>cwMin(msecs)</th>
+              <th>cwMax(msecs)</th>
+              <th>Max.Burst(usecs,0 to 999900)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="Row">
+              <td>Data 0(Voice)</td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_0_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_0_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_0_PageData" ></select></div></td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_0_PageData" maxlength="6" class="validate[required,custom[validNumber],min[0],max[999900]]"/>
+              <input  type="hidden" value="0" id="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_0_PageData"/></div></td>
+            </tr>
+            <tr class="Row">
+              <td>Data 1(Video)</td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_1_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_1_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_1_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_1_PageData" maxlength="6" class="validate[required,custom[validNumber],min[0],max[999900]]"/>
+              <input  type="hidden" value="1" id="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_1_PageData"/></div></td>
+            </tr>
+            <tr class="Row">
+              <td>Data 2(Best Effort)</td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_2_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_2_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_2_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_2_PageData" maxlength="6" class="validate[required,custom[validNumber],min[0],max[999900]]"/>
+              <input  type="hidden" value="2" id="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_2_PageData"/></div></td>
+            </tr>
+            <tr class="Row">
+              <td>Data 3(Background)</td>
+             <td><div><input type="text" id="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsAPEDCAAIFS_wsAPProfileQOSEntry_3_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsAPEDCAMinContentionWindow_wsAPProfileQOSEntry_3_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsAPEDCAMaxContentionWindow_wsAPProfileQOSEntry_3_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsAPEDCAMaxBurst_wsAPProfileQOSEntry_3_PageData" maxlength="6" class="validate[required,custom[validNumber],min[0],max[999900]]"/>
+              <input  type="hidden" value="3" id="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsQOSQueueId_wsAPProfileQOSEntry_3_PageData"/></div></td>
+            </tr>
+            </tbody>
+         </table>
+         </div>
+        </li>
+        <li><span class="spanTilte" >WMM Mode</span>
+            <select id="APProfile_wsAPRadioWMMMode_wsAPProfileRadioEntry1_PageData" name="APProfile_wsAPRadioWMMMode_wsAPProfileRadioEntry1_PageData"></select>
+        </li>
+        <li>
+        <div class="tableData">
+        <span class="dblock tc bgTit">Station EDCA Parameters</span>
+          <table id ="stationEDCA" width="100%">
+          <thead>
+           <tr class="HeaderRow">
+              <th>Queue</th>
+              <th>AIFS(msecs,1 to 255)</th>
+              <th>cwMin(msecs)</th>
+              <th>cwMax(msecs)</th>
+              <th>TXOP Limit(32 usec units,0 to 65535)</th>      
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="Row">
+              <td>Data 0(Voice)</td>
+              <td><div><input type="text" id="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_0_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_0_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_0_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_0_PageData" name="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_0_PageData" maxlength="5" class="validate[required,custom[validNumber],min[0],max[65535]]"/></div></td>
+            </tr>
+            <tr class="Row">
+              <td>Data 1(Video)</td>
+              <td><div><input type="text" id="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_1_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_1_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_1_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_1_PageData" name="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_1_PageData" maxlength="5" class="validate[required,custom[validNumber],min[0],max[65535]]"/></div></td>
+            </tr>
+            <tr class="Row">
+              <td>Data 2(Best Effort)</td>
+              <td><div><input type="text" id="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_2_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_2_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_2_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_2_PageData" name="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_2_PageData" maxlength="5" class="validate[required,custom[validNumber],min[0],max[65535]]"/></div></td>
+            </tr>
+            <tr class="Row">
+              <td>Data 3(Background)</td>
+             <td><div><input type="text" id="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsStationEDCAAIFS_wsAPProfileQOSEntry_3_PageData" maxlength="3" class="validate[required,custom[validNumber],min[1],max[255]]"/></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsStationEDCAMinContentionWindow_wsAPProfileQOSEntry_3_PageData"></select></div></td>
+              <td><div><select id="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsStationEDCAMaxContentionWindow_wsAPProfileQOSEntry_3_PageData"></select></div></td>
+              <td><div><input type="text" id="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_3_PageData" name="APProfile_wsStationEDCATXOPLimit_wsAPProfileQOSEntry_3_PageData" maxlength="5" class="validate[required,custom[validNumber],min[0],max[65535]]"/></div></td>
+             </tr>
+            </tbody>
+         </table>
+         </div>
+        </li>
+    </ul>
+</div>

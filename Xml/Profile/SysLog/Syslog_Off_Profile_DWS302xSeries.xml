@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogCtrlState>2</sysLogCtrlState>
+      <sysLogServerEntry >
+        
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+<Item sysLogServerIndex="1"
+              agentLogHostTableRowStatus="6"
+              />
+agentLogHostTableRowStatus(sysLogServerState) Value List: 6:destory(6)
+-->

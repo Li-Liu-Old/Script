@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <uploadServerAddress></uploadServerAddress>
+      <apFileUploadPort>69</apFileUploadPort>
+      <uploadFilename></uploadFilename>
+      <apFileUploadFileFormat>1</apFileUploadFileFormat>
+      <apFileUploadStart>1</apFileUploadStart>
+    </BackupProfile>
+  </Profile>
+</Device>
+<!--
+apFileUploadDirectory: 如果有值，备份会失败,建议使用缺省值
+-->

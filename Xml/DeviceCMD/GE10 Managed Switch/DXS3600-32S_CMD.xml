@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Device Name="DXS-3600-32S" DefaultFramework="2.00.023" SOID="1.3.6.1.4.1.171.10.127.1" HWVersion="">
+  <Command>
+    <Sensor_Port>
+      <ifTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifDescr CommandText="1.3.6.1.2.1.2.2.1.2" Options="R" CommandType="String" />
+        <ifType CommandText="1.3.6.1.2.1.2.2.1.3" Options="R" CommandType="Integer" />
+        <ifSpeed CommandText="1.3.6.1.2.1.2.2.1.5" Options="R" CommandType="Gauge" />
+        <ifPhysAddress CommandText="1.3.6.1.2.1.2.2.1.6" Options="R" CommandType="MAC" />
+        <ifAdminStatus CommandText="1.3.6.1.2.1.2.2.1.7" Options="R" CommandType="Integer" />
+        <ifOperStatus CommandText="1.3.6.1.2.1.2.2.1.8" Options="R" CommandType="Integer" />
+        <ifLastChange CommandText="1.3.6.1.2.1.2.2.1.9" Options="R" CommandType="Time" />
+      </ifTable>
+      <ifXTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifName CommandText="1.3.6.1.2.1.31.1.1.1.1" Options="R" CommandType="String" />
+        <ifHighSpeed CommandText="1.3.6.1.2.1.31.1.1.1.15" Options="R" CommandType="Gauge" />
+        <ifConnectorPresent CommandText="1.3.6.1.2.1.31.1.1.1.17" Options="R" CommandType="Integer" />
+      </ifXTable>
+    </Sensor_Port>
+    <Sensor_PortTraffic>
+      <ifTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifInOctets CommandText="1.3.6.1.2.1.2.2.1.10" Options="R" CommandType="Counter32" />
+        <ifInUcastPkts CommandText="1.3.6.1.2.1.2.2.1.11" Options="R" CommandType="Counter32" />
+        <ifInDiscards CommandText="1.3.6.1.2.1.2.2.1.13" Options="R" CommandType="Counter32" />
+        <ifOutOctets CommandText="1.3.6.1.2.1.2.2.1.16" Options="R" CommandType="Counter32" />
+        <ifOutUcastPkts CommandText="1.3.6.1.2.1.2.2.1.17" Options="R" CommandType="Counter32" />
+        <ifOutDiscards CommandText="1.3.6.1.2.1.2.2.1.19" Options="R" CommandType="Counter32" />
+      </ifTable>
+      <ifXTable Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <ifHCInOctets CommandText="1.3.6.1.2.1.31.1.1.1.6" Options="R" CommandType="Counter64" />
+        <ifHCOutOctets CommandText="1.3.6.1.2.1.31.1.1.1.10" Options="R" CommandType="Counter64" />
+        <ifHCInUcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.7" Options="R" CommandType="Counter64" />
+        <ifHCInMulticastPkts CommandText="1.3.6.1.2.1.31.1.1.1.8" Options="R" CommandType="Counter64" />
+        <ifHCInBroadcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.9" Options="R" CommandType="Counter64" />
+        <ifHCOutUcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.11" Options="R" CommandType="Counter64" />
+        <ifHCOutMulticastPkts CommandText="1.3.6.1.2.1.31.1.1.1.12" Options="R" CommandType="Counter64" />
+        <ifHCOutBroadcastPkts CommandText="1.3.6.1.2.1.31.1.1.1.13" Options="R" CommandType="Counter64" />
+      </ifXTable>
+    </Sensor_PortTraffic>
+    <Sensor_ErrorPackets>
+      <totalErrorPacketsEntry Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <ifIndex CommandText="1.3.6.1.2.1.2.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <RxErrors CommandText="1.3.6.1.2.1.2.2.1.14" Options="R" CommandType="Counter32" />
+        <TxErrors CommandText="1.3.6.1.2.1.2.2.1.20" Options="R" CommandType="Counter32" />
+      </totalErrorPacketsEntry>
+    </Sensor_ErrorPackets>
+    <Sensor_CPULoadPercent>
+      <CPULoadPercent Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.7.1.3.1.1" CommandType="Integer" />
+    </Sensor_CPULoadPercent>
+    <Sensor_MemoryFreeReal>
+      <rlFileFreeSizeOfFlash Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.5.1.1" CommandType="Integer" />
+      <rlFileTotalSizeOfFlash Proto="SNMP" Options="R" CommandText="1.3.6.1.4.1.171.14.5.1.4.1.3.1.1" CommandType="Integer" />
+    </Sensor_MemoryFreeReal>
+    <BackupProfile>
+      <swGenFileSystemMgmtServerAddrType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.3.2" CommandType="Integer" />
+      <uploadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.4.2" CommandType="IPAddressHex" />
+      <swGenFileSystemMgmtTranserProtocol Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.10.2" CommandType="Integer" />
+      <uploadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.20.2" CommandType="String" />
+      <swGenFileSystemMgmtLoadType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.30.2" CommandType="Integer" />
+      <swGenFileSystemMgmtCtrl Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.100.2" CommandType="Integer" />
+      <swGenFileSystemMgmtServerFileName Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.21.2" CommandType="String" />
+    </BackupProfile>
+    <RestoreProfile>
+      <swGenFileSystemMgmtServerAddrType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.3.2" CommandType="Integer" />
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.4.2" CommandType="IPAddressHex" />
+      <swGenFileSystemMgmtTranserProtocol Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.10.2" CommandType="Integer" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.20.2" CommandType="String" />
+      <swGenFileSystemMgmtLoadType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.30.2" CommandType="Integer" />
+      <swGenFileSystemMgmtCtrl Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.100.2" CommandType="Integer" />
+      <swGenFileSystemMgmtServerFileName Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.21.2" CommandType="String" />
+    </RestoreProfile>
+    <FirmwareProfile>
+      <swGenFileSystemMgmtServerAddrType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.3.1" CommandType="Integer" />
+      <downloadServerAddress Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.4.1" CommandType="IPAddressHex" />
+      <swGenFileSystemMgmtTranserProtocol Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.10.1" CommandType="Integer" />
+      <downloadFilename Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.20.1" CommandType="String" />
+      <swGenFileSystemMgmtLoadType Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.30.1" CommandType="Integer" />
+      <swGenFileSystemMgmtCtrl Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.100.1" CommandType="Integer" />
+      <swGenFileSystemMgmtServerFileName Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.1.1.1.21.1" CommandType="String" />
+    </FirmwareProfile>
+    <RebootProfile>
+      <reboot Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.10.0" CommandType="Integer" />
+    </RebootProfile>
+    <SaveProfile>
+      <save Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.10.127.1.20.1.1.12.0" CommandType="Integer" />
+    </SaveProfile>
+    <LLDPProfile>
+      <swL2DevCtrlLLDPState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.20.1.1.0" CommandType="Integer" />
+    </LLDPProfile>
+    <TelnetProfile>
+      <telnetStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.40.1.1.0" CommandType="Integer" />
+      <telnetTcpPort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.40.1.2.0" CommandType="Integer" />
+    </TelnetProfile>
+    <WebProfile>
+      <webStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.162.1.1.1.0" CommandType="Integer" />
+      <webTcpPort Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.162.1.1.2.0" CommandType="Integer" />
+    </WebProfile>
+    <SSHSettingProfile>
+      <sshAdminState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.17.1.1.1.0" CommandType="Integer" />
+    </SSHSettingProfile>
+    <SpanningProfile>
+      <spanning Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.15.1.1.1.0" CommandType="Integer" />
+    </SpanningProfile>
+    <SafeguardProfile>
+      <safeguard Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.19.1.1.1.1.0" CommandType="Integer" />
+    </SafeguardProfile>
+    <SNTPSettingProfile>
+      <sntpState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.10.1.1.1.0" CommandType="Integer" />
+    </SNTPSettingProfile>
+    <DHCPProfile>
+      <dhcpStatus Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.39.1.1.1.0" CommandType="Integer" />
+    </DHCPProfile>
+    <SyslogProfile>
+      <sysLogCtrlState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.13.1.1.3.0" CommandType="Integer" />
+      <sysLogServerEntry Proto="SNMPv2" Type="CreateTable" Desc="alone" Method="Append_3">
+        <sysLogServerType CommandText="X" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <sysLogServerAddress CommandText="X" Options="N" CommandType="StringIPAddress" CommandSuffix="1" />
+        <sysLogServerIfName CommandText="X" Options="N" CommandType="String" CommandSuffix="2" />
+        <sysLogServerFacility CommandText="1.3.6.1.4.1.171.14.13.1.5.1.7" Options="RW" CommandType="Integer" />
+        <sysLogServerSeverity CommandText="1.3.6.1.4.1.171.14.13.1.5.1.6" Options="RW" CommandType="Integer" />
+        <sysLogServerUDPPort CommandText="1.3.6.1.4.1.171.14.13.1.5.1.5" Options="RW" CommandType="Gauge" />
+        <sysLogServerRowStatus CommandText="1.3.6.1.4.1.171.14.13.1.5.1.4" Options="RW" CommandType="Integer" CommandStatus="RowStatus" />
+      </sysLogServerEntry>
+    </SyslogProfile>
+    <TrapProfile>
+      <trapCtrlState Proto="SNMP" Options="RW" CommandText="1.3.6.1.4.1.171.14.2.1.2.1.0" CommandType="Integer" />
+      <trapManagerEntry Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_2">
+        <trapManagerCommunity CommandText="1.3.6.1.4.1.171.14.2.1.3.3.1.2" Options="N" CommandType="String" CommandSuffix="0" />
+        <trapManagerIpAddress CommandText="1.3.6.1.4.1.171.14.2.1.3.3.1.1" Options="N" CommandType="IPAddress" CommandSuffix="1" />
+        <trapManagerUdpPort CommandText="1.3.6.1.4.1.171.14.2.1.3.3.1.3" Options="RW" CommandType="Integer" />
+      </trapManagerEntry>
+    </TrapProfile>
+    <LinkAggregationProfile>
+      <swL2TrunkAlgorithm Proto="SNMP" CommandText="1.3.6.1.4.1.171.14.4.1.1.0" Options="RW" CommandType="Integer" />
+      <swPortTrunkEntry Proto="SNMP" Type="EditTable" Desc="" Method="Append_1">
+        <swPortTrunkIndex CommandText="1.3.6.1.4.1.171.14.4.1.2.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <swPortTrunkGroupIndex CommandText="1.3.6.1.4.1.171.14.4.1.2.1.2" Options="R" CommandType="Integer" />
+        <swPortTrunkPortList CommandText="1.3.6.1.4.1.171.14.4.1.2.1.4" Options="RW" CommandType="PortList" />
+        <swPortTrunkType CommandText="1.3.6.1.4.1.171.14.4.1.2.1.3" Options="RW" CommandType="Integer" />
+        <swPortTrunkActivePort CommandText="1.3.6.1.4.1.171.14.4.1.2.1.5" Options="R" CommandType="PortList" />
+        <swPortTrunkState CommandText="1.3.6.1.4.1.171.14.4.1.2.1.6" Options="RW" CommandType="Integer" />
+      </swPortTrunkEntry>
+    </LinkAggregationProfile>
+    <Sensor_Stack>
+      <StackPortEntry Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <Index CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.1" Options="N" CommandType="Integer" CommandSuffix="0" />
+        <StartPort CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.14" Options="R" CommandType="Integer" />
+        <NumberOfPorts CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.15" Options="R" CommandType="Integer" />
+      </StackPortEntry>
+      <StackEntry Proto="SNMPv2" Type="EditTable" Desc="" Method="Append_1">
+        <Index CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.1" Options="N" CommandType="Integer" />
+        <StackProductID CommandText="1.3.6.1.4.1.171.14.9.1.1.8.1.5" Options="R" CommandType="Octets" />
+      </StackEntry>
+    </Sensor_Stack>
+	<DLMSProfile>
+		<dDlmsLicenseModelEntry Proto="SNMP" Type="EditTable" Desc="" Method="Append_1">
+			<dDlmsLicenseModelUnitId  Options="N" CommandText="1.3.6.1.4.1.171.14.164.1.2.1.1.1" CommandType="Integer" CommandSuffix="0" />
+			<dDlmsLicenseModelDefault   Options="R" CommandText="1.3.6.1.4.1.171.14.164.1.2.1.1.2" CommandType="String"/>
+			<dDlmsLicenseModelCurrent Options="R" CommandText="1.3.6.1.4.1.171.14.164.1.2.1.1.3" CommandType="String"/>
+		</dDlmsLicenseModelEntry>
+		<dDlmsLicenseAcEntry Proto="SNMP" Type="EditTable" Desc="" Method="Append_2">
+			<dDlmsLicenseAcUnitId Options="N" CommandText="1.3.6.1.4.1.171.14.164.1.2.2.1.1" CommandType="Integer" CommandSuffix="0" />
+			<dDlmsLicenseAcIndex Options="N" CommandText="1.3.6.1.4.1.171.14.164.1.2.2.1.2" CommandType="Integer" CommandSuffix="1" />
+			<dDlmsLicenseAcModel Options="R" CommandText="1.3.6.1.4.1.171.14.164.1.2.2.1.3" CommandType="String"/>
+			<dDlmsLicenseAc Options="R" CommandText="1.3.6.1.4.1.171.14.164.1.2.2.1.4" CommandType="String"/>
+			<dDlmsLicenseAcRemaining Options="R" CommandText="1.3.6.1.4.1.171.14.164.1.2.2.1.5" CommandType="String"/>
+		</dDlmsLicenseAcEntry>
+	</DLMSProfile>
+  </Command>
+  <Method>
+    <Append_1 ParaCount="1" />
+    <Append_2 ParaCount="2" />
+    <Append_3 ParaCount="3" />
+  </Method>
+</Device>

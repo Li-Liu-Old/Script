@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <TrapProfile>
+     <trapCtrlState>2</trapCtrlState>
+	 <trapManagerIpAddress>0.0.0.0</trapManagerIpAddress>
+    </TrapProfile>
+  </Profile>
+</Device>

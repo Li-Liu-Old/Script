@@ -1,0 +1,53 @@
+﻿<div>
+    <input id="moduleName" type="hidden" value="SystemConfiguration" />
+    <ul>
+        <input name="SystemConfiguration_ifIndex_lanIfSettingEntry_PageData" type="hidden"
+            value="1" />
+        <input name="SystemConfiguration_usersIndex_usersEntry_PageData" type="hidden" value="1" />
+        <li><span class="spanTilte profilePartTitle">Lan Settings</span></li>
+        <li><span class="spanTilte">Get IP From</span>
+            <select name="SystemConfiguration_lanIfGetIpAddressFrom_lanIfSettingEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Subnet Mask</span>
+            <input type="text" id="SystemConfiguration_lanIfSubnetMask_lanIfSettingEntry_PageData"
+                name="SystemConfiguration_lanIfSubnetMask_lanIfSettingEntry_PageData" class="validate[required,custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte">Default Geteway</span>
+            <input type="text" id="SystemConfiguration_lanIfDefaultGateway_lanIfSettingEntry_PageData"
+                name="SystemConfiguration_lanIfDefaultGateway_lanIfSettingEntry_PageData" maxlength=""
+                class="validate[custom[ipv4]]" />
+        </li>
+        <li><span class="spanTilte profilePartTitle">Login Settings</span></li>
+        <li><span class="spanTilte">User Name</span>
+            <input type="text" id="SystemConfiguration_usersName_usersEntry_PageData" name="SystemConfiguration_usersName_usersEntry_PageData"
+                class="validate[required,maxSize[64]]" maxlength="64" />
+        </li>
+        <li><span class="spanTilte">Password</span>
+            <input type="password" id="SystemConfiguration_usersPassword_usersEntry_PageData"
+                name="SystemConfiguration_usersPassword_usersEntry_PageData" class="validate[maxSize[12],custom[onlyLetterNumber]]"
+                maxlength="12" /><input id="text1" name="controlSpan" type="text" style="display: none" /><img
+                    src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                    style="vertical-align: middle; margin-left: 10px;cursor:pointer;" onclick="showPwd(this,'text1','SystemConfiguration_usersPassword_usersEntry_PageData')"
+                    name="isResultDisplayControl" /><span class="spanTip">(between 0 and 12 characters)</span></li>
+        <li><span class="spanTilte profilePartTitle">Console Settings</span></li>
+        <li><span class="spanTilte">Console Protocol</span>
+        </li>
+        <li><span class="spanTilte">Telnet</span>
+          <select id="SystemConfiguration_telnet_PageData" name="SystemConfiguration_telnet_PageData">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </select>
+        </li>
+        <li><span class="spanTilte">SSH</span>
+          <select id="SystemConfiguration_ssh_PageData" name="SystemConfiguration_ssh_PageData">
+                <option value="1">Enable</option>
+                <option value="0">Disable</option>
+            </select>
+        </li>
+        <li><span class="spanTilte">Timeout</span>
+            <select id="SystemConfiguration_timeout_PageData" name="SystemConfiguration_timeout_PageData">
+            </select>
+        </li>
+    </ul>
+</div>

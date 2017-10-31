@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <ApDiscoveryVlanConfigProfile>
+      <wsL2DiscoveryMode></wsL2DiscoveryMode>
+      <wsL2DiscoveryVlanListEntry wsL2DiscoveryVlanId="" wsL2DiscoveryVlanRowStatus="" />
+    </ApDiscoveryVlanConfigProfile>
+  </Profile>
+</Device>

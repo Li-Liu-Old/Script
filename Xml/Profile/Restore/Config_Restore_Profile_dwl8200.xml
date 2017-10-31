@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <uLocalFileName>abc</uLocalFileName>
+      <uTFTPCommand>2</uTFTPCommand>
+      <uUpgradeSettingCommand>2</uUpgradeSettingCommand>
+    </RestoreProfile>
+  </Profile>
+</Device>

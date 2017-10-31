@@ -1,0 +1,97 @@
+﻿<div>
+    <input type="hidden" value="" id="CurrentModuleName" name="CurrentModuleName" />
+    <ul>
+        <li name="disableControl"><span class="spanTilte">Enable Change</span>
+            <select id="" name="isEnableChange">
+                <option value="Enable">Enable</option>
+                <option value="Disable" selected="selected">Disable</option>
+            </select></li>
+    </ul>
+    <ul id="DataForm" style="margin-top: 0px;">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileEntry_PageData" />
+        <input type="hidden" value="1" id="APProfile_wsAPProfileRowStatus_wsAPProfileEntry_PageData"
+            name="APProfile_wsAPProfileRowStatus_wsAPProfileEntry_PageData" />
+        <li><span class="spanTilte">Profile Name</span>
+            <input type="text" id="APProfile_wsAPProfileName_wsAPProfileEntry_PageData" name="APProfile_wsAPProfileName_wsAPProfileEntry_PageData"
+                class="validate[required,custom[LetterNumberSign],maxSize[32]]" maxlength="32" /><span
+                    class="spanTip">(between 1 and 32 characters)</span></li>
+        <li><span class="spanTilte profilePartTitle">RADIUS</span> <span class="spanTip"></span>
+            <span id="Span1"></span></li>
+        <li><span class="spanTilte spanTitle2">IP Address</span>
+            <input type="text" id="APProfile_wsAPRadiusServerIP_wsAPProfileEntry_PageData" name="APProfile_wsAPRadiusServerIP_wsAPProfileEntry_PageData" /><span
+                class="spanTip"></span></li>
+        <li><span class="spanTilte spanTitle2">Secret</span>
+            <input type="password" id="APProfile_wsAPRadiusServerSecret_wsAPProfileEntry_PageData"
+                name="APProfile_wsAPRadiusServerSecret_wsAPProfileEntry_PageData" class="validate[required,custom[onlyLetterNumber],maxSize[64]]"
+                maxlength="64" /><input id="text1" name="controlSpan1" type="text" style="display: none" /><img
+                    src="../../Images/textEyeIcon.png" title="Show Text" class="p5 bg278 EyeImgBtn curPointer"
+                    style="vertical-align: middle; margin-left: 10px; cursor: pointer;" onclick=showPwd(this,'text1','APProfile_wsAPRadiusServerSecret_wsAPProfileEntry_PageData') /><span class="spanTip">
+                <input type="checkbox" id="apRadiusServerSecretEdit" class="ml10" /><span>Edit</span></span></li>
+        <li><span class="spanTilte spanTitle2">Backup IP Address</span>
+            <input type="text" id="APProfile_wsAPRadiusBackuponeServerIP_wsAPProfileEntry_PageData"
+                name="APProfile_wsAPRadiusBackuponeServerIP_wsAPProfileEntry_PageData" /><span class="spanTip"></span></li>
+        <li><span class="spanTilte spanTitle2">Backup Secret</span>
+            <input type="password" id="APProfile_wsAPRadiusBackuponeServerSecret_wsAPProfileEntry_PageData"
+                name="APProfile_wsAPRadiusBackuponeServerSecret_wsAPProfileEntry_PageData" class="validate[required,custom[onlyLetterNumber],maxSize[64]]" /><input
+                    id="text3" name="controlSpan1" type="text" style="display: none" /><img src="../../Images/textEyeIcon.png"
+                        title="Show Text" class="p5 bg278 EyeImgBtn curPointer" style="vertical-align: middle;
+                        margin-left: 10px; cursor: pointer;" onclick=showPwd(this,'text3','APProfile_wsAPRadiusBackuponeServerSecret_wsAPProfileEntry_PageData') /><span class="spanTip">
+                <input type="checkbox" id="apRadiusBackuponeServerSecretEdit" class="ml10" /><span>Edit</span></span>
+        </li>
+        <li><span class="spanTilte spanTitle2">Accounting</span>
+            <select id="" name="APProfile_wsAPRadiusAcountingMode_wsAPProfileEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte spanTitle2">Failthrough Mode</span>
+            <select id="" name="APProfile_wsAPRadiusFailthroughMode_wsAPProfileEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte profilePartTitle">MAC Authentication</span> </li>
+        <li><span class="spanTilte spanTitle2">Authentication Default Action</span>
+            <select id="" name="APProfile_wsMacAuthenticationDefaultAction_wsAPProfileEntry_PageData">
+            </select></li>
+    </ul>
+    <ul id="wsAPProfileMACAuthenticationListEntry">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileMACAuthenticationListEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileMACAuthenticationListEntry_PageData" />
+        <li><span class="spanTilte profilePartTitle">MAC List</span>
+            <ul>
+                <li><span class="spanTilte spanTitle2">Client MAC Address</span>
+                    <input type="text" id="APProfile_wsClientMACAddress_wsAPProfileMACAuthenticationListEntry_PageData"
+                        name="APProfile_wsClientMACAddress_wsAPProfileMACAuthenticationListEntry_PageData"
+                        class="validate[required,custom[MAC]]" /></li>
+                <li><span class="spanTilte spanTitle2">Client Name</span>
+                    <input type="text" id="APProfile_wsClientNickName_wsAPProfileMACAuthenticationListEntry_PageData"
+                        name="APProfile_wsClientNickName_wsAPProfileMACAuthenticationListEntry_PageData"
+                        maxlength="32" class="validate[required,maxSize[32]]" />
+                    <input type="button" value="Add" onclick="changeValidate(false);ClearTableValidate();DUI.profile.APProfile.addNew();"
+                        class="bgBtnInput" name="actionBtnAdd" style="height: 26px;" />
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div class="tableData mt10">
+        <table id="ApProfileStatusTable" width="100%" align="center" class="statusShowTable">
+            <thead>
+                <tr class="HeaderRow">
+                    <th>
+                        MAC
+                    </th>
+                    <th>
+                        Client Name
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Row">
+                    <td colspan="3">
+                        <span class="dblock tc noDataSpan">No Data Found.</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

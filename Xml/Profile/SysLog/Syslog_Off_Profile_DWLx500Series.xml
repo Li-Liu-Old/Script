@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile>
+      <sysLogServerState>0</sysLogServerState>
+      <sysLogServerAddress>0.0.0.0</sysLogServerAddress>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+sysLogServerState disable(0) enable(1)
+-->

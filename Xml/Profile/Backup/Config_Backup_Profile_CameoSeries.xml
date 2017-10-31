@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <uploadFilename>
+      </uploadFilename>
+      <tftpCfgTargetServerIpType>1</tftpCfgTargetServerIpType>
+      <uploadServerAddress>
+      </uploadServerAddress>
+      <tftpCfgTargetTftpOperation>2</tftpCfgTargetTftpOperation>
+    </BackupProfile>
+  </Profile>
+</Device>

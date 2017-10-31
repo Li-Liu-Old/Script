@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <uploadServerAddress></uploadServerAddress>
+      <uploadFilename></uploadFilename>
+      <uLocalFileName>abc</uLocalFileName>
+      <uTFTPCommand>3</uTFTPCommand>
+      <uUpgradeSettingCommand>2</uUpgradeSettingCommand>
+    </BackupProfile>
+  </Profile>
+</Device>
+<!--
+uLocalFileName : 目前暂设默认值，不知道其存在的价值
+-->

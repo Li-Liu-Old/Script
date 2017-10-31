@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <LACPPortSettingProfile>
+      <swL2TrunkLACPPortEntry swL2TrunkLACPPortIndex=""
+                              laPortActorPortPriority=""
+                              swL2TrunkLACPPortState=""
+                              laPortActorTimeout=""/>
+    </LACPPortSettingProfile>
+  </Profile>
+</Device>

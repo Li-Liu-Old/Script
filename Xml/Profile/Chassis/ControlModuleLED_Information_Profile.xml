@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+	<ControlModuleLED_Information>
+		<chassisControlModuleLEDlnfoEntry/>
+	</ControlModuleLED_Information>
+  </Profile>
+</Device>
+
+

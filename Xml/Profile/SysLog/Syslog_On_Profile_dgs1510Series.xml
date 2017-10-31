@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogServerEntry >
+        <Item sysLogServerType="1"
+              sysLogServerAddress=""
+              sysLogServerIfName="0"
+              sysLogServerRowStatus="4"
+               />
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+创建的时候下发会报错,但会创建默认值
+sysLogServerSeverity="7"
+sysLogServerUDPPort="514"
+sysLogServerFacility="23"
+-->

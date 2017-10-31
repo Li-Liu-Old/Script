@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <WebProfile>
+      <webStatus>2</webStatus>
+    </WebProfile>
+  </Profile>
+</Device>
+<!--
+webStatus Value List: 2: disabled,1: enabled
+webTcpPort Default Value:80
+-->

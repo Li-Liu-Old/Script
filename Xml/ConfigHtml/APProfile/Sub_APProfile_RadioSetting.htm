@@ -1,0 +1,316 @@
+﻿<div>
+    <input type="hidden" value="" id="CurrentModuleName" name="CurrentModuleName" />
+    <ul>
+        <li name="disableControl"><span class="spanTilte">Enable Change</span>
+            <select id="Select16" name="isEnableChange">
+                <option value="Enable">Enable</option>
+                <option value="Disable" selected="selected">Disable</option>
+            </select></li>
+    </ul>
+    <ul id="DataForm" style="margin-top: 0px;">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileRadioEntry_PageData" />
+        <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioEntry_PageData"
+            name="APProfile_wsAPRadioInterface_wsAPProfileRadioEntry_PageData" />
+        <li><span class="spanTilte">State</span>
+            <select id="" name="APProfile_wsAPRadioAdminMode_wsAPProfileRadioEntry_PageData">
+            </select></li>
+        <li><span class="spanTilte">Mode</span>
+            <select id="APProfile_wsAPRadioFrequency_wsAPProfileRadioEntry_PageData" name="APProfile_wsAPRadioFrequency_wsAPProfileRadioEntry_PageData">
+            </select><span class="spanTip"></span></li>
+        <li><span class="spanTilte">RTS Threshold(bytes)</span>
+            <input type="text" id="APProfile_wsAPRadioRTSThreshold_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioRTSThreshold_wsAPProfileRadioEntry_PageData" class="validate[required,custom[validNumber],min[0],max[2347]]"
+                maxlength="4" /><span class="spanTip">(0 to 2347)</span> </li>
+        <li><span class="spanTilte">Load Balancing</span>
+            <select id="Text2" name="APProfile_wsAPRadioLoadBalancingMode_wsAPProfileRadioEntry_PageData">
+            </select><span class="spanTip"></span> </li>
+        <li><span class="spanTilte">Load Utillzation(%)</span>
+            <input type="text" id="APProfile_wsAPRadioUtilization_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioUtilization_wsAPProfileRadioEntry_PageData" maxlength="3"
+                class="validate[required,custom[validNumber],min[1],max[100]]" /><span class="spanTip">(1
+                    to 100)</span></li>
+        <li><span class="spanTilte">Maximum Clients</span>
+            <input type="text" id="APProfile_wsAPRadioMaxClients_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioMaxClients_wsAPProfileRadioEntry_PageData" maxlength="3"
+                class="validate[required,custom[validNumber],min[0],max[200]]" /><span class="spanTip">(0
+                    to 200)</span> </li>
+        <li><span class="spanTilte">RF Scan Other Channels</span>
+            <select id="Text5" name="APProfile_wsAPRadioOtherChannelsScanMode_wsAPProfileRadioEntry_PageData">
+            </select><span class="spanTip"></span> </li>
+        <li><span class="spanTilte">RF Scan Sentry</span>
+            <select id="Select1" name="APProfile_wsAPRadioSentryScanMode_wsAPProfileRadioEntry_PageData">
+            </select><span class="spanTip"></span> </li>
+        <li><span class="spanTilte">RF Scan Interval(secs)</span>
+            <input type="text" id="APProfile_wsAPRadioOtherChannelsScanInterval_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioOtherChannelsScanInterval_wsAPProfileRadioEntry_PageData"
+                maxlength="3" class="validate[required,custom[validNumber],min[30],max[120]]" /><span
+                    class="spanTip">(30 to 120)</span> </li>
+        <li><span class="spanTilte">RF Scan Sentry Channels</span>
+            <select id="APProfile_wsAPRadioSentryScanChannel_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioSentryScanChannel_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">RF Scan Duration(msecs)</span>
+            <input type="text" id="APProfile_wsAPRadioScanDuration_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioScanDuration_wsAPProfileRadioEntry_PageData" maxlength="4"
+                class="validate[required,custom[validNumber],min[10],max[2000]]" /><span class="spanTip">(10
+                    to 2000)</span></li>
+        <li><span class="spanTilte">Rate Limiting</span>
+            <select id="Select2" name="APProfile_wsAPRadioRateLimitMode_wsAPProfileRadioEntry_PageData">
+            </select><span class="spanTip"></span></li>
+        <li><span class="spanTilte">Rate Limit(pkts/sec)</span>
+            <input type="text" id="APProfile_wsAPRadioRateLimit_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioRateLimit_wsAPProfileRadioEntry_PageData" maxlength="2"
+                class="validate[required,custom[validNumber],min[1],max[50]]" /><span class="spanTip">(1
+                    to 50)</span></li>
+        <li><span class="spanTilte">Rate Limit Burst(pkts/sec)</span>
+            <input type="text" id="APProfile_wsAPRadioRateLimitBurst_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioRateLimitBurst_wsAPProfileRadioEntry_PageData" maxlength="2"
+                class="validate[required,custom[validNumber],min[1],max[75]]" /><span class="spanTip">(1
+                    to 75)</span></li>
+        <li><span class="spanTilte">Channel Bandwith</span>
+            <select id="APProfile_wsAPRadioChannelBandwidth_wsAPProfileRadioEntry_PageData" name="APProfile_wsAPRadioChannelBandwidth_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Protection</span>
+            <select id="APProfile_wsAPRadioProtectionMode_wsAPProfileRadioEntry_PageData" name="APProfile_wsAPRadioProtectionMode_wsAPProfileRadioEntry_PageData">
+            </select><span class="spanTip"></span></li>
+        <li><span class="spanTilte">Space Time Block Code</span>
+            <select id="APProfile_wsAPRadioSTBCMode_wsAPProfileRadioEntry_PageData" name="APProfile_wsAPRadioSTBCMode_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">No ACK</span>
+            <select id="Select6" name="APProfile_wsAPRadioNoAckMode_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        
+        <li><span class="spanTilte">DTIM Period(# beacons)</span>
+            <input type="text" id="APProfile_wsAPRadioDTIMPeriod_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioDTIMPeriod_wsAPProfileRadioEntry_PageData" maxlength="3"
+                class="validate[required,custom[validNumber],min[1],max[255]]" /><span class="spanTip">(1
+                    to 255)</span></li>
+        <li><span class="spanTilte">Beacon Interval(msecs)</span>
+            <input type="text" id="APProfile_wsAPRadioBeaconInterval_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioBeaconInterval_wsAPProfileRadioEntry_PageData" maxlength="4"
+                class="validate[required,custom[validNumber],min[20],max[2000]]" /><span class="spanTip">(20
+                    to 2000)</span></li>
+        <li><span class="spanTilte">Automatic Channel</span>
+            <select id="Select7" name="APProfile_wsAPRadioAutoChannelMode_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Automatic Power</span>
+            <select id="Select8" name="APProfile_wsAPRadioAutoPowerMode_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Initial Power(%)</span>
+            <input type="text" id="APProfile_wsAPRadioTxPower_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioTxPower_wsAPProfileRadioEntry_PageData" maxlength="3"
+                class="validate[required,custom[validNumber],min[1],max[100]]" /><span class="spanTip">(1
+                    to 100)</span> </li>
+        <li><span class="spanTilte">APSD Mode</span>
+            <select id="Select9" name="APProfile_wsAPRadioUAPSDMode_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Frag Threshold(bytes)</span>
+            <input type="text" id="APProfile_wsAPRadioFragmentationThreshold_wsAPProfileRadioEntry_PageData"
+                name="APProfile_wsAPRadioFragmentationThreshold_wsAPProfileRadioEntry_PageData"
+                maxlength="4" class="validate[required,custom[validNumber],min[256],max[2346],Multi[8]]" /><span
+                    class="spanTip">(256 to 2346)</span></li>
+        <li><span class="spanTilte">Station Isolation</span>
+            <select id="Select10" name="APProfile_wsAPRadioStationIsolationMode_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Primary Channel</span>
+            <select id="APProfile_wsAPRadioPrimaryChannel_wsAPProfileRadioEntry_PageData" name="APProfile_wsAPRadioPrimaryChannel_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Short Guard Interval</span>
+            <select id="APProfile_wsAPRadioShortGuardInterval_wsAPProfileRadioEntry_PageData" name="APProfile_wsAPRadioShortGuardInterval_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Radio Resource Management</span>
+            <select id="Select13" name="APProfile_wsAPRadioResourceMeasEnabled_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+        <li><span class="spanTilte">Mulicast Tx Rate(Mbps)</span>
+            <select id="Select14" name="APProfile_wsAPRadioMulticastTxRate_wsAPProfileRadioEntry_PageData">
+            </select>
+        </li>
+    </ul>
+    <ul id="wsAPProfileRadioEligibleChannelsEntry">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioEligibleChannelsEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileRadioEligibleChannelsEntry_PageData" />
+        <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioEligibleChannelsEntry_PageData"
+            name="APProfile_wsAPRadioInterface_wsAPProfileRadioEligibleChannelsEntry_PageData" />
+        <!-- checkbox -->
+        <li><span class="spanTilte checkboxListTitle">Supported Channels Auto Eligible</span>
+            <div class="checkboxListDiv">
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">36</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">44</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">149</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">157</span>
+            </div>
+            <div class="checkboxListDiv">
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">1</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">2</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">3</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">4</span>
+            </div>
+            <div class="checkboxListDiv">
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">5</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">6</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">7</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">8</span>
+            </div>
+            <div class="checkboxListDiv">
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">9</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">10</span>
+                <input type="checkbox" class="" name="APProfile_wsEligibleChannel_wsAPProfileRadioEligibleChannelsEntry_PageData" /><span
+                    class="spanTip w30" value="RowStatus">11</span>
+            </div>
+        </li>
+    </ul>
+    <ul id="wsAPProfileRadioMCSIndexEntry">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioMCSIndexEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileRadioMCSIndexEntry_PageData" />
+        <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioMCSIndexEntry_PageData"
+            name="APProfile_wsAPRadioInterface_wsAPProfileRadioMCSIndexEntry_PageData" />
+        <li><span class="spanTilte checkboxListTitle">Available MCS Indices</span>
+            <div class="checkboxListDiv">
+                <input type="checkbox" id="Checkbox2" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">0</span>
+                <input type="checkbox" id="Checkbox5" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">1</span>
+                <input type="checkbox" id="Checkbox6" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">2</span>
+                <input type="checkbox" id="Checkbox7" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">3</span>
+            </div>
+            <div class="checkboxListDiv">
+                <input type="checkbox" id="Checkbox8" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">4</span>
+                <input type="checkbox" id="Checkbox9" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">5</span>
+                <input type="checkbox" id="Checkbox10" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">6</span>
+                <input type="checkbox" id="Checkbox11" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">7</span>
+            </div>
+            <div class="checkboxListDiv">
+                <input type="checkbox" id="Checkbox12" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">8</span>
+                <input type="checkbox" id="Checkbox13" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">9</span>
+                <input type="checkbox" id="Checkbox14" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">10</span>
+                <input type="checkbox" id="Checkbox15" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">11</span>
+            </div>
+            <div class="checkboxListDiv">
+                <input type="checkbox" id="Checkbox16" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">12</span>
+                <input type="checkbox" id="Checkbox17" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">13</span>
+                <input type="checkbox" id="Checkbox18" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">14</span>
+                <input type="checkbox" id="Checkbox19" name="APProfile_wsAPRadioMCSIndexValue_wsAPProfileRadioMCSIndexEntry_PageData"
+                    class="" /><span class="spanTip w30" value="APProfile_wsAPRadioMCSIndexAvailable_wsAPProfileRadioMCSIndexEntry_PageData">15</span></div>
+        </li>
+    </ul>
+    <ul id="wsAPProfileRadioBasicRatesEntry">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioBasicRatesEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileRadioBasicRatesEntry_PageData" />
+        <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioBasicRatesEntry_PageData"
+            name="APProfile_wsAPRadioInterface_wsAPProfileRadioBasicRatesEntry_PageData" />
+        <li><span class="spanTilte profilePartTitle">Rate Sets(Mbps)</span></li>
+        <li><span class="spanTilte checkboxListTitle" style="margin-left:10px;">Basic</span>
+            <div id="basicRatesDiv" >
+                <div class="checkboxListDiv">
+                    <input type="checkbox" id="Checkbox1" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">1</span>
+                    <input type="checkbox" id="Checkbox3" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">2</span>
+                    <input type="checkbox" id="Checkbox4" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">5.5</span>
+                    <input type="checkbox" id="Checkbox36" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">11</span>
+                </div>
+                <div class="checkboxListDiv">
+                    <input type="checkbox" id="Checkbox20" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">6</span>
+                    <input type="checkbox" id="Checkbox21" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">9</span>
+                    <input type="checkbox" id="Checkbox30" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">12</span>
+                    <input type="checkbox" id="Checkbox31" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">18</span>
+                </div>
+                <div class="checkboxListDiv">
+                    <input type="checkbox" id="Checkbox32" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">24</span>
+                    <input type="checkbox" id="Checkbox33" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">36</span>
+                    <input type="checkbox" id="Checkbox34" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">48</span>
+                    <input type="checkbox" id="Checkbox35" name="APProfile_wsBasicDataRate_wsAPProfileRadioBasicRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioBasicDataMode_wsAPProfileRadioBasicRatesEntry_PageData">54</span></div>
+            </div>
+            <span id="basicRatesMsg" style="display: none; color: Red">* Please select an option.</span>
+        </li>
+    </ul>
+    <ul id="wsAPProfileRadioSupportedRatesEntry">
+        <input type="hidden" value="1" id="APProfile_wsAPProfileId_wsAPProfileRadioSupportedRatesEntry_PageData"
+            name="APProfile_wsAPProfileId_wsAPProfileRadioSupportedRatesEntry_PageData" />
+        <input type="hidden" value="" id="APProfile_wsAPRadioInterface_wsAPProfileRadioSupportedRatesEntry_PageData"
+            name="APProfile_wsAPRadioInterface_wsAPProfileRadioSupportedRatesEntry_PageData" />
+        <li><span class="spanTilte checkboxListTitle" style="margin-left:10px;">Supported</span>
+            <div id="supportedRatesDiv">
+                <div class="checkboxListDiv">
+                    <input type="checkbox" id="Checkbox37" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">1</span>
+                    <input type="checkbox" id="Checkbox38" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">2</span>
+                    <input type="checkbox" id="Checkbox39" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">5.5</span>
+                    <input type="checkbox" id="Checkbox40" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">11</span>
+                </div>
+                <div class="checkboxListDiv">
+                    <input type="checkbox" id="Checkbox22" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">6</span>
+                    <input type="checkbox" id="Checkbox23" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">9</span>
+                    <input type="checkbox" id="Checkbox24" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">12</span>
+                    <input type="checkbox" id="Checkbox25" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">18</span>
+                </div>
+                <div class="checkboxListDiv">
+                    <input type="checkbox" id="Checkbox26" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">24</span>
+                    <input type="checkbox" id="Checkbox27" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">36</span>
+                    <input type="checkbox" id="Checkbox28" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">48</span>
+                    <input type="checkbox" id="Checkbox29" name="APProfile_wsSupportedDataRate_wsAPProfileRadioSupportedRatesEntry_PageData" /><span
+                        class="spanTip w30" value="APProfile_wsAPProfileRadioSupportedDataMode_wsAPProfileRadioSupportedRatesEntry_PageData">54</span></div>
+            </div>
+            <span id="supportedRatesMsg" style="display: none; color: Red">* Please select an option.</span>
+        </li>
+    </ul>
+</div>

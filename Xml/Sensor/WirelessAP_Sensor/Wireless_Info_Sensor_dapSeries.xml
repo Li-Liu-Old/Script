@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_WirelessInfo  type="Custom">
+      
+      <interfaceInformationEntry ifIndex="" 
+                                 ifMacAddress=""
+                                 ssidMacAddressStart=""
+                                 ssidMacAddressEnd=""/>
+      <dot11MssidEntry  ifIndex=""
+                        dot11MssidIndex=""
+                        dot11MssIndividualState=""
+                        dot11MssidSsid=""
+                        dot11MssidAuthentication=""
+                        dot11MssidPassPhrase=""/>
+      <dot11ParametersEntry ifIndex=""
+                            dot11Ssid=""
+                            dot11WifiMode=""
+                            dot11Band=""
+                            dot11Channel=""
+                            dot11ChannelWidth=""
+                            dot11ApMode=""
+                            dot11RadioWave=""/>
+    </Sensor_WirelessInfo>
+  </Profile>
+  <ExecTime/>
+</Device>
+<!--
+<dot11MssidStateEntry  radioIndex=""
+                             dot11MssidState=""/>
+dot11MssidState : 1 enable ,0 disable
+dot11ChannelWidth:1: cwm20MHz(1)2: cwmAuto(2)
+dot11MssIndividualState Value list:	0: disabled(0),1: enabled(1) 
+dot11ApMode Value list:1:ap(1)，2:wdsWithAp(2)，3:wdsWithoutAp(3)，4:wirelessClient(4) 
+dot11Band(radioBand) Value list:	0: band2dot4gHz(0)，1: band5gHz(1) 
+dot11MssidAuthentication(ssidAuthenticationMode)
+Value list:	1: opensystem(1) 
+ 	2: sharedkey(2) 
+ 	3: opensystem-sharedkey(3) 
+ 	4: wpa-psk(4) 
+ 	5: wpa-eap(5) 
+ 	6: wpa2-psk(6) 
+ 	7: wpa2-eap(7) 
+ 	8: wpa2-auto-psk(8) 
+ 	9: wpa2-auto-eap(9) 
+ 	10: dot1x(10) 
+dot11WifiMode(wifiMode)
+Value list:	1: band2dot4-n(2),2: band2dot4-bg(3),3: band2dot4-bgn(6),4: band5-a(7),5: band5-n(8),6: band5-an(9) 
+-->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device>
+  <Profile>
+    <RestoreProfile>
+      <CopyType>2</CopyType>
+      <downloadFilename></downloadFilename>
+      <CopyDstUrl>config</CopyDstUrl>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <CopyRowStatus>4</CopyRowStatus>
+    </RestoreProfile>
+  </Profile>
+</Device>

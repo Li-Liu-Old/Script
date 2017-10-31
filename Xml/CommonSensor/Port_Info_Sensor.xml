@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="Common">
+  <Profile>
+    <Sensor_Port>
+      <ifTable>
+      </ifTable>
+      <ifXTable>
+      </ifXTable>
+    </Sensor_Port>
+  </Profile>
+  <ExecTime/>
+</Device>
+<!--
+ ifIndex="" ifDescr="" ifSpeed="" ifPhysAddress="" ifAdminStatus="" ifOperStatus="" ifLastChange=""
+ 
+  ifIndex="" ifName="" ifHighSpeed="" ifConnectorPresent=""
+-->

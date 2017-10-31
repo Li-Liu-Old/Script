@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <!--<apFirmwareUpgradeAddressType>1</apFirmwareUpgradeAddressType>-->
+      <downloadServerAddress></downloadServerAddress>
+      <downloadFilename></downloadFilename>
+      <apFirmwareUpgradePort>69</apFirmwareUpgradePort>
+      <!--<apFirmwareUpgradeDirectory></apFirmwareUpgradeDirectory>-->
+      <!--<apFirmwareUpgradeProtocol>1</apFirmwareUpgradeProtocol>-->
+      <apFirmwareUpgradeStart>1</apFirmwareUpgradeStart>
+    </FirmwareProfile>
+  </Profile>
+</Device>

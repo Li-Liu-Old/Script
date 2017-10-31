@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_LLDP>
+      <lldpRemEntry lldpRemLocalPortNum="" lldpRemChassisId="" lldpRemChassisIdSubtype="" lldpRemPortIdSubtype="" lldpRemPortId=""/>
+	  <lldpLocalEntry lldpLocPortNum="" lldpLocPortIdSubtype="" lldpLocPortId="" lldpLocPortDesc=""/>
+	  <dot1dBasePortEntry dot1dBasePort="" dot1dBasePortIfIndex=""/>
+    </Sensor_LLDP>
+  </Profile>
+</Device>
+

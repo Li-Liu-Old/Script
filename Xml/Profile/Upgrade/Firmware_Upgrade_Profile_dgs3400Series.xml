@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <FirmwareProfile>
+      <dsfCopyType>5</dsfCopyType>
+      <downloadFilename>
+      </downloadFilename>
+      <dsfCopyDstUrl>dlink</dsfCopyDstUrl>
+      <dsfCopyRemoteAddrType>1</dsfCopyRemoteAddrType>
+      <downloadServerAddress>
+      </downloadServerAddress>
+      <dsfCopyRowStatus>4</dsfCopyRowStatus>
+      <dsfNextBootImageUrl>dlink</dsfNextBootImageUrl>
+    </FirmwareProfile>
+  </Profile>
+</Device>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogCtrlState>2</sysLogCtrlState>
+      <sysLogServerEntry>
+              
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+<Item agentLogHostTableIndex="1"
+              agentLogHostTableRowStatus="6"
+              />
+agentLogHostTableRowStatus(sysLogServerState) Value List:1:active(1) 2:notInService(2) 3:notReady(3) 4:createAndGo(4)5:createAndWait(5)6:destory(6)
+-->

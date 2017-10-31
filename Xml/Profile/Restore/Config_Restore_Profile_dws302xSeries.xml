@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <RestoreProfile>
+      <agentTransferDownloadMode>1</agentTransferDownloadMode>
+      <!--<agentTransferDownloadServerIP></agentTransferDownloadServerIP>
+      <agentTransferDownloadPath></agentTransferDownloadPath>-->
+      <downloadFilename></downloadFilename>
+      <agentTransferDownloadDataType>3</agentTransferDownloadDataType>
+      <agentTransferDownloadServerAddressType>1</agentTransferDownloadServerAddressType>
+      <downloadServerAddress></downloadServerAddress>
+      <!--<agentTransferDownloadImagename>2</agentTransferDownloadImagename>-->
+      <agentTransferDownloadStart>1</agentTransferDownloadStart>
+    </RestoreProfile>
+  </Profile>
+</Device>

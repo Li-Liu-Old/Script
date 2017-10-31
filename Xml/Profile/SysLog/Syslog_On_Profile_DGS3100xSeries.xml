@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <SyslogProfile type="Custom">
+      <sysLogCtrlState>3</sysLogCtrlState>
+      <sysLogServerEntry>
+        <Item snmpSyslogCollectorIndex="1" snmpSyslogCollectorAddressType="1" sysLogServerAddress="" snmpSyslogCollectorUdpPort="514" snmpSyslogCollectorFacility="23" snmpSyslogCollectorSeverity="7" />
+      </sysLogServerEntry>
+    </SyslogProfile>
+  </Profile>
+</Device>
+<!--
+snmpSyslogCollectorAddressType Value List:unknow(0) ipv4(1) ipv6(2) ipv4z(3) ipv6z(4) dns(16)
+sysLogServerAddressHex  IPAddressHex
+snmpSyslogCollectorFacility 16:local(0)  17:local(1) 18:local(2) 19:local(3) 20:local(4) 21:local(5) 22:local(6)  23:local(7)        
+snmpSyslogCollectorSeverity : Emergency(0) Alert(1) Critical(2) Error(3) Warning(4) Notice(5) Informational(6) Debug(7)
+snmpSyslogCollectorRowStatus() active(1) notInservice(2) notReady(3) createAndGo(4) createAndWait(5) destory(6)
+-->

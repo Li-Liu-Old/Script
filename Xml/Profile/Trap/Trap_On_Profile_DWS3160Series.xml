@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapCtrlState>1</trapCtrlState>
+      <trapManagerEntry>
+        <Item trapManagerIndex="1" trapManagerIpAddress="" trapManagerCommunity="" trapManagerMsgVer="2" trapManagerStatus="3" />
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>
+<!--
+trapCtrlState : 1 enable 2 disable
+trapManagerIpAddress: IPAddress
+trapManagerCommunity : public / private
+trapManagerMsgVer  Value list:	1: snmpAgentVersionDependent(1) 2: v1Trap(2) 3: v2Trap(3) 
+trapManagerStatus  Value list:	1: other(1)	2: disabled(2) 3: enabled(3) 
+-->

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_WirelessErrorPackets>
+      <!--<dot11ReceivedMICErrorCount />-->
+      <totalErrorPacketsEntry radioIndex="" RxErrors="" />
+    </Sensor_WirelessErrorPackets>
+  </Profile>
+  <ExecTime/>
+</Device>

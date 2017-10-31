@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_WirelessInfo  type="Custom">
+        <ifMacAddress />
+        <mssid1MacAddress />
+        <mssid2MacAddress />
+        <mssid3MacAddress />
+      
+      <dot11MssidEntry  ifIndex=""
+                        dot11MssidIndex=""
+                        dot11MssIndividualState=""
+                        dot11MssidSsid=""
+                        dot11MssidAuthentication=""
+                        dot11MssidPassPhrase=""/>
+      <dot11ParametersEntry ifIndex=""
+                            dot11Ssid=""
+                            dot11WifiMode=""
+                            dot11Band=""
+                            dot11Channel=""
+                            dot11ChannelWidth=""
+                            dot11ApMode=""
+                            dot11RadioWave=""/>
+    </Sensor_WirelessInfo>
+  </Profile>
+  <ExecTime/>
+</Device>
+<!--
+<dot11MssidStateEntry  radioIndex=""
+                             dot11MssidState=""/>
+-->
+

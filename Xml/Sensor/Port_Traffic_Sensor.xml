@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device>
+  <Profile>
+    <Sensor_PortTraffic>
+      <ifTable ifIndex="" ifInOctets="" ifOutOctets="" ifInDiscards="" ifOutDiscards="" ifInErrors="" ifInUcastPkts="" ifOutUcastPkts="" ifOutErrors="">
+      </ifTable>
+      <ifXTable ifIndex="" ifHCInOctets="" ifHCOutOctets="" ifHCInUcastPkts="" ifHCInMulticastPkts="" ifHCInBroadcastPkts="" ifHCOutUcastPkts="" ifHCOutMulticastPkts="" ifHCOutBroadcastPkts="">
+      </ifXTable>
+    </Sensor_PortTraffic>
+  </Profile>
+  <ExecTime />
+</Device>

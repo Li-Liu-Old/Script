@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <TrapProfile type="Custom">
+      <trapManagerEntry>
+        
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>
+<!--
+Not have Item will be clear the table.
+-->

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <BackupProfile>
+      <uploadServerAddress></uploadServerAddress>
+      <apFileUploadPort>69</apFileUploadPort>
+      <uploadFilename></uploadFilename>
+      <apFileUploadFileFormat>1</apFileUploadFileFormat>
+      <apFileUploadStart>1</apFileUploadStart>
+    </BackupProfile>
+  </Profile>
+</Device>
+<!--
+apFileUploadDirectory : 缺省
+apFileUploadFilename ： aaa.xml
+-->

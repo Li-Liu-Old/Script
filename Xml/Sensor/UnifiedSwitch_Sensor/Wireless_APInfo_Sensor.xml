@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Device Type="">
+  <Profile>
+    <Sensor_WirelessAccessPointsInfo>
+      <TotalAPs/>
+      <TotalManagedAPs/>
+      <TotalStandaloneAPs/>
+      <TotalRogueAPs/>
+    </Sensor_WirelessAccessPointsInfo>
+  </Profile>
+  <ExecTime/>
+</Device>
