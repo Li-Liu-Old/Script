@@ -1365,13 +1365,13 @@
   </Relation>
   <Relation OID="1.3.6.1.4.1.171.10.147.4.1" Command="DGS-3630-28PC_CMD">
     <Device_Panel>DGS-3620-28TC_DevicePanel</Device_Panel>
-    <Sensor>Port_Traffic_Sensor,ErrorPackets_Sensor,CPU_LoadPercent_Sensor,,Memory_FreeReal_Sensor_Calculate,,</Sensor>
+    <Sensor>Port_Traffic_Sensor,ErrorPackets_Sensor,CPU_LoadPercent_Sensor,,Memory_FreeReal_Sensor_Calculate,,,,,,,,,,POE_Status_Sensor_dgs3630-28PC-52PC</Sensor>
     <Profile>LLDP_On_Profile_Value,LLDP_Off_Profile_Value,Safeguard_Off_Profile_2,Spanning_Off_Profile_2,Reboot_Profile_2,sntpsetting_Status_Profile,linkaggregationsetting_Status_Profile,Telnet_Off_Profile_Port,Web_On_Profile_Port12,Web_Off_Profile_Port12,SSH_Off_Profile_2,Telnet_On_Profile_Port,SSH_On_Profile_1,Spanning_On_Profile_1,DHCP_Status_Profile,Config_Backup_Profile_dgs1510Series,Firmware_Upgrade_Profile_dgs1510Series,FwNextBootImg_Profile_dgs1510Series,Safeguard_On_Profile_1,Syslog_Off_Profile_dxs3600Series,Syslog_On_Profile_dgs3630Series,DLMS_Profile_dgsSeries,Save_Profile_Table_3630,Config_Restore_Profile_dgs1510Series</Profile>
   </Relation>
   <Relation OID="1.3.6.1.4.1.171.10.147.5.1" Command="DGS-3630-52PC_CMD">
     <Device_Panel>
     </Device_Panel>
-    <Sensor>Port_Traffic_Sensor,ErrorPackets_Sensor,CPU_LoadPercent_Sensor,,Memory_FreeReal_Sensor_Calculate,,</Sensor>
+    <Sensor>Port_Traffic_Sensor,ErrorPackets_Sensor,CPU_LoadPercent_Sensor,,Memory_FreeReal_Sensor_Calculate,,,,,,,,POE_Status_Sensor_dgs3630-28PC-52PC</Sensor>
     <Profile>LLDP_On_Profile_Value,LLDP_Off_Profile_Value,Safeguard_Off_Profile_2,Spanning_Off_Profile_2,Reboot_Profile_2,sntpsetting_Status_Profile,linkaggregationsetting_Status_Profile,Telnet_Off_Profile_Port,Web_On_Profile_Port12,Web_Off_Profile_Port12,SSH_Off_Profile_2,Telnet_On_Profile_Port,SSH_On_Profile_1,Spanning_On_Profile_1,DHCP_Status_Profile,Config_Backup_Profile_dgs1510Series,Firmware_Upgrade_Profile_dgs1510Series,FwNextBootImg_Profile_dgs1510Series,Safeguard_On_Profile_1,Syslog_Off_Profile_dxs3600Series,Syslog_On_Profile_dgs3630Series,DLMS_Profile_dgsSeries,Save_Profile_Table_3630,Config_Restore_Profile_dgs1510Series</Profile>
   </Relation>
 </Relations>
