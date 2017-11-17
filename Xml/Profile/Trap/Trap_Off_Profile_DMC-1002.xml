@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Device Type="">
+  <Profile>
+    <TrapProfile>
+      <trapManagerEntry>
+		  <mcbSNMPTrapPowerFail>2</mcbSNMPTrapPowerFail>
+		  <mcbSNMPTrapFanFail>2</mcbSNMPTrapFanFail>
+		  <mcbSNMPTrapMCPlugin>2</mcbSNMPTrapMCPlugin>
+		  <mcbSNMPTrapMCPullout>2</mcbSNMPTrapMCPullout>
+		  <mcbSNMPTrapMCLinkDown>2</mcbSNMPTrapMCLinkDown>
+		  <mcbSNMPTrapMCLinkUp>2</mcbSNMPTrapMCLinkUp>
+		  <mcbSNMPTrapMCLinkBroken>2</mcbSNMPTrapMCLinkBroken>
+		  <mcbSNMPTrapMCActiveSlotChange>2</mcbSNMPTrapMCActiveSlotChange>
+		  <mcbSNMPTrapMCActiveSlotLose>2</mcbSNMPTrapMCActiveSlotLose>
+      </trapManagerEntry>
+    </TrapProfile>
+  </Profile>
+</Device>

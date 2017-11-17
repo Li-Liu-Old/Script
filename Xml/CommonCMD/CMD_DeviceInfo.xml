@@ -2812,4 +2812,13 @@
       </Sensor_DeviceInfo>
     </Command>
   </Device>
+  <Device sysObjectID="1.3.6.1.4.1.171.41.1.1" DeviceType="DMC-1002">
+    <Command>
+      <Sensor_DeviceInfo>
+        <Firmware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.41.1.2.2.0" CommandType="String" />
+        <Hardware Proto="SNMPv1" Options="R" CommandText="1.3.6.1.4.1.171.41.1.2.1.0" CommandType="String" />
+        <PrivateMacAddress Proto="SNMPv1" Options="R" CommandText="1.3.6.1.2.1.17.1.1.0" CommandType="MAC" />
+      </Sensor_DeviceInfo>
+    </Command>
+  </Device>
 </Device_Description>
